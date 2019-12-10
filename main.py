@@ -53,6 +53,9 @@ pertama.ruang106('RUANG 106')
 #Choirul anam 117404
 pertama.ruang114('RUANG 114')
 
+#Muh. Rifky Prananda 1174017
+pertama.ruang112('RUANG 112')
+
 
 
 pertama.close()

@@ -20,5 +20,7 @@ pertama.gudangBL('Gudang Belakang Kiri')
 pertama.haloPos('Halo Pos 161')
 #Dwi Yulianingsih - 1174009
 pertama.ruang117('Ruang 117')
+#Dwi Septiani Tsaniyah - 1174003
+pertama.ruang115('ruang 115')
 
 pertama.close()

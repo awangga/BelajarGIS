@@ -41,6 +41,10 @@ class Pertama:
     def haloPos(self, nama):
         self.pertama.record(nama)
         self.pertama.poly([[[-4, -32], [-4, -40], [13, -40], [13, -32], [-4, -32]]])
-    
+    #Dwi Yulianingsih - 1174009
+    def ruang117(self, nama):
+        self.pertama.record(nama)
+        self.pertama.poly([[[-16, 8], [-16, 12], [-9, 12], [-9, 8], [-16, 8]]])
+
     def close(self):
         self.pertama.close()

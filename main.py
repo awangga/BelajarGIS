@@ -35,4 +35,7 @@ pertama.tanggaL('TANGGA L')
 pertama.gudangR('GUDANG R')
 pertama.tanggaR('TANGGA R')
 
+#Damara Bendikta 1174012
+pertama.ruang102('RUANG 102')
+
 pertama.close()

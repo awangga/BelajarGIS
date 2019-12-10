@@ -81,6 +81,11 @@ class Pertama:
     def tanggaR(self, nama):
         self.pertama.record(nama)
         self.pertama.poly([[[18, 12], [18, 14], [25, 14], [25, 12], [18, 12]]])
+        
+    #Damara Benedikta 1174012
+    def ruang102(self, nama):
+        self.pertama.record(nama)
+        self.pertama.poly([[[18, 4], [18, 8], [25, 8], [25, 4], [18, 4]]])
 
     def close(self):
         self.pertama.close()

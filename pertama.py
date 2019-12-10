@@ -7,6 +7,16 @@ class Pertama:
         self.pertama.shapeType
         self.pertama.field('nama_ruangan', 'C')
 
+    #Harun Ar - Rasyid - 1174027
+    def bauk(self, nama):
+        self.pertama.record(nama)
+        self.pertama.poly([[[-4, 0], [2, 0], [2, 8], [-4, 8], [-4, 0]]])
+
+    #Harun Ar - Rasyid - 1174027
+    def baak(self, nama):
+        self.pertama.record(nama)
+        self.pertama.poly([[[2, 0], [13, 0], [13, 8], [2, 8], [2, 0]]])
+
     #Kadek Diva Krishna Murti - 1174006
     def ruangan111(self, nama):
         self.pertama.record(nama)

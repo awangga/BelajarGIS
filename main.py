@@ -47,6 +47,9 @@ pertama.ruang104('RUANG 104')
 #Srirahayu 1174015
 pertama.ruang105('RUANG 105')
 
+#Muhammad Tomy Nur Maulidy 1174031
+pertama.ruang106('RUANG 106')
+
 
 
 pertama.close()

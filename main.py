@@ -22,6 +22,8 @@ pertama.haloPos('Halo Pos 161')
 pertama.ruang117('Ruang 117')
 #Dwi Septiani Tsaniyah - 1174003
 pertama.ruang115('ruang 115')
+#Habib Abdul R - 1174002
+pertama.ruang103('ruang 103')
 #Evietania Charis Sujadi - 1174051
 pertama.gudangL('GUDANG L')
 pertama.tanggaL('TANGGA L')

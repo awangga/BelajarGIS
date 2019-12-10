@@ -24,6 +24,9 @@ pertama.ruang117('Ruang 117')
 pertama.ruang115('ruang 115')
 #Habib Abdul R - 1174002
 pertama.ruang103('ruang 103')
+#Felix Lase - 1174026
+pertama.ruang107('RUANG 107')
+pertama.ruang108('RUANG 108')
 #Evietania Charis Sujadi - 1174051
 pertama.gudangL('GUDANG L')
 pertama.tanggaL('TANGGA L')

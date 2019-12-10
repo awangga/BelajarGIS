@@ -111,6 +111,11 @@ class Pertama:
     def ruang114(self, nama):
         self.pertama.record(nama)
         self.pertama.poly([[[-16, -4], [-16, 0], [-9, 0], [-9, -4], [-16, -4]]])
+
+        #Muh. Rifky Prananda 1174017
+    def ruang112(self, nama):
+        self.pertama.record(nama)
+        self.pertama.poly([[[-16, -20], [-16, -28], [-9, -28], [-9, -20], [-16, -20]]])
     
     def close(self):
         self.pertama.close()

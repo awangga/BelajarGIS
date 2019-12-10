@@ -49,6 +49,11 @@ class Pertama:
     def ruang115(self, nama):
         self.pertama.record(nama)
         self.pertama.poly([[[-16, 0], [-16, 4], [-9, 4], [-9, 0], [-16, 0]]])
+        
+    #habib
+    def ruang103(self, nama):
+        self.pertama.record(nama)
+        self.pertama.poly([[[18, 0], [18, 4], [25, 4], [25, 0], [18, 0]]])
 
     #Evietania 1174051
     def gudangL(self, nama):

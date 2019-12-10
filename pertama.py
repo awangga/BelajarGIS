@@ -45,6 +45,10 @@ class Pertama:
     def ruang117(self, nama):
         self.pertama.record(nama)
         self.pertama.poly([[[-16, 8], [-16, 12], [-9, 12], [-9, 8], [-16, 8]]])
+    #dwisep
+    def ruang115(self, nama):
+        self.pertama.record(nama)
+        self.pertama.poly([[[-16, 0], [-16, 4], [-9, 4], [-9, 0], [-16, 0]]])
 
     def close(self):
         self.pertama.close()

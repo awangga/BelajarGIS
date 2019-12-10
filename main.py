@@ -47,6 +47,15 @@ pertama.ruang104('RUANG 104')
 #Srirahayu 1174015
 pertama.ruang105('RUANG 105')
 
+#Muhammad Tomy Nur Maulidy 1174031
+pertama.ruang106('RUANG 106')
+
+#Choirul anam 117404
+pertama.ruang114('RUANG 114')
+
+#Muh. Rifky Prananda 1174017
+pertama.ruang112('RUANG 112')
+
 
 
 pertama.close()

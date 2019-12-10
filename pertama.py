@@ -101,6 +101,21 @@ class Pertama:
     def ruang101(self, nama):
         self.pertama.record(nama)
         self.pertama.poly([[[18, 8], [18, 12], [25, 12], [25, 8], [18, 8]]])
+
+        #Muhammad Tomy Nur Maulidy 1174031
+    def ruang106(self, nama):
+        self.pertama.record(nama)
+        self.pertama.poly([[[18, -12], [18, -8], [25, -8], [25, -12], [18, -12]]])
+        
+        #Choirul Anam 1174004
+    def ruang114(self, nama):
+        self.pertama.record(nama)
+        self.pertama.poly([[[-16, -4], [-16, 0], [-9, 0], [-9, -4], [-16, -4]]])
+
+        #Muh. Rifky Prananda 1174017
+    def ruang112(self, nama):
+        self.pertama.record(nama)
+        self.pertama.poly([[[-16, -20], [-16, -28], [-9, -28], [-9, -20], [-16, -20]]])
     
     def close(self):
         self.pertama.close()

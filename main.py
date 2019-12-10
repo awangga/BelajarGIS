@@ -18,5 +18,7 @@ pertama.tanggaBL('Tangga Belakang Kiri')
 pertama.gudangBL('Gudang Belakang Kiri')
 #Kadek Diva Krishna Murti - 1174006
 pertama.haloPos('Halo Pos 161')
+#Dwi Yulianingsih - 1174009
+pertama.ruang117('Ruang 117')
 
 pertama.close()

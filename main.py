@@ -35,6 +35,9 @@ pertama.tanggaL('TANGGA L')
 pertama.gudangR('GUDANG R')
 pertama.tanggaR('TANGGA R')
 
+#Dezha Aidil Martha 1174025
+pertama.ruang101('RUANG 101')
+
 #Damara Bendikta 1174012
 pertama.ruang102('RUANG 102')
 

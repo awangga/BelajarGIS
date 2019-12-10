@@ -41,4 +41,9 @@ pertama.ruang102('RUANG 102')
 #Oniwaldus Bere Mali 1174005
 pertama.ruang104('RUANG 104')
 
+#Srirahayu 1174015
+pertama.ruang105('RUANG 105')
+
+
+
 pertama.close()

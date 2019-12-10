@@ -38,4 +38,7 @@ pertama.tanggaR('TANGGA R')
 #Damara Bendikta 1174012
 pertama.ruang102('RUANG 102')
 
+#Oniwaldus Bere Mali 1174005
+pertama.ruang104('RUANG 104')
+
 pertama.close()

@@ -21,6 +21,10 @@ class Pertama:
     def ruangan111(self, nama):
         self.pertama.record(nama)
         self.pertama.poly([[[-16, -28], [-16, -36], [-9, -36], [-9, -28], [-16, -28]]])
+    #Nico Ekklesia Sembiring - 1174096
+    def ruangan113(self, nama):
+        self.pertama.record(nama)
+        self.pertama.poly([[[-16, -20], [-16, -4], [-9, -4], [-9, -20], [-16, -20]]])
     #Kadek Diva Krishna Murti - 1174006
     def wcBL(self, nama):
         self.pertama.record(nama)

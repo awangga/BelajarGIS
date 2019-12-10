@@ -50,5 +50,14 @@ class Pertama:
         self.pertama.record(nama)
         self.pertama.poly([[[-16, 0], [-16, 4], [-9, 4], [-9, 0], [-16, 0]]])
 
+    #Evietania 1174051
+    def gudangL(self, nama):
+        self.pertama.record(nama)
+        self.pertama.poly([[[-16,14], [-16, 16], [-9, 16], [-9, 14], [-16,14]]])
+
+    def tanggaL(self, nama):
+        self.pertama.record(nama)
+        self.pertama.poly([[[-16, 12], [-16, 14], [-9, 14], [-9, 12], [-16, 12]]])
+
     def close(self):
         self.pertama.close()

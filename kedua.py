@@ -27,7 +27,10 @@ class Kedua:
         self.kedua.record(label)
         self.kedua.poly([[[22, 40], [29, 40], [29, 43], [22, 43], [22, 40]]])
 
-    
+    #Luthfi Muhammad Nabil - 1174035
+    def tamanKosongTengah(self, label):
+        self.kedua.record(label)
+        self.kedua.poly([[[7, 11], [19, 11], [19, 30], [7, 30], [7, 11]]])
     #Pasang fungsi baru diatas close()
     def close(self):
         self.kedua.close()

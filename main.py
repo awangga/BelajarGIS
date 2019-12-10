@@ -50,6 +50,9 @@ pertama.ruang105('RUANG 105')
 #Muhammad Tomy Nur Maulidy 1174031
 pertama.ruang106('RUANG 106')
 
+#Choirul anam 117404
+pertama.ruang114('RUANG 114')
+
 
 
 pertama.close()

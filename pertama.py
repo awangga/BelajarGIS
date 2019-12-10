@@ -72,6 +72,15 @@ class Pertama:
     def tanggaL(self, nama):
         self.pertama.record(nama)
         self.pertama.poly([[[-16, 12], [-16, 14], [-9, 14], [-9, 12], [-16, 12]]])
+        
+     #Arjun Yuda Firwanda 1174008
+    def gudangR(self, nama):
+        self.pertama.record(nama)
+        self.pertama.poly([[[18, 14], [18, 16], [25, 16], [25, 14], [18, 14]]])
+
+    def tanggaR(self, nama):
+        self.pertama.record(nama)
+        self.pertama.poly([[[18, 12], [18, 14], [25, 14], [25, 12], [18, 12]]])
 
     def close(self):
         self.pertama.close()

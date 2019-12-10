@@ -31,4 +31,8 @@ pertama.ruang108('RUANG 108')
 pertama.gudangL('GUDANG L')
 pertama.tanggaL('TANGGA L')
 
+#Arjun Yuda Firwanda 1174008
+pertama.gudangR('GUDANG R')
+pertama.tanggaR('TANGGA R')
+
 pertama.close()

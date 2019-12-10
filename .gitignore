@@ -1,6 +1,6 @@
-.shp
-.shx
-.dbf
+*.shp
+*.shx
+*.dbf
 
 .idea/
 # Byte-compiled / optimized / DLL files

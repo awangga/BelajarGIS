@@ -198,5 +198,9 @@ ketiga.r314('Ruangan 314')
 ketiga.r315('Ruangan 315')
 ketiga.r316('Ruangan 316')
 
+# Muhammad Abdul Gani Wijaya 1174071
+ketiga.r319('Ruangan 319')
+ketiga.r320('Ruangan 320')
+
 # lanjutkan
 ketiga.close()

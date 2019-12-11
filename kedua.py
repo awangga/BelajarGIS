@@ -31,6 +31,26 @@ class Kedua:
     def tamanKosongTengah(self, label):
         self.kedua.record(label)
         self.kedua.poly([[[7, 11], [19, 11], [19, 30], [7, 30], [7, 11]]])
+
+    #Hagan Rowlenstino - 1174040
+    def R213(self, label):
+        self.kedua.record(label)
+        self.kedua.poly([[[7, 40], [10, 40], [10, 33], [7, 33], [7, 40]]])
+        
+    #Hagan Rowlenstino - 1174040
+    def IRC(self, label):
+        self.kedua.record(label)
+        self.kedua.poly([[[10, 40], [13, 40], [13, 33], [10, 33], [10, 40]]])
+
+    #Hagan Rowlenstino - 1174040
+    def RLabBisnis(self, label):
+        self.kedua.record(label)
+        self.kedua.poly([[[13, 40], [16, 40], [16, 33], [13, 33], [13, 40]]])
+
+    #Hagan Rowlenstino - 1174040
+    def RLabComprehensive(self, label):
+        self.kedua.record(label)
+        self.kedua.poly([[[16, 40], [19, 40], [19, 33], [16, 33], [16, 40]]])
         
     #Pasang fungsi baru diatas close()
     def close(self):

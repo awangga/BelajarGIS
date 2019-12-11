@@ -30,32 +30,23 @@ pertama.ruang108('RUANG 108')
 #Evietania Charis Sujadi - 1174051
 pertama.gudangL('GUDANG L')
 pertama.tanggaL('TANGGA L')
-
 #Arjun Yuda Firwanda 1174008
 pertama.gudangR('GUDANG R')
 pertama.tanggaR('TANGGA R')
-
 #Dezha Aidil Martha 1174025
 pertama.ruang101('RUANG 101')
-
 #Damara Bendikta 1174012
 pertama.ruang102('RUANG 102')
-
 #Oniwaldus Bere Mali 1174005
 pertama.ruang104('RUANG 104')
-
 #Srirahayu 1174015
 pertama.ruang105('RUANG 105')
-
 #Muhammad Tomy Nur Maulidy 1174031
 pertama.ruang106('RUANG 106')
-
 #Choirul anam 117404
 pertama.ruang114('RUANG 114')
-
 #Muh. Rifky Prananda 1174017
 pertama.ruang112('RUANG 112')
-
 #Muhammad Fahmi - 1174021
 pertama.ruang109('RUANG 109')
 #Muhammad Fahmi - 1174021
@@ -64,7 +55,5 @@ pertama.wcBL2('WC Belakang Kanan')
 pertama.tanggaBL2('Tangga Belakang Kanan')
 #Muhammad Fahmi - 1174021
 pertama.gudangBL2('Gudang Belakang Kanan')
-
-
 
 pertama.close()

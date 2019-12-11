@@ -109,6 +109,11 @@ class ketiga:
     def rwccowok(self, nama):
         self.ketiga.record(nama)
         self.ketiga.poly([[[22, 0], [20, 0], [20, 4], [22, 4], [22, 0]]])
+    
+    # Nurul Izza Hamka 1174062
+    def rteknisi(self, nama):
+            self.ketiga.record(nama)
+            self.ketiga.poly([[[20, 0], [14, 0], [14, 4], [20, 4], [20, 0]]])
 
     # lanjutkan
 

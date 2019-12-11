@@ -159,6 +159,9 @@ ketiga.r308('Ruangan 308')
 # Kaka Kamaludin 1174067
 ketiga.r305('Ruangan 305')
 ketiga.r306('Ruangan 306')
+
+# Arrizal Furqona Gifary 1174070
+ketiga.r309('Ruangan 309')
  
 #lanjutkan
 ketiga.close()

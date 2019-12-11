@@ -51,6 +51,21 @@ class Kedua:
     def RLabComprehensive(self, label):
         self.kedua.record(label)
         self.kedua.poly([[[16, 40], [19, 40], [19, 33], [16, 33], [16, 40]]])
+
+    #Irvan Rizkiansyah - 1174043
+    def ruangan205(self, label):
+        self.kedua.record(label)
+        self.kedua.poly([[[-3, 13], [4, 13], [4, 16], [-3, 16], [-3, 13]]])
+
+    #Irvan Rizkiansyah - 1174043
+    def ruangan206(self, label):
+        self.kedua.record(label)
+        self.kedua.poly([[[-3, 16], [4, 16], [4, 19], [-3, 19], [-3, 16]]])
+
+    #Irvan Rizkiansyah - 1174043
+    def ruangan207(self, label):
+        self.kedua.record(label)
+        self.kedua.poly([[[-3, 19], [4, 19], [4, 22], [-3, 22], [-3, 19]]])
         
     #Pasang fungsi baru diatas close()
     def close(self):

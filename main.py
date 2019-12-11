@@ -93,6 +93,12 @@ kedua.IRC('Ruangan_IRC')
 kedua.RLabBisnis('Ruangan_Lab_Bisnis')
 #Hagan Rowlenstino - 1174040
 kedua.RLabComprehensive('Ruangan_Labkom_Comprehensive')
+#Irvan Rizkiansyah - 1174043
+kedua.ruangan205('Ruangan 205')
+#Irvan Rizkiansyah - 1174043
+kedua.ruangan206('Ruangan 206')
+#Irvan Rizkiansyah - 1174043
+kedua.ruangan207('Ruangan 207')
 
 
 #Selanjutnya disini

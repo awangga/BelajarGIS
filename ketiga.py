@@ -20,6 +20,12 @@ class ketiga:
         self.ketiga.poly([[[-12.4, 20], [-16, 20], [-16, 24], [-12.4, 24], [-12.4, 20]]])
 
 
+    #Alvan Alvanzah 1174077
+    def r302(self, nama):
+        self.ketiga.record(nama)
+        self.ketiga.poly([[[-8.8, 20], [-12.4, 20], [-12.4, 24], [-8.8, 24], [-8.8, 20]]])
+
+
     #lanjutkan
 
 #-------------------- BATAS END KODING ------------------#

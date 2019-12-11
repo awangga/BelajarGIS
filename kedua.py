@@ -90,6 +90,16 @@ class Kedua:
     def ruangan202(self, label):
         self.kedua.record(label)
         self.kedua.poly([[[-3, 4], [4, 4], [4, 7], [-3, 7], [-3, 4]]])
+
+    #Alit Fajar Kurniawan - 1174057
+    def RServer(self, label):
+        self.kedua.record(label)
+        self.kedua.poly([[[22, 34], [29, 34], [29, 37], [22, 37], [22, 34]]])
+
+    #Alit Fajar Kurniawan - 1174057
+    def LabLogistik(self, label):
+        self.kedua.record(label)
+        self.kedua.poly([[[22, 31], [29, 31], [29, 34], [22, 34], [22, 31]]])
         
         
         

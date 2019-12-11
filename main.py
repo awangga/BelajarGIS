@@ -103,6 +103,10 @@ kedua.ruangan207('Ruangan 207')
 kedua.ruangan201('Ruangan 201')
 #Liyana Majdah Rahma - 1174039
 kedua.ruangan202('Ruangan 202')
+#Alit Fajar Kurniawan - 1174057
+kedua.RServer('Ruangan Server')
+#Alit Fajar Kurniawan - 1174057
+kedua.LabLogistik('Laboratorium Logistik')
 
 
 #Kevin Natanael Nainggolan-1174059

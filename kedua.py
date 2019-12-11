@@ -55,12 +55,13 @@ class Kedua:
     #Kevin Natanael Nainggolan-1174059
     def ruang208(self, label):
         self.kedua.record(label)
-        self.kedua.poly([[[-3, 22], [4, 25], [-3, 25], [-3, 25], [-3, 22]]])
+        self.kedua.poly([[[-3, 22], [4, 22], [4, 25], [-3, 25], [-3, 22]]])
 
     #Kevin Natanael Nainggolan-1174059
     def ruang209(self, label):
         self.kedua.record(label)
-        self.kedua.poly([[[-3, 25], [4, 25], [4, 25], [-3, 28], [-3, 25]]])
+        self.kedua.poly([[[-3, 25], [4, 25], [4, 28], [-3, 28], [-3, 25]]])
+
     #Kevin Natanael Nainggolan-1174059
     def ruang210(self, label):
         self.kedua.record(label)
@@ -100,6 +101,16 @@ class Kedua:
     def LabLogistik(self, label):
         self.kedua.record(label)
         self.kedua.poly([[[22, 31], [29, 31], [29, 34], [22, 34], [22, 31]]])
+
+    #Dika Sukma Pradana - 1174050
+    def ruangan219(self, label):
+        self.kedua.record(label)
+        self.kedua.poly([[[22, 25], [29, 25], [29, 31], [22, 31], [22, 25]]])
+
+    #Dika Sukma Pradana - 1174050
+    def ruangan220(self, label):
+        self.kedua.record(label)
+        self.kedua.poly([[[22, 22], [29, 22], [29, 25], [22, 25], [22, 22]]])
 		
 	#Faisal Najib Abdullah - 1174042
     def toiletdosen(self, label):

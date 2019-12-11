@@ -140,7 +140,14 @@ class ketiga:
         self.ketiga.poly([[[-8, 10], [-13, 10], [-13, 14], [-8, 14], [-8, 10]]])
         
 
-    # lanjutkan
+    #Alfadian Owen 1174091
+    def r321(self, nama):
+        self.ketiga.record(nama)
+        self.ketiga.poly([[[-8, 14], [-13, 14], [-13, 18], [-8, 18], [-8, 14]]])
+
+    def center(self, nama):
+        self.ketiga.record(nama)
+        self.ketiga.poly([[[12, 7], [12, 17], [-4, 17], [-4, 7], [12, 7]]])
 
 #-------------------- BATAS END KODING ------------------#
 

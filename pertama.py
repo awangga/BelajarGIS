@@ -116,6 +116,26 @@ class Pertama:
     def ruang112(self, nama):
         self.pertama.record(nama)
         self.pertama.poly([[[-16, -20], [-16, -28], [-9, -28], [-9, -20], [-16, -20]]])
+
+    #Muhammad Fahmi - 1174021
+    def ruang109(self, nama):
+        self.pertama.record(nama)
+        self.pertama.poly([[[18, -28], [18,-36], [25,-36], [25, -28], [18,-28]]])
+
+    #Muhammad Fahmi - 1174021
+    def wcBL2(self, nama):
+        self.pertama.record(nama)
+        self.pertama.poly([[[18, -36], [18, -40], [25, -40], [25, -36], [18, -36]]])
+
+    #Muhammad Fahmi - 1174021
+    def tanggaBL2(self, nama):
+        self.pertama.record(nama)
+        self.pertama.poly([[[18, -40], [18, -42], [25, -42], [25, -40], [18, -40]]])
+
+    #Muhammad Fahmi - 1174021
+    def gudangBL2(self, nama):
+        self.pertama.record(nama)
+        self.pertama.poly([[[18, -42], [18, -44], [25, -44], [25, -42], [18, -42]]])
     
     def close(self):
         self.pertama.close()

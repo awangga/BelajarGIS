@@ -56,6 +56,15 @@ pertama.ruang114('RUANG 114')
 #Muh. Rifky Prananda 1174017
 pertama.ruang112('RUANG 112')
 
+#Muhammad Fahmi - 1174021
+pertama.ruang109('RUANG 109')
+#Muhammad Fahmi - 1174021
+pertama.wcBL2('WC Belakang Kanan')
+#Muhammad Fahmi - 1174021
+pertama.tanggaBL2('Tangga Belakang Kanan')
+#Muhammad Fahmi - 1174021
+pertama.gudangBL2('Gudang Belakang Kanan')
+
 
 
 pertama.close()

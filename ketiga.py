@@ -99,6 +99,12 @@ class ketiga:
     def tanggaB1(self, nama):
         self.ketiga.record(nama)
         self.ketiga.poly([[[27, -3], [24, -3], [24, 4], [27, 4], [27, -3]]])
+        
+    #Ainul Filiani 1174073
+    def rwccewek1(self, nama):
+        self.ketiga.record(nama)
+        self.ketiga.poly([[[24, 0], [22, 0], [22, 4], [24, 4], [24, 0]]])
+
 
     # lanjutkan
 

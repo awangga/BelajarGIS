@@ -92,3 +92,14 @@ kedua.tamanKosongTengah('Taman Kosong Tengah')
 
 #Close Jangan DIhapus
 kedua.close()
+
+import ketiga
+ketiga = ketiga.ketiga()
+#-------------------KODING --------------------------#
+
+# Ilham Muhammad Ariq 1174087
+ketiga.tanggaD2('Tangga Depan 2')
+ketiga.r301('Ruangan 301')
+ 
+#lanjutkan
+ketiga.close()

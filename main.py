@@ -162,6 +162,9 @@ ketiga.r306('Ruangan 306')
 
 # Arrizal Furqona Gifary 1174070
 ketiga.r309('Ruangan 309')
+
+# Fanny Shafira 1174069
+ketiga.r310('Ruangan 310')
  
 #lanjutkan
 ketiga.close()

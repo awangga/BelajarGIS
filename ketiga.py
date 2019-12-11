@@ -57,6 +57,11 @@ class ketiga:
     def r309(self, nama):
         self.ketiga.record(nama)
         self.ketiga.poly([[[16.4, 20], [12.8, 20], [12.8, 24], [16.4, 24], [16.4, 20]]])
+        
+    #Fanny Shafira 1174069
+    def r310(self, nama):
+        self.ketiga.record(nama)
+        self.ketiga.poly([[[20, 20], [16.4, 20], [16.4, 24], [20, 24], [20, 20]]])
 
 
 

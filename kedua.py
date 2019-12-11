@@ -136,7 +136,16 @@ class Kedua:
     def ruangan204(self, label):
         self.kedua.record(label)
         self.kedua.poly([[[-3, 10], [4, 10], [4, 13], [-3, 13], [-3, 10]]])
-        
+
+    #Teddy Gideon Manik - 1174038
+    def prodiD3MB(self, label):
+        self.kedua.record(label)
+        self.kedua.poly([[[22, 7], [29, 7], [29, 10], [22, 10], [22, 7]]])
+
+    #Teddy Gideon Manik - 1174038
+    def prodiD3LB(self, label):
+        self.kedua.record(label)
+        self.kedua.poly([[[22, 1], [29, 1], [29, 7], [22, 7], [22, 1]]])        
     #Pasang fungsi baru diatas close()
     def close(self):
         self.kedua.close()

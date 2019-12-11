@@ -128,6 +128,10 @@ kedua.prodiak('Prodi AK')
 #Rangga Putra Ramdhani - 1174056
 kedua.ruangan203('Ruangan 203')
 kedua.ruangan204('Ruangan 204')
+
+#Teddy Gideon Manik - 1174038
+kedua.prodiD3LB('Prodi D3 LB')
+kedua.prodiD3MB('Prodi D3 MB')
 #Selanjutnya disini
 
 

@@ -85,6 +85,14 @@ kedua.tanggaAtasKanan('Tangga Atas Kanan')
 kedua.tanggaAtasKiri('Tangga Atas Kiri')
 #Luthfi Muhammad Nabil - 1174035
 kedua.tamanKosongTengah('Taman Kosong Tengah')
+#Hagan Rowlenstino - 1174040
+kedua.R213('Ruangan_213')
+#Hagan Rowlenstino - 1174040
+kedua.IRC('Ruangan_IRC')
+#Hagan Rowlenstino - 1174040
+kedua.RLabBisnis('Ruangan_Lab_Bisnis')
+#Hagan Rowlenstino - 1174040
+kedua.RLabComprehensive('Ruangan_Labkom_Comprehensive')
 
 
 #Selanjutnya disini

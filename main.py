@@ -128,7 +128,16 @@ kedua.prodiak('Prodi AK')
 # Rangga Putra Ramdhani - 1174056
 kedua.ruangan203('Ruangan 203')
 kedua.ruangan204('Ruangan 204')
+
+#Teddy Gideon Manik - 1174038
+kedua.prodiD3LB('Prodi D3 LB')
+kedua.prodiD3MB('Prodi D3 MB')
+<<<<<<< HEAD
 # Selanjutnya disini
+=======
+
+#Selanjutnya disini
+>>>>>>> 05939b613cdf705f13d0145eaaf31c8c7d1fba86
 
 
 # Close Jangan DIhapus

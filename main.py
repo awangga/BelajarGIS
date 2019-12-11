@@ -165,6 +165,12 @@ ketiga.r309('Ruangan 309')
 
 # Fanny Shafira 1174069
 ketiga.r310('Ruangan 310')
+
+
+# Chandra Kirana Poetra 1174079
+
+ketiga.rwccewek2('WC Cewek 2')
+ketiga.rwccewek3('WC Cewek 3')
  
 #lanjutkan
 ketiga.close()

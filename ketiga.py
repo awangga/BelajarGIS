@@ -63,7 +63,14 @@ class ketiga:
         self.ketiga.record(nama)
         self.ketiga.poly([[[20, 20], [16.4, 20], [16.4, 24], [20, 24], [20, 20]]])
 
-
+    #Chandra Kirana Poetra 1174079
+    def rwccewek2(self, nama):
+        self.ketiga.record(nama)
+        self.ketiga.poly([[[22, 20], [20, 20], [20, 24], [22, 24], [22, 20]]])
+   
+    def rwccewek3(self, nama):
+        self.ketiga.record(nama)
+        self.ketiga.poly([[[24, 20], [22, 20], [22, 24], [24, 24], [24, 20]]])
 
 
     #lanjutkan

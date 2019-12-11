@@ -111,6 +111,21 @@ class Kedua:
     def ruangan220(self, label):
         self.kedua.record(label)
         self.kedua.poly([[[22, 22], [29, 22], [29, 25], [22, 25], [22, 22]]])
+		
+	#Faisal Najib Abdullah - 1174042
+    def toiletdosen(self, label):
+        self.kedua.record(label)
+        self.kedua.poly([[[22, 38.5], [29, 38.5], [29, 40], [22, 40], [22, 38.5]]])
+	
+	#Faisal Najib Abdullah - 1174042
+    def toiletcowo(self, label):
+        self.kedua.record(label)
+        self.kedua.poly([[[22, 37], [29, 37], [29, 38.5], [22, 38.5], [22, 37]]])
+		
+	#Faisal Najib Abdullah - 1174042
+    def prodiak(self, label):
+        self.kedua.record(label)
+        self.kedua.poly([[[7, 1], [19, 1], [19, 8], [7, 8], [7, 1]]])
         
         
         

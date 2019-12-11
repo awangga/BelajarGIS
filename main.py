@@ -120,6 +120,11 @@ kedua.ruangan219('Ruangan 219')
 #Dika Sukma Pradana - 1174050
 kedua.ruangan220('Ruangan 220')
 
+#Faisal Najib Abdullah - 1174042
+kedua.toiletdosen('Toilet Dosen')
+kedua.toiletcowo('Toilet Cowo')
+kedua.prodiak('Prodi AK')
+
 #Selanjutnya disini
 
 

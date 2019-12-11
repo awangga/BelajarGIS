@@ -128,6 +128,10 @@ kedua.prodiak('Prodi AK')
 # Rangga Putra Ramdhani - 1174056
 kedua.ruangan203('Ruangan 203')
 kedua.ruangan204('Ruangan 204')
+
+# Ichsan Hizman Hardy - 1174034
+kedua.ruangan221('Ruangan 221')
+kedua.ruangan222('Ruangan 222')
 # Selanjutnya disini
 
 

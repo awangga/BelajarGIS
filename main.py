@@ -194,5 +194,9 @@ ketiga.rteknisi('Ruangan Teknisi')
 # Tia Nur Candida 1174086
 ketiga.r314('Ruangan 314')
 
+# D.Irga B. Naufal Fakhri 1174066
+ketiga.r315('Ruangan 315')
+ketiga.r316('Ruangan 316')
+
 # lanjutkan
 ketiga.close()

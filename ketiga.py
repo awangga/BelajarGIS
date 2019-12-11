@@ -121,6 +121,16 @@ class ketiga:
         self.ketiga.record(nama)
         self.ketiga.poly([[[14, 0], [8, 0], [8, 4], [14, 4], [14, 0]]])
 
+    # D.Irga B. Naufal Fakhri 1174066
+    def r315(self, nama):
+        self.ketiga.record(nama)
+        self.ketiga.poly([[[8, 0], [2, 0], [2, 4], [8, 4], [8, 0]]])
+    
+    def r316(self, nama):
+        self.ketiga.record(nama)
+        self.ketiga.poly([[[2, 0], [-4, 0], [-4, 4], [2, 4], [2, 0]]])
+        
+
     # lanjutkan
 
 #-------------------- BATAS END KODING ------------------#

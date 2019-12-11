@@ -17,6 +17,11 @@ class Pertama:
         self.pertama.record(nama)
         self.pertama.poly([[[2, 0], [13, 0], [13, 8], [2, 8], [2, 0]]])
 
+    #dzihan
+    def ruang116(self, nama):
+        self.pertama.record(nama)
+        self.pertama.poly([[[-16, 4], [-16, 8], [-9, 8], [-9, 4], [-16, 4]]])
+
     #Kadek Diva Krishna Murti - 1174006
     def ruangan111(self, nama):
         self.pertama.record(nama)

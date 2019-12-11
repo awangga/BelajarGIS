@@ -30,7 +30,8 @@ pertama.ruang108('RUANG 108')
 #Evietania Charis Sujadi - 1174051
 pertama.gudangL('GUDANG L')
 pertama.tanggaL('TANGGA L')
-
+#Muhammad Dzihan Al-Banna - 1174095
+pertama.ruang116('RUANG 116')
 #Arjun Yuda Firwanda 1174008
 pertama.gudangR('GUDANG R')
 pertama.tanggaR('TANGGA R')

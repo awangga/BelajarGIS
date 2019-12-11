@@ -174,6 +174,8 @@ ketiga.rwccewek3('WC Cewek 3')
 
 # Mochamad Arifqi Ramadhan 1174074
 ketiga.tanggaB2('Tangga Belakang 2')
- 
+
+# Handi Hermawan 1174080
+ketiga.r311('Ruangan 311')
 #lanjutkan
 ketiga.close()

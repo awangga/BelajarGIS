@@ -55,12 +55,13 @@ class Kedua:
     #Kevin Natanael Nainggolan-1174059
     def ruang208(self, label):
         self.kedua.record(label)
-        self.kedua.poly([[[-3, 22], [4, 25], [-3, 25], [-3, 25], [-3, 22]]])
+        self.kedua.poly([[[-3, 22], [4, 22], [4, 25], [-3, 25], [-3, 22]]])
 
     #Kevin Natanael Nainggolan-1174059
     def ruang209(self, label):
         self.kedua.record(label)
-        self.kedua.poly([[[-3, 25], [4, 25], [4, 25], [-3, 28], [-3, 25]]])
+        self.kedua.poly([[[-3, 25], [4, 25], [4, 28], [-3, 28], [-3, 25]]])
+
     #Kevin Natanael Nainggolan-1174059
     def ruang210(self, label):
         self.kedua.record(label)

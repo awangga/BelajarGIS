@@ -105,6 +105,13 @@ kedua.ruangan201('Ruangan 201')
 kedua.ruangan202('Ruangan 202')
 
 
+#Kevin Natanael Nainggolan-1174059
+kedua.ruang208('Ruangan 208')
+#Kevin Natanael Nainggolan-1174059
+kedua.ruang209('Ruangan 209')
+#Kevin Natanael Nainggolan-1174059
+kedua.ruang210('Ruangan 210')
+
 
 #Selanjutnya disini
 

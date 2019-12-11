@@ -52,6 +52,20 @@ class Kedua:
         self.kedua.record(label)
         self.kedua.poly([[[16, 40], [19, 40], [19, 33], [16, 33], [16, 40]]])
 
+    #Kevin Natanael Nainggolan-1174059
+    def ruang208(self, label):
+        self.kedua.record(label)
+        self.kedua.poly([[[-3, 22], [4, 25], [-3, 25], [-3, 25], [-3, 22]]])
+
+    #Kevin Natanael Nainggolan-1174059
+    def ruang209(self, label):
+        self.kedua.record(label)
+        self.kedua.poly([[[-3, 25], [4, 25], [4, 25], [-3, 28], [-3, 25]]])
+    #Kevin Natanael Nainggolan-1174059
+    def ruang210(self, label):
+        self.kedua.record(label)
+        self.kedua.poly([[[-3, 28], [4, 28], [4, 31], [-3, 31], [-3, 28]]])
+
     #Irvan Rizkiansyah - 1174043
     def ruangan205(self, label):
         self.kedua.record(label)

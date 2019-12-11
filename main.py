@@ -68,3 +68,26 @@ pertama.gudangBL2('Gudang Belakang Kanan')
 
 
 pertama.close()
+
+#Kelas B
+import kedua
+
+kedua = kedua.Kedua()
+
+#Luthfi Muhammad Nabil - 1174035
+kedua.tanggaBawahKiri('Tangga Bawah Kiri')
+#Luthfi Muhammad Nabil - 1174035
+kedua.tanggaBawahKanan('Tangga Bawah Kanan')
+#Luthfi Muhammad Nabil - 1174035
+kedua.tanggaAtasKanan('Tangga Atas Kanan')
+#Luthfi Muhammad Nabil - 1174035
+kedua.tanggaAtasKiri('Tangga Atas Kiri')
+#Luthfi Muhammad Nabil - 1174035
+kedua.tamanKosongTengah('Taman Kosong Tengah')
+
+
+#Selanjutnya disini
+
+
+#Close Jangan DIhapus
+kedua.close()

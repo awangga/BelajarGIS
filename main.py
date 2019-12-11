@@ -100,6 +100,13 @@ kedua.ruangan206('Ruangan 206')
 #Irvan Rizkiansyah - 1174043
 kedua.ruangan207('Ruangan 207')
 
+#Kevin Natanael Nainggolan-1174059
+kedua.ruang208('Ruangan 208')
+#Kevin Natanael Nainggolan-1174059
+kedua.ruang209('Ruangan 209')
+#Kevin Natanael Nainggolan-1174059
+kedua.ruang210('Ruangan 210')
+
 
 #Selanjutnya disini
 

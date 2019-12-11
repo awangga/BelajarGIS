@@ -107,6 +107,7 @@ kedua.ruangan207('Ruangan 207')
 #Close Jangan DIhapus
 kedua.close()
 
+#KelasC
 import ketiga
 ketiga = ketiga.ketiga()
 #-------------------KODING --------------------------#
@@ -114,6 +115,9 @@ ketiga = ketiga.ketiga()
 # Ilham Muhammad Ariq 1174087
 ketiga.tanggaD2('Tangga Depan 2')
 ketiga.r301('Ruangan 301')
+
+# Alvan Alvanzah 1174077
+ketiga.r302('Ruangan 302')
  
 #lanjutkan
 ketiga.close()

@@ -182,8 +182,11 @@ ketiga.r312('Ruangan 312')
 ketiga.tanggaB1('Tangga Belakang 1')
 
 
-# Ainu; Filiani 1174073
+# Ainul Filiani 1174073
 ketiga.rwccewek1('WC Cewek 1')
+
+# Aulyardha Anindita 1174054
+ketiga.rwccowok('WC Cowok')
 
 # lanjutkan
 ketiga.close()

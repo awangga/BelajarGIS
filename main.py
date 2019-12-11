@@ -152,6 +152,10 @@ ketiga.r304('Ruangan 304')
 # Difa
 ketiga.r303('Ruangan 303')
 
+# Muhammad Reza Syachrani 1174084
+ketiga.r307('Ruangan 307')
+ketiga.r308('Ruangan 308')
+
  
 #lanjutkan
 ketiga.close()

@@ -34,6 +34,15 @@ class ketiga:
     def r303(self, nama):
         self.ketiga.record(nama)
         self.ketiga.poly([[[-5.2, 20], [-8.8, 20], [-8.8, 24], [-5.2, 24], [-5.2, 20]]])
+    
+    #Muhammad Reza Syachrani 1174084
+    def r307(self, nama):
+        self.ketiga.record(nama)
+        self.ketiga.poly([[[9.2, 20], [5.6, 20], [5.6, 24], [9.2, 24], [9.2, 20]]])
+    
+    def r308(self, nama):
+        self.ketiga.record(nama)
+        self.ketiga.poly([[[12.8, 20], [9.2, 20], [9.2, 24], [12.8, 24], [12.8, 20]]])
 
 
 

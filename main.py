@@ -146,6 +146,9 @@ ketiga.r302('Ruangan 302')
 # Advent Nopele Sihite 1174089
 ketiga.r304('Ruangan 304')
 
+# Difa
+ketiga.r303('Ruangan 303')
+
  
 #lanjutkan
 ketiga.close()

@@ -188,5 +188,8 @@ ketiga.rwccewek1('WC Cewek 1')
 # Aulyardha Anindita 1174054
 ketiga.rwccowok('WC Cowok')
 
+# Nurul Izza Hamka 1174062
+ketiga.rteknisi('Ruangan Teknisi')
+
 # lanjutkan
 ketiga.close()

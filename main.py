@@ -191,5 +191,8 @@ ketiga.rwccowok('WC Cowok')
 # Nurul Izza Hamka 1174062
 ketiga.rteknisi('Ruangan Teknisi')
 
+# Tia Nur Candida 1174086
+ketiga.r314('Ruangan 314')
+
 # lanjutkan
 ketiga.close()

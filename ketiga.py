@@ -114,6 +114,12 @@ class ketiga:
     def rteknisi(self, nama):
             self.ketiga.record(nama)
             self.ketiga.poly([[[20, 0], [14, 0], [14, 4], [20, 4], [20, 0]]])
+    
+    #Tia Nur Candida 1174086
+            
+    def r314(self, nama):
+        self.ketiga.record(nama)
+        self.ketiga.poly([[[14, 0], [8, 0], [8, 4], [14, 4], [14, 0]]])
 
     # lanjutkan
 

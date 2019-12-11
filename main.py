@@ -116,6 +116,11 @@ kedua.ruang209('Ruangan 209')
 #Kevin Natanael Nainggolan-1174059
 kedua.ruang210('Ruangan 210')
 
+#Faisal Najib Abdullah - 1174042
+kedua.toiletdosen('Toilet Dosen')
+kedua.toiletcowo('Toilet Cowo')
+kedua.prodiak('Prodi AK')
+
 
 #Selanjutnya disini
 

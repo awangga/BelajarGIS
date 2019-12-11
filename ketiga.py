@@ -44,6 +44,16 @@ class ketiga:
         self.ketiga.record(nama)
         self.ketiga.poly([[[12.8, 20], [9.2, 20], [9.2, 24], [12.8, 24], [12.8, 20]]])
 
+    #Kaka Kamaludin 1174067
+    def r305(self, nama):
+        self.ketiga.record(nama)
+        self.ketiga.poly([[[2, 20], [-1.6, 20], [-1.6, 24], [2, 24], [2, 20]]])
+
+    def r306(self, nama):
+        self.ketiga.record(nama)
+        self.ketiga.poly([[[5.6, 20], [2, 20], [2, 24], [5.6, 24], [5.6, 20]]])
+
+
 
 
     #lanjutkan

@@ -137,6 +137,10 @@ ketiga.r301('Ruangan 301')
 
 # Alvan Alvanzah 1174077
 ketiga.r302('Ruangan 302')
+
+# Advent Nopele Sihite 1174089
+ketiga.r304('Ruangan 304')
+
  
 #lanjutkan
 ketiga.close()

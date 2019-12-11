@@ -125,6 +125,9 @@ kedua.toiletdosen('Toilet Dosen')
 kedua.toiletcowo('Toilet Cowo')
 kedua.prodiak('Prodi AK')
 
+#Rangga Putra Ramdhani - 1174056
+kedua.ruangan203('Ruangan 203')
+kedua.ruangan204('Ruangan 204')
 #Selanjutnya disini
 
 

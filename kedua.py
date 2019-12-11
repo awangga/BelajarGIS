@@ -126,8 +126,16 @@ class Kedua:
     def prodiak(self, label):
         self.kedua.record(label)
         self.kedua.poly([[[7, 1], [19, 1], [19, 8], [7, 8], [7, 1]]])
-        
-        
+    
+    #Rangga Putra Ramdhani - 1174056
+    def ruangan203(self, label):
+        self.kedua.record(label)
+        self.kedua.poly([[[-3, 7], [4, 7], [4, 10], [-3, 10], [-3, 7]]])
+
+    #Rangga Putra Ramdhani - 1174056
+    def ruangan204(self, label):
+        self.kedua.record(label)
+        self.kedua.poly([[[-3, 10], [4, 10], [4, 13], [-3, 13], [-3, 10]]])
         
     #Pasang fungsi baru diatas close()
     def close(self):

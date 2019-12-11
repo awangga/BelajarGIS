@@ -99,6 +99,11 @@ kedua.ruangan205('Ruangan 205')
 kedua.ruangan206('Ruangan 206')
 #Irvan Rizkiansyah - 1174043
 kedua.ruangan207('Ruangan 207')
+#Liyana Majdah Rahma - 1174039
+kedua.ruangan201('Ruangan 201')
+#Liyana Majdah Rahma - 1174039
+kedua.ruangan202('Ruangan 202')
+
 
 
 #Selanjutnya disini

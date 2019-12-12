@@ -137,15 +137,6 @@ class Kedua:
         self.kedua.record(label)
         self.kedua.poly([[[-3, 10], [4, 10], [4, 13], [-3, 13], [-3, 10]]])
 
-    #Muhammad Afra Faris - 1174041
-    def ruangan211(self, label):
-        self.kedua.record(label)
-        self.kedua.poly([[[-3, 31], [4, 31], [4, 34], [-3, 34], [-3, 31]]])
-
-    #Muhammad Afra Faris - 1174041
-    def ruangan212(self, label):
-        self.kedua.record(label)
-        self.kedua.poly([[[-3, 34], [4, 34], [4, 37], [-3, 37], [-3, 34]]])
         
     #Pasang fungsi baru diatas close()
     def close(self):

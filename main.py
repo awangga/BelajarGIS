@@ -128,6 +128,10 @@ kedua.prodiak('Prodi AK')
 # Rangga Putra Ramdhani - 1174056
 kedua.ruangan203('Ruangan 203')
 kedua.ruangan204('Ruangan 204')
+
+# Muhammad Afra Faris - 1174041
+kedua.ruangan211('Ruangan 211')
+kedua.ruangan212('Ruangan 212')
 # Selanjutnya disini
 
 

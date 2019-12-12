@@ -132,6 +132,10 @@ kedua.ruangan204('Ruangan 204')
 # Ichsan Hizman Hardy - 1174034
 kedua.ruangan221('Ruangan 221')
 kedua.ruangan222('Ruangan 222')
+
+#Muhammad Afra Faris - 1174041
+kedua.ruangan211('Ruangan 211')
+kedua.ruangan212('Ruangan 212')
 # Selanjutnya disini
 
 

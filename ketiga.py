@@ -149,6 +149,15 @@ class ketiga:
         self.ketiga.record(nama)
         self.ketiga.poly([[[12, 7], [12, 17], [-4, 17], [-4, 7], [12, 7]]])
 
+    #Dini Permata Putri 1174053
+    def r317(self, nama):
+        self.ketiga.record(nama)
+        self.ketiga.poly([[[-4, 0], [-10, 0], [-10, 4], [-4, 4], [-4, 0]]])
+    
+    def r318(self, nama):
+        self.ketiga.record(nama)
+        self.ketiga.poly([[[-10, 0], [-16, 0], [-16, 4], [-10, 4], [-10, 0]]])
+
 #-------------------- BATAS END KODING ------------------#
 
     def close(self):

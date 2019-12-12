@@ -99,8 +99,55 @@ class ketiga:
     def tanggaB1(self, nama):
         self.ketiga.record(nama)
         self.ketiga.poly([[[27, -3], [24, -3], [24, 4], [27, 4], [27, -3]]])
+        
+    #Ainul Filiani 1174073
+    def rwccewek1(self, nama):
+        self.ketiga.record(nama)
+        self.ketiga.poly([[[24, 0], [22, 0], [22, 4], [24, 4], [24, 0]]])
 
-    # lanjutkan
+    # Aulyardha Anindita 1174054
+    def rwccowok(self, nama):
+        self.ketiga.record(nama)
+        self.ketiga.poly([[[22, 0], [20, 0], [20, 4], [22, 4], [22, 0]]])
+    
+    # Nurul Izza Hamka 1174062
+    def rteknisi(self, nama):
+            self.ketiga.record(nama)
+            self.ketiga.poly([[[20, 0], [14, 0], [14, 4], [20, 4], [20, 0]]])
+    
+    #Tia Nur Candida 1174086
+            
+    def r314(self, nama):
+        self.ketiga.record(nama)
+        self.ketiga.poly([[[14, 0], [8, 0], [8, 4], [14, 4], [14, 0]]])
+
+    # D.Irga B. Naufal Fakhri 1174066
+    def r315(self, nama):
+        self.ketiga.record(nama)
+        self.ketiga.poly([[[8, 0], [2, 0], [2, 4], [8, 4], [8, 0]]])
+    
+    def r316(self, nama):
+        self.ketiga.record(nama)
+        self.ketiga.poly([[[2, 0], [-4, 0], [-4, 4], [2, 4], [2, 0]]])
+
+    # Muhammad Abdul Gani Wijaya 1174071
+    def r319(self, nama):
+        self.ketiga.record(nama)
+        self.ketiga.poly([[[-8, 6], [-13, 6], [-13, 10], [-8, 10], [-8, 6]]])
+
+    def r320(self, nama):
+        self.ketiga.record(nama)
+        self.ketiga.poly([[[-8, 10], [-13, 10], [-13, 14], [-8, 14], [-8, 10]]])
+        
+
+    #Alfadian Owen 1174091
+    def r321(self, nama):
+        self.ketiga.record(nama)
+        self.ketiga.poly([[[-8, 14], [-13, 14], [-13, 18], [-8, 18], [-8, 14]]])
+
+    def center(self, nama):
+        self.ketiga.record(nama)
+        self.ketiga.poly([[[12, 7], [12, 17], [-4, 17], [-4, 7], [12, 7]]])
 
 #-------------------- BATAS END KODING ------------------#
 

@@ -132,12 +132,20 @@ kedua.ruangan204('Ruangan 204')
 #Teddy Gideon Manik - 1174038
 kedua.prodiD3LB('Prodi D3 LB')
 kedua.prodiD3MB('Prodi D3 MB')
-<<<<<<< HEAD
+
+# Ichsan Hizman Hardy - 1174034
+kedua.ruangan221('Ruangan 221')
+kedua.ruangan222('Ruangan 222')
+
+#Muhammad Afra Faris - 1174041
+kedua.ruangan211('Ruangan 211')
+kedua.ruangan212('Ruangan 212')
+
 # Selanjutnya disini
-=======
+
 
 #Selanjutnya disini
->>>>>>> 05939b613cdf705f13d0145eaaf31c8c7d1fba86
+
 
 
 # Close Jangan DIhapus
@@ -190,5 +198,29 @@ ketiga.r311('Ruangan 311')
 ketiga.r312('Ruangan 312')
 ketiga.tanggaB1('Tangga Belakang 1')
 
-# lanjutkan
+
+# Ainul Filiani 1174073
+ketiga.rwccewek1('WC Cewek 1')
+
+# Aulyardha Anindita 1174054
+ketiga.rwccowok('WC Cowok')
+
+# Nurul Izza Hamka 1174062
+ketiga.rteknisi('Ruangan Teknisi')
+
+# Tia Nur Candida 1174086
+ketiga.r314('Ruangan 314')
+
+# D.Irga B. Naufal Fakhri 1174066
+ketiga.r315('Ruangan 315')
+ketiga.r316('Ruangan 316')
+
+# Muhammad Abdul Gani Wijaya 1174071
+ketiga.r319('Ruangan 319')
+ketiga.r320('Ruangan 320')
+
+# Alfadian Owen 1174091
+ketiga.r321('Ruangan 321')
+ketiga.center('Center')
+
 ketiga.close()

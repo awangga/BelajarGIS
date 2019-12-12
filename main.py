@@ -212,5 +212,9 @@ ketiga.r316('Ruangan 316')
 ketiga.r319('Ruangan 319')
 ketiga.r320('Ruangan 320')
 
+# Alfadian Owen 1174091
+ketiga.r321('Ruangan 321')
+ketiga.center('Center')
+
 # lanjutkan
 ketiga.close()

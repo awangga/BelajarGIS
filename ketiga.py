@@ -130,6 +130,15 @@ class ketiga:
         self.ketiga.record(nama)
         self.ketiga.poly([[[2, 0], [-4, 0], [-4, 4], [2, 4], [2, 0]]])
 
+    #Dini Permata Putri 1174053
+    def r317(self, nama):
+        self.ketiga.record(nama)
+        self.ketiga.poly([[[-4, 0], [-10, 0], [-10, 4], [-4, 4], [-4, 0]]])
+    
+    def r318(self, nama):
+        self.ketiga.record(nama)
+        self.ketiga.poly([[[-10, 0], [-16, 0], [-16, 4], [-10, 4], [-10, 0]]])
+
     # Muhammad Abdul Gani Wijaya 1174071
     def r319(self, nama):
         self.ketiga.record(nama)
@@ -139,6 +148,8 @@ class ketiga:
         self.ketiga.record(nama)
         self.ketiga.poly([[[-8, 10], [-13, 10], [-13, 14], [-8, 14], [-8, 10]]])
         
+
+   
 
     # lanjutkan
 

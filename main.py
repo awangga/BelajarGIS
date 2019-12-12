@@ -129,14 +129,12 @@ kedua.prodiak('Prodi AK')
 kedua.ruangan203('Ruangan 203')
 kedua.ruangan204('Ruangan 204')
 
-#Ichsan Hizman Hardy - 1174034
+# Ichsan Hizman Hardy - 1174034
 kedua.ruangan221('Ruangan 221')
-#Ichsan Hizman Hardy - 1174034
 kedua.ruangan222('Ruangan 222')
 
-# Muhammad Afra Faris - 1174041
+#Muhammad Afra Faris - 1174041
 kedua.ruangan211('Ruangan 211')
-# Muhammad Afra Faris - 1174041
 kedua.ruangan212('Ruangan 212')
 # Selanjutnya disini
 
@@ -216,5 +214,4 @@ ketiga.r320('Ruangan 320')
 ketiga.r321('Ruangan 321')
 ketiga.center('Center')
 
-# lanjutkan
 ketiga.close()

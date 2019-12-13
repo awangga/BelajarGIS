@@ -214,4 +214,8 @@ ketiga.r320('Ruangan 320')
 ketiga.r321('Ruangan 321')
 ketiga.center('Center')
 
+# Dini Permata Putri 1174053
+ketiga.r317('Ruangan 317')
+ketiga.r318('Ruangan 318')
+
 ketiga.close()

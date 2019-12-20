@@ -91,12 +91,13 @@ class ketiga:
         self.ketiga.record(nama)
         self.ketiga.poly([[[16, 12], [16, 18], [22, 18], [22, 12], [16, 12]]])
 
+
     # Bakti Qilan Mufid 1174083
+
     def r312(self, nama):
         self.ketiga.record(nama)
         self.ketiga.poly(
             [[[107.5752456, -6.8733733], [107.5753314, -6.8733814], [107.5753390, -6.8732867], [107.5752537,-6.8732763], [107.5752456, -6.8733733]]])
-
 
     def tanggaB1(self, nama):
         self.ketiga.record(nama)

@@ -115,18 +115,20 @@ class Kedua:
 	#Faisal Najib Abdullah - 1174042
     def toiletdosen(self, label):
         self.kedua.record(label)
-        self.kedua.poly([[[22, 38.5], [29, 38.5], [29, 40], [22, 40], [22, 38.5]]])
+        self.kedua.poly([[[107.5753383,-6.8732464],[107.57535695,-6.8732492],[107.57537,-6.8731575], [107.575353,-6.873155],[107.5753383,-6.8732464]]])
 	
 	#Faisal Najib Abdullah - 1174042
     def toiletcowo(self, label):
         self.kedua.record(label)
-        self.kedua.poly([[[22, 37], [29, 37], [29, 38.5], [22, 38.5], [22, 37]]])
+        self.kedua.poly([[[107.5753383,-6.8732464],[107.5753756,-6.873252],[107.57539,-6.87316], [107.575353,-6.873155],[107.5753383,-6.8732464]]])
 		
 	#Faisal Najib Abdullah - 1174042
     def prodiak(self, label):
         self.kedua.record(label)
-        self.kedua.poly([[[7, 1], [19, 1], [19, 8], [7, 8], [7, 1]]])
+        self.kedua.poly([[[107.5757330,-6.8734735], [107.5758348,-6.8734889],[107.5758527,-6.8733748], [107.5757515,-6.8733556], [107.5757330,-6.8734735]]])
     
+	
+	
     #Rangga Putra Ramdhani - 1174056
     def ruangan203(self, label):
         self.kedua.record(label)

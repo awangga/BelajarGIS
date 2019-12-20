@@ -160,12 +160,12 @@ class Kedua:
 	#Ichsan Hizman Hardy - 1174034
     def ruangan221(self, label):
         self.kedua.record(label)
-        self.kedua.poly([[[22, 19], [29, 19], [29, 22], [22, 22], [22, 19]]])
+        self.kedua.poly([[[107.5755621,-6.87328],[107.5755994,-6.8732856],[107.575612,-6.87319], [107.575575,-6.873185],[107.5755621,-6.87328]]])
 		
 	#Ichsan Hizman Hardy - 1174034
     def ruangan222(self, label):
         self.kedua.record(label)
-        self.kedua.poly([[[22, 16], [29, 16], [29, 19], [22, 19], [22, 16]]])
+        self.kedua.poly([[[107.5755994,-6.8732856],[107.5756367,-6.8732912],[107.575649,-6.873195], [107.575612,-6.87319],[107.5755994,-6.8732856]]])
         
     #Pasang fungsi baru diatas close()
     def close(self):

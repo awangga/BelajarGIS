@@ -130,12 +130,12 @@ class Kedua:
     #Rangga Putra Ramdhani - 1174056
     def ruangan203(self, label):
         self.kedua.record(label)
-        self.kedua.poly([[[-3, 7], [4, 7], [4, 10], [-3, 10], [-3, 7]]])
+        self.kedua.poly([[[107.575667,-6.873617],[107.575704,-6.873622],[107.575713,-6.8735347], [107.5756762,-6.8735297],[107.575667,-6.873617]]])
 
     #Rangga Putra Ramdhani - 1174056
     def ruangan204(self, label):
         self.kedua.record(label)
-        self.kedua.poly([[[-3, 10], [4, 10], [4, 13], [-3, 13], [-3, 10]]])
+        self.kedua.poly([[[107.57563,-6.873612],[107.575667,-6.873617],[107.5756762,-6.8735297], [107.5756394,-6.8735247],[107.57563,-6.873612]]])
 
     #Teddy Gideon Manik - 1174038
     def prodiD3MB(self, label):

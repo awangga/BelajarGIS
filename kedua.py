@@ -85,12 +85,12 @@ class Kedua:
     #Liyana Majdah Rahma - 1174039
     def ruangan201(self, label):
         self.kedua.record(label)
-        self.kedua.poly([[[-3, 1], [4, 1], [4, 4], [-3, 4], [-3, 1]]])
+        self.kedua.poly([[[107.575741,-6.873627],[107.575778,-6.873632],[107.5757866,-6.8735447], [107.5757498,-6.8735397],[107.575741,-6.873627]]])
         
     #Liyana Majdah Rahma - 1174039
     def ruangan202(self, label):
         self.kedua.record(label)
-        self.kedua.poly([[[-3, 4], [4, 4], [4, 7], [-3, 7], [-3, 4]]])
+        self.kedua.poly([[[107.575704,-6.873622],[107.575741,-6.873627],[107.5757498,-6.8735397], [107.575713,-6.8735347],[107.575704,-6.873622]]])
 
     #Alit Fajar Kurniawan - 1174057
     def RServer(self, label):

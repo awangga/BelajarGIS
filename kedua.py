@@ -10,27 +10,27 @@ class Kedua:
     #Luthfi Muhammad Nabil - 1174035
     def tanggaBawahKiri(self, label):
         self.kedua.record(label)
-        self.kedua.poly([[[-3, -2], [4, -2], [4, 1], [-3, 1], [-3, -2]]])
+        self.kedua.poly([[[107.575778,-6.873632],[107.575815,-6.873637],[107.5758234,-6.8735497], [107.5757866,-6.8735447],[107.575778,-6.873632]]])
     
     #Luthfi Muhammad Nabil - 1174035
     def tanggaBawahKanan(self, label):
         self.kedua.record(label)
-        self.kedua.poly([[[22, -2], [29, -2], [29, 1], [22, 1], [22, -2]]])
+        self.kedua.poly([[[107.5758232,-6.8733192],[107.5758605,-6.8733248],[107.575871,-6.873225], [107.575834,-6.87322],[107.5758232,-6.8733192]]])
 
     #Luthfi Muhammad Nabil - 1174035
     def tanggaAtasKiri(self, label):
         self.kedua.record(label)
-        self.kedua.poly([[[-3, 40], [4, 40], [4, 43], [-3, 43], [-3, 40]]])
+        self.kedua.poly([[[107.57526,-6.873562],[107.575297,-6.873567],[107.5753082,-6.8734797], [107.5752714,-6.8734747],[107.57526,-6.873562]]])
     
     #Luthfi Muhammad Nabil - 1174035
     def tanggaAtasKanan(self, label):
         self.kedua.record(label)
-        self.kedua.poly([[[22, 40], [29, 40], [29, 43], [22, 43], [22, 40]]])
+        self.kedua.poly([[[107.575301,-6.8732408],[107.5753383,-6.8732464],[107.575353,-6.873155], [107.575316,-6.87315],[107.575301,-6.8732408]]])
 
     #Luthfi Muhammad Nabil - 1174035
     def tamanKosongTengah(self, label):
         self.kedua.record(label)
-        self.kedua.poly([[[7, 11], [19, 11], [19, 30], [7, 30], [7, 11]]])
+        self.kedua.poly([[[107.575424,-6.873434 ], [107.575689,-6.873473], [107.575707, -6.873354], [107.575440, -6.873317], [107.575424,-6.873434 ]]])
 
     #Hagan Rowlenstino - 1174040
     def R213(self, label):

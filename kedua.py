@@ -35,22 +35,22 @@ class Kedua:
     #Hagan Rowlenstino - 1174040
     def R213(self, label):
         self.kedua.record(label)
-        self.kedua.poly([[[7, 40], [10, 40], [10, 33], [7, 33], [7, 40]]])
+        self.kedua.poly([[[107.5753629,-6.8734129], [107.5752825,-6.8733978],  [107.5752862,-6.8733748], [107.5753707,-6.8733889], [107.5753629,-6.8734129]]])
         
     #Hagan Rowlenstino - 1174040
     def IRC(self, label):
         self.kedua.record(label)
-        self.kedua.poly([[[10, 40], [13, 40], [13, 33], [10, 33], [10, 40]]])
+        self.kedua.poly([[[107.5753707,-6.8733889], [107.5752862,-6.8733748], [107.5752899,-6.8733451], [107.5753756,-6.8733618],  [107.5753707,-6.8733889]]])
 
     #Hagan Rowlenstino - 1174040
     def RLabBisnis(self, label):
         self.kedua.record(label)
-        self.kedua.poly([[[13, 40], [16, 40], [16, 33], [13, 33], [13, 40]]])
+        self.kedua.poly([[[107.5752899,-6.8733451], [107.5753756,-6.8733618],   [107.5753806,-6.8733353],[107.5752930,-6.8733266], [107.5752899,-6.8733451]]])
 
     #Hagan Rowlenstino - 1174040
     def RLabComprehensive(self, label):
         self.kedua.record(label)
-        self.kedua.poly([[[16, 40], [19, 40], [19, 33], [16, 33], [16, 40]]])
+        self.kedua.poly([[[107.5752930,-6.8733266], [107.5753806,-6.8733353],   [107.5753772,-6.8733132],[107.5752939,-6.8733028], [107.5752930,-6.8733266]]])
 
     #Kevin Natanael Nainggolan-1174059
     def ruang208(self, label):

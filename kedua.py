@@ -70,17 +70,17 @@ class Kedua:
     #Irvan Rizkiansyah - 1174043
     def ruangan205(self, label):
         self.kedua.record(label)
-        self.kedua.poly([[[-3, 13], [4, 13], [4, 16], [-3, 16], [-3, 13]]])
+        self.kedua.poly([[[107.575519,-6.873597],[107.575556,-6.873602],[107.5755658,-6.8735147], [107.575529,-6.8735097],[107.575519,-6.873597]]])
 
     #Irvan Rizkiansyah - 1174043
     def ruangan206(self, label):
         self.kedua.record(label)
-        self.kedua.poly([[[-3, 16], [4, 16], [4, 19], [-3, 19], [-3, 16]]])
+        self.kedua.poly([[[107.575556,-6.873602],[107.575593,-6.873607],[107.5756026,-6.8735197], [107.5755658,-6.8735147],[107.575556,-6.873602]]])
 
     #Irvan Rizkiansyah - 1174043
     def ruangan207(self, label):
         self.kedua.record(label)
-        self.kedua.poly([[[-3, 19], [4, 19], [4, 22], [-3, 22], [-3, 19]]])
+        self.kedua.poly([[[107.575593,-6.873607],[107.57563,-6.873612],[107.5756394,-6.8735247], [107.5756026,-6.8735197],[107.575593,-6.873607]]])
         
     #Liyana Majdah Rahma - 1174039
     def ruangan201(self, label):

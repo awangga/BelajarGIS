@@ -95,12 +95,12 @@ class Kedua:
     #Alit Fajar Kurniawan - 1174057
     def RServer(self, label):
         self.kedua.record(label)
-        self.kedua.poly([[[22, 34], [29, 34], [29, 37], [22, 37], [22, 34]]])
+        self.kedua.poly([[[107.5753756,-6.873252],[107.5754129,-6.8732576],[107.575427,-6.873165], [107.57539,-6.87316],[107.5753756,-6.873252]]])
 
     #Alit Fajar Kurniawan - 1174057
     def LabLogistik(self, label):
         self.kedua.record(label)
-        self.kedua.poly([[[22, 31], [29, 31], [29, 34], [22, 34], [22, 31]]])
+        self.kedua.poly([[[107.5754129,-6.8732576],[107.5754502,-6.8732632],[107.575464,-6.87317], [107.575427,-6.873165],[107.5754129,-6.8732576]]])
 
     #Dika Sukma Pradana - 1174050
     def ruangan219(self, label):

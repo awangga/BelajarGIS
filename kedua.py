@@ -105,12 +105,12 @@ class Kedua:
     #Dika Sukma Pradana - 1174050
     def ruangan219(self, label):
         self.kedua.record(label)
-        self.kedua.poly([[[22, 25], [29, 25], [29, 31], [22, 31], [22, 25]]])
+        self.kedua.poly([[[107.5754502,-6.8732632],[107.5755248,-6.8732744],[107.575538,-6.87318], [107.575464,-6.87317],[107.5754502,-6.8732632]]])
 
     #Dika Sukma Pradana - 1174050
     def ruangan220(self, label):
         self.kedua.record(label)
-        self.kedua.poly([[[22, 22], [29, 22], [29, 25], [22, 25], [22, 22]]])
+        self.kedua.poly([[[107.5755248,-6.8732744],[107.5755621,-6.87328],[107.575575,-6.873185], [107.575538,-6.87318],[107.5755248,-6.8732744]]])
 		
 	#Faisal Najib Abdullah - 1174042
     def toiletdosen(self, label):

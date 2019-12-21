@@ -123,11 +123,11 @@ class ketiga:
     # D.Irga B. Naufal Fakhri 1174066
     def r315(self, nama):
         self.ketiga.record(nama)
-        self.ketiga.poly([[[8, 0], [2, 0], [2, 4], [8, 4], [8, 0]]])
+        self.ketiga.poly([[[107.57559,-6.87332],[107.5756,-6.87325], [107.5755044,-6.8732367],[107.5754922,-6.8733076],[107.57559,-6.87332]]])
     
     def r316(self, nama):
         self.ketiga.record(nama)
-        self.ketiga.poly([[[2, 0], [-4, 0], [-4, 4], [2, 4], [2, 0]]])
+        self.ketiga.poly([[[107.57559,-6.87332],[107.5756,-6.87325], [107.5756888,-6.8732624], [107.5756791,-6.8733334], [107.57559,-6.87332]]])
 
     # Muhammad Abdul Gani Wijaya 1174071
     def r319(self, nama):

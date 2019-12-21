@@ -31,8 +31,7 @@ class ketiga:
     # Advent Nopele Sihite 1184089
     def r304(self, nama):
         self.ketiga.record(nama)
-        self.ketiga.poly(
-            [[[-1.6, 20], [-5.2, 20], [-5.2, 24], [-1.6, 24], [-1.6, 20]]])
+        self.ketiga.poly([[[107.575566, -6.8736059], [107.5755714, -6.8735426], [107.5756093, -6.8735469], [107.5756059, -6.8736083], [107.575566, -6.8736059]]])
 
         # Difa
     def r303(self, nama):

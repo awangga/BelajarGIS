@@ -74,11 +74,11 @@ class ketiga:
     # Chandra Kirana Poetra 1174079
     def rwccewek2(self, nama):
         self.ketiga.record(nama)
-        self.ketiga.poly([[[22, 20], [20, 20], [20, 24], [22, 24], [22, 20]]])
-
+        self.ketiga.poly([[[107.57578,-6.87326], [107.57576,-6.87326], [107.575751,-6.87334], [107.57577,-6.87334], [107.57578,-6.87326]]])
+    
     def rwccewek3(self, nama):
         self.ketiga.record(nama)
-        self.ketiga.poly([[[24, 20], [22, 20], [22, 24], [24, 24], [24, 20]]])
+        self.ketiga.poly([[[107.57576,-6.87326], [107.57574,-6.87326], [107.57573,-6.87334], [107.57575,-6.87334], [107.57576,-6.87326]]])
 
     # Mochamad Arifqi Ramadhan 1174074
     def tanggaB2(self, nama):

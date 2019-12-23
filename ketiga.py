@@ -85,10 +85,10 @@ class ketiga:
         self.ketiga.record(nama)
         self.ketiga.poly([[[27, 20], [24, 20], [24, 27], [27, 27], [27, 20]]])
 
-    # Handi Handi Hermawan 1174080
+    # Handi Hermawan 1174080
     def r311(self, nama):
         self.ketiga.record(nama)
-        self.ketiga.poly([[[16, 12], [16, 18], [22, 18], [22, 12], [16, 12]]])
+        self.ketiga.poly([[[107.5752774, -6.8733220], [107.5753526, -6.8733334], [107.5753473, -6.8734068], [107.5752696, -6.8733972], [107.5752774, -6.8733220]]])
 
 
     # Bakti Qilan Mufid 1174083

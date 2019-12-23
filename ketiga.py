@@ -112,7 +112,7 @@ class ketiga:
     # Aulyardha Anindita 1174054
     def rwccowok(self, nama):
         self.ketiga.record(nama)
-        self.ketiga.poly([[[22, 0], [20, 0], [20, 4], [22, 4], [22, 0]]])
+        self.ketiga.poly([[[107.5753278, -6.8732237], [107.5753622, -6.8732266], [107.5753575, -6.8732885], [107.5753241, -6.8732845], [107.5753278, -6.8732237]]])
     
     # Nurul Izza Hamka 1174062
     def rteknisi(self, nama):

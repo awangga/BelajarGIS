@@ -83,7 +83,7 @@ class ketiga:
     # Mochamad Arifqi Ramadhan 1174074
     def tanggaB2(self, nama):
         self.ketiga.record(nama)
-        self.ketiga.poly([[[27, 20], [24, 20], [24, 27], [27, 27], [27, 20]]])
+        self.ketiga.poly([[[107.5752291,-6.8735757], [107.5752730, -6.8735719], [107.5752784, -6.8735194], [107.5752337, -6.8735155], [107.5752291,-6.8735757]]])
 
     # Handi Hermawan 1174080
     def r311(self, nama):

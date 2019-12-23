@@ -117,7 +117,7 @@ class ketiga:
     # Nurul Izza Hamka 1174062
     def rteknisi(self, nama):
             self.ketiga.record(nama)
-            self.ketiga.poly([[[20, 0], [14, 0], [14, 4], [20, 4], [20, 0]]])
+            self.ketiga.poly([[[107.5753611, -6.8732261], [107.5754018, -6.8732289], [107.5753963, -6,8732930], [107.5753577, -6.8732875], [107.5753611, -6.8732261]]])
     
     #Tia Nur Candida 1174086
             

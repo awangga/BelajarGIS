@@ -198,7 +198,6 @@ ketiga.r311('Ruangan 311')
 ketiga.r312('Ruangan 312')
 ketiga.tanggaB1('Tangga Belakang 1')
 
-
 # Ainul Filiani 1174073
 ketiga.rwccewek1('WC Cewek 1')
 

@@ -107,7 +107,7 @@ class ketiga:
     #Ainul Filiani 1174073
     def rwccewek1(self, nama):
         self.ketiga.record(nama)
-        self.ketiga.poly([[[24, 0], [22, 0], [22, 4], [24, 4], [24, 0]]])
+        self.ketiga.poly([[[107.5752955, -6.8732204], [107.5753278, -6.8732237], [107.5753241, -6.8732845], [107.5752919, -6.8732804], [107.5752955, -6.8732204]]])
 
     # Aulyardha Anindita 1174054
     def rwccowok(self, nama):
@@ -117,7 +117,7 @@ class ketiga:
     # Nurul Izza Hamka 1174062
     def rteknisi(self, nama):
             self.ketiga.record(nama)
-            self.ketiga.poly([[[107.5753611, -6.8732261], [107.5754018, -6.8732289], [107.5753963, -6,8732930], [107.5753577, -6.8732875], [107.5753611, -6.8732261]]])
+            self.ketiga.poly([[[107.5753611, -6.8732261], [107.5754018, -6.8732289], [107.5753963, -6.8732930], [107.5753577, -6.8732875], [107.5753611, -6.8732261]]])
     
     #Tia Nur Candida 1174086
             

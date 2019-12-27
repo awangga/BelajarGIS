@@ -123,7 +123,7 @@ class ketiga:
             
     def r314(self, nama):
         self.ketiga.record(nama)
-        self.ketiga.poly([[[14, 0], [8, 0], [8, 4], [14, 4], [14, 0]]])
+        self.ketiga.poly([[[107.5753962,-6.8732925], [107.5754029,-6.8732303], [107.5755040,-6.8732372], [107.5754921,-6.8733067], [107.5754010,-6.8732962]]])
 
     # D.Irga B. Naufal Fakhri 1174066
     def r315(self, nama):

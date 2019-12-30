@@ -10,37 +10,46 @@ class Pertama:
     #Harun Ar - Rasyid - 1174027
     def bauk(self, nama):
         self.pertama.record(nama)
-        self.pertama.poly([[[-4, 0], [2, 0], [2, 8], [-4, 8], [-4, 0]]])
+        self.pertama.poly([[[107.575807,-6.873297],[107.575712,-6.873282],[107.575703,-6.873356],[107.575799,-6.873359],[107.575807,-6.873297]]])
 
     #Harun Ar - Rasyid - 1174027
     def baak(self, nama):
         self.pertama.record(nama)
-        self.pertama.poly([[[2, 0], [13, 0], [13, 8], [2, 8], [2, 0]]])
+        self.pertama.poly([[[107.575799,-6.873359],[107.575703,-6.873356],[107.575681,-6.873551],[107.575770,-6.873563],[107.575799,-6.873359]]])
 
-    #Kadek Diva Krishna Murti - 1174006
-    def ruangan111(self, nama):
+    #dzihan
+    def ruang116(self, nama):
         self.pertama.record(nama)
-        self.pertama.poly([[[-16, -28], [-16, -36], [-9, -36], [-9, -28], [-16, -28]]])
+        self.pertama.poly([[[-16, 4], [-16, 8], [-9, 8], [-9, 4], [-16, 4]]])
+
     #Nico Ekklesia Sembiring - 1174096
     def ruangan113(self, nama):
         self.pertama.record(nama)
         self.pertama.poly([[[-16, -20], [-16, -4], [-9, -4], [-9, -20], [-16, -20]]])
+
+    #Kadek Diva Krishna Murti - 1174006
+    def ruangan111(self, nama):
+        self.pertama.record(nama)
+        #self.pertama.poly([[[-16, -28], [-16, -36], [-9, -36], [-9, -28], [-16, -28]]])
+        self.pertama.poly([[[107.575345, -6.873225], [107.575407, -6.873229], [107.57540, -6.873319], [107.5753382, -6.8733146], [107.575345, -6.873225]]])
     #Kadek Diva Krishna Murti - 1174006
     def wcBL(self, nama):
         self.pertama.record(nama)
-        self.pertama.poly([[[-16, -36], [-16, -40], [-9, -40], [-9, -36], [-16, -36]]])
+        #self.pertama.poly([[[-16, -36], [-16, -40], [-9, -40], [-9, -36], [-16, -36]]])
+        self.pertama.poly([[[107.5753045, -6.8732222], [107.575345, -6.873225], [107.5753382, -6.8733146], [107.5752986, -6.8733113], [107.5753045, -6.8732222]]])
     #Kadek Diva Krishna Murti - 1174006
     def tanggaBL(self, nama):
         self.pertama.record(nama)
-        self.pertama.poly([[[-16, -40], [-16, -42], [-9, -42], [-9, -40], [-16, -40]]])
+        self.pertama.poly([[[107.5752819, -6.8732203], [107.5753045, -6.8732222], [107.5752986, -6.8733113], [107.5752767, -6.8733098], [107.5752819, -6.8732203]]])
     #Kadek Diva Krishna Murti - 1174006
     def gudangBL(self, nama):
         self.pertama.record(nama)
-        self.pertama.poly([[[-16, -42], [-16, -44], [-9, -44], [-9, -42], [-16, -42]]])
+        self.pertama.poly([[[107.5752576, -6.8732188], [107.5752819, -6.8732203], [107.5752767, -6.8733098], [107.5752512, -6.8733073], [107.5752576, -6.8732188]]])
     #Kadek Diva Krishna Murti - 1174006
     def haloPos(self, nama):
         self.pertama.record(nama)
-        self.pertama.poly([[[-4, -32], [-4, -40], [13, -40], [13, -32], [-4, -32]]])
+        self.pertama.poly([[[107.5752475, -6.8733551], [107.5753716, -6.8733654], [107.5753604, -6.8734993], [107.5752363, -6.8734896], [107.5752475, -6.8733551]]])
+		
     #Dwi Yulianingsih - 1174009
     def ruang117(self, nama):
         self.pertama.record(nama)

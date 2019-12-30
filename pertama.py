@@ -10,12 +10,12 @@ class Pertama:
     #Harun Ar - Rasyid - 1174027
     def bauk(self, nama):
         self.pertama.record(nama)
-        self.pertama.poly([[[-4, 0], [2, 0], [2, 8], [-4, 8], [-4, 0]]])
+        self.pertama.poly([[[107.575807,-6.873297],[107.575712,-6.873282],[107.575703,-6.873356],[107.575799,-6.873359],[107.575807,-6.873297]]])
 
     #Harun Ar - Rasyid - 1174027
     def baak(self, nama):
         self.pertama.record(nama)
-        self.pertama.poly([[[2, 0], [13, 0], [13, 8], [2, 8], [2, 0]]])
+        self.pertama.poly([[[107.575799,-6.873359],[107.575703,-6.873356],[107.575681,-6.873551],[107.575770,-6.873563],[107.575799,-6.873359]]])
 
     #dzihan
     def ruang116(self, nama):

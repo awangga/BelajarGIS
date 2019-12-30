@@ -20,7 +20,7 @@ class Pertama:
     #dzihan
     def ruang116(self, nama):
         self.pertama.record(nama)
-        self.pertama.poly([[[-16, 4], [-16, 8], [-9, 8], [-9, 4], [-16, 4]]])
+        self.pertama.poly([[[107.575714,-6.873283], [107.575727,-6.873227], [107.575669,-6.873219], [107.575660,-6.873273], [107.575714,-6.873283]]])
 
     #Nico Ekklesia Sembiring - 1174096
     def ruangan113(self, nama):

@@ -25,7 +25,7 @@ class Pertama:
     #Nico Ekklesia Sembiring - 1174096
     def ruangan113(self, nama):
         self.pertama.record(nama)
-        self.pertama.poly([[[-16, -20], [-16, -4], [-9, -4], [-9, -20], [-16, -20]]])
+        self.pertama.poly([[[107.575476, -6.873235], [107.575608, -6.873246], [107.575603, -6.873329], [107.575470, -6.873320], [107.575476, -6.873235]]])
 
     #Kadek Diva Krishna Murti - 1174006
     def ruangan111(self, nama):

@@ -128,7 +128,7 @@ class Pertama:
         #Muh. Rifky Prananda 1174017
     def ruang112(self, nama):
         self.pertama.record(nama)
-        self.pertama.poly([[[-16, -20], [-16, -28], [-9, -28], [-9, -20], [-16, -20]]])
+        self.pertama.poly([[[107.575463, -6.873176], [107.575496, -6.873182], [107.575483, -6.873248], [107.575447, -6.873241], [107.575463, -6.873176]]])
 
     #Muhammad Fahmi - 1174021
     def ruang109(self, nama):

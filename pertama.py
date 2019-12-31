@@ -94,7 +94,7 @@ class Pertama:
     #Damara Benedikta 1174012
     def ruang102(self, nama):
         self.pertama.record(nama)
-        self.pertama.poly([[[18, 4], [18, 8], [25, 8], [25, 4], [18, 4]]])
+        self.pertama.poly([[[107.575706, -6.873555], [107.575663, -6.873547], [107.575656,-6.873617 ], [107.575694, -6.873621], [107.575706, -6.873555]]])
         
         # oni
     def ruang104(self, nama):

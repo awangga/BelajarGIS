@@ -80,11 +80,11 @@ class Pertama:
     #Evietania 1174051
     def gudangL(self, nama):
         self.pertama.record(nama)
-        self.pertama.poly([[[-16,14], [-16, 16], [-9, 16], [-9, 14], [-16,14]]])
+        self.pertama.poly([[[107.575854,-6.873303], [107.575831, -6.873297], [107.575840, -6.873223], [107.575867, -6.873229], [107.575854,-6.873303]]])
 
     def tanggaL(self, nama):
         self.pertama.record(nama)
-        self.pertama.poly([[[-16, 12], [-16, 14], [-9, 14], [-9, 12], [-16, 12]]])
+        self.pertama.poly([[[107.575831, -6.873297], [107.575840, -6.873223], [107.575822, -6.873223], [107.575808, -6.873297], [107.575831, -6.873297]]])
         
     #Arjun Yuda Firwanda 1174008
     def gudangR(self, nama):

@@ -63,7 +63,7 @@ class Pertama:
     #habib
     def ruang103(self, nama):
         self.pertama.record(nama)
-        self.pertama.poly([[[18, 0], [18, 4], [25, 4], [25, 0], [18, 0]]])
+        self.pertama.poly([[[107.575659, -6.873549], [107.575623, -6.873544], [107.575618, -6.873617], [107.575656, -6.873618], [107.575659, -6.873549]]])
     
      #felix
     def ruang107(self, nama):

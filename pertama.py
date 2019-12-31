@@ -118,7 +118,7 @@ class Pertama:
         #Muhammad Tomy Nur Maulidy 1174031
     def ruang106(self, nama):
         self.pertama.record(nama)
-        self.pertama.poly([[[18, -12], [18, -8], [25, -8], [25, -12], [18, -12]]])
+        self.pertama.poly([[[107.575485, -6.873523], [107.5755327, -6.8735332], [107.5755284, -6.8736001], [107.575479, -6.873590],[107.575485, -6.873523]]])
         
         #Choirul Anam 1174004
     def ruang114(self, nama):

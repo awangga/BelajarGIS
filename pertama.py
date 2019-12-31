@@ -53,7 +53,8 @@ class Pertama:
     #Dwi Yulianingsih - 1174009
     def ruang117(self, nama):
         self.pertama.record(nama)
-        self.pertama.poly([[[-16, 8], [-16, 12], [-9, 12], [-9, 8], [-16, 8]]])
+        self.pertama.poly([[[107.5757276, -6.8732357], [107.5757198, -6.8733199], [107.5757700, -6.8733185], [107.5757828, -6.8732406], [107.5757276, -6.8732357]]])
+        
     #dwisep
     def ruang115(self, nama):
         self.pertama.record(nama)

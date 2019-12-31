@@ -86,14 +86,14 @@ class Pertama:
         self.pertama.record(nama)
         self.pertama.poly([[[-16, 12], [-16, 14], [-9, 14], [-9, 12], [-16, 12]]])
         
-     #Arjun Yuda Firwanda 1174008
+    #Arjun Yuda Firwanda 1174008
     def gudangR(self, nama):
         self.pertama.record(nama)
-        self.pertama.poly([[[18, 14], [18, 16], [25, 16], [25, 14], [18, 14]]])
+        self.pertama.poly([[[107.5757921,-6.8735487], [107.5757856,-6.8736337], [107.5757491,-6.8736308], [107.5757547,-6.8735455], [107.5757921,-6.8735487]]])
 
     def tanggaR(self, nama):
         self.pertama.record(nama)
-        self.pertama.poly([[[18, 12], [18, 14], [25, 14], [25, 12], [18, 12]]])
+        self.pertama.poly([[[107.5757547,-6.8735455], [107.5757491,-6.8736308], [107.5757185,-6.8736261], [107.5757218,-6.8735441], [107.5757547,-6.8735455]]])
         
     #Damara Benedikta 1174012
     def ruang102(self, nama):

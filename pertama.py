@@ -67,12 +67,15 @@ class Pertama:
      #felix
     def ruang107(self, nama):
         self.pertama.record(nama)
-        self.pertama.poly([[[18, -16], [18, -12], [25, -12], [25, -16], [18, -16]]])
+        #
+        #self.pertama.poly([[[18, -16], [18, -12], [25, -12], [25, -16], [18, -16]]])
+        self.pertama.poly([[[107.575448, -6.873518], [107.575485, -6.873523], [107.575479, -6.873590], [107.575392, -6.873579], [107.575448, -6.873518]]])
 
     def ruang108(self, nama):
         self.pertama.record(nama)
-        self.pertama.poly([[[18, -16], [18, -24], [25, -24], [25, -16], [18, -16]]])
-
+        #self.pertama.poly([[[18, -16], [18, -24], [25, -24], [25, -16], [18, -16]]])
+        self.pertama.poly([[[107.575408, -6.873510], [107.575448, -6.873518], [107.575435, -6.873584], [107.575392, -6.873579], [107.575408, -6.873510]]])
+        
     #Evietania 1174051
     def gudangL(self, nama):
         self.pertama.record(nama)

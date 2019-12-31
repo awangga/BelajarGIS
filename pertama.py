@@ -103,7 +103,7 @@ class Pertama:
         # oni
     def ruang104(self, nama):
         self.pertama.record(nama)
-        self.pertama.poly([[[18, -4], [18, 0], [25, 0], [25, -4], [18, -4]]])
+        self.pertama.poly([[[107.575619,-6.873535], [107.575613,-6.873610], [107.575575,-6.873608], [107.575573,-6.873540], [107.575619,-6.873535]]])
         
         #Srir
     def ruang105(self, nama):

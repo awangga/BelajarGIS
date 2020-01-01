@@ -30,12 +30,10 @@ class Pertama:
     #Kadek Diva Krishna Murti - 1174006
     def ruangan111(self, nama):
         self.pertama.record(nama)
-        #self.pertama.poly([[[-16, -28], [-16, -36], [-9, -36], [-9, -28], [-16, -28]]])
         self.pertama.poly([[[107.575345, -6.873225], [107.575407, -6.873229], [107.57540, -6.873319], [107.5753382, -6.8733146], [107.575345, -6.873225]]])
     #Kadek Diva Krishna Murti - 1174006
     def wcBL(self, nama):
         self.pertama.record(nama)
-        #self.pertama.poly([[[-16, -36], [-16, -40], [-9, -40], [-9, -36], [-16, -36]]])
         self.pertama.poly([[[107.5753045, -6.8732222], [107.575345, -6.873225], [107.5753382, -6.8733146], [107.5752986, -6.8733113], [107.5753045, -6.8732222]]])
     #Kadek Diva Krishna Murti - 1174006
     def tanggaBL(self, nama):

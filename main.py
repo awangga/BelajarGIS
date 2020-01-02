@@ -1,14 +1,15 @@
 ####################################################
+#############          Quiz 3          #############
+####################################################
+
+####################################################
 ############# Kadek Diva Krishna Murti #############
 #############           Mulai          #############
 ####################################################
-
 import sys
 sys.path.insert(0, 'pertama')
 import andir
-
 andir = andir.Andir()
-
 # Kelurahan
 andir.kelurahanCampaka('Kelurahan Campaka')
 andir.kelurahanCiroyom('Kelurahan Ciroyom')
@@ -16,7 +17,6 @@ andir.kelurahanDungusCariang('Kelurahan Dungus Cariang')
 andir.kelurahanGaruda('Kelurahan Garuda')
 andir.kelurahanKebonJeruk('Kelurahan Kebon Jeruk')
 andir.kelurahanMaleber('Kelurahan Maleber')
-
 # Kantor Kelurahan
 andir.kantorKelurahanCampaka('Kantor Kelurahan Campaka')
 andir.kantorKelurahanCiroyom('Kantor Kelurahan Ciroyom')
@@ -24,7 +24,6 @@ andir.kantorKelurahanDungusCariang('Kantor Kelurahan Dungus Cariang')
 andir.kantorKelurahanGaruda('Kantor Kelurahan Garuda')
 andir.kantorKelurahanKebonJeruk('Kantor Kelurahan Kebon Jeruk')
 andir.kantorKelurahanMaleber('Kantor Kelurahan Maleber')
-
 # Jalan
 andir.jalanKelurahanCampaka('Jalan Kelurahan Campaka')
 andir.jalanKelurahanCiroyom('Jalan Kelurahan Ciroyom')
@@ -32,9 +31,7 @@ andir.jalanKelurahanDungusCariang('Jalan Kelurahan Dungus Cariang')
 andir.jalanKelurahanGaruda('Jalan Kelurahan Garuda')
 andir.jalanKelurahanKebonJeruk('Jalan Kelurahan Kebon Jeruk')
 andir.jalanKelurahanMaleber('Jalan Kelurahan Maleber')
-
 andir.close()
-
 ####################################################
 #############          Selesai         #############
 ####################################################

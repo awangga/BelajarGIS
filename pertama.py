@@ -55,11 +55,11 @@ class Pertama:
         self.pertama.record(nama)
         self.pertama.poly([[[107.5757276, -6.8732357], [107.5757198, -6.8733199], [107.5757700, -6.8733185], [107.5757828, -6.8732406], [107.5757276, -6.8732357]]])
         
-    #dwisep
+    #Dwi Septiani Tsaniyah - 1174003
     def ruang115(self, nama):
         self.pertama.record(nama)
-        self.pertama.poly([[[-16, 0], [-16, 4], [-9, 4], [-9, 0], [-16, 0]]])
-        
+        self.pertama.poly([[[107.5756064, -6.8732302], [107.5755946, -6.8733002], [107.5756508, -6.8733111], [107.5756626, -6.8732342], [107.5756064, -6.8732302]]])
+           
     #habib
     def ruang103(self, nama):
         self.pertama.record(nama)

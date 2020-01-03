@@ -36,6 +36,35 @@ andir.close()
 #############          Selesai         #############
 ####################################################
 
+####################################################
+#############   Faisal Najib Abdullah  #############
+#############           Mulai          #############
+####################################################
+import najib
+najib = najib.Najib()
+#Kelurahan
+najib.karyawangi('karyawangi')
+najib.Cihideung('Cihideung')
+najib.Sariwangi('Sariwangi')
+najib.Cihanjuangrahayu('Cihanjuangrahayu')
+najib.Cihanjuang('Cihanjuang')
+najib.Cigugurgirang('Cigugurgirang')
+najib.Ciwaruga('Ciwaruga')
+#Kantor
+najib.Kantorkaryawangi('karyawangi')
+najib.KantorCihideung('Cihideung')
+najib.KantorSariwangi('Sariwangi')
+najib.KantorCihanjuangrahayu('Cihanjuangrahayu')
+najib.KantorCihanjuang('Cihanjuang')
+najib.KantorCigugurgirang('Cigugurgirang')
+najib.KantorCiwaruga('Ciwaruga')
+#jalan
+najib.jalanParongpong("jalanParongpong")
+najib.close()
+####################################################
+#############          Selesai         #############
+####################################################
+
 import ketiga
 import kedua
 import pertama

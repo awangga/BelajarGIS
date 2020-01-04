@@ -8,6 +8,7 @@
 ####################################################
 import sys
 sys.path.insert(0, 'pertama')
+sys.path.insert(0, 'kedua')
 import andir
 andir = andir.Andir()
 # Kelurahan

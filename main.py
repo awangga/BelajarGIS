@@ -135,6 +135,40 @@ BojongloaKaler.close()
 ####################################################
 #############          Selesai         #############
 ####################################################
+
+####################################################
+############# Kadek Diva Krishna Murti #############
+#############           Mulai          #############
+####################################################
+import sys
+sys.path.insert(0, 'pertama')
+import batununggal
+batununggal = batununggal.Batununggal()
+# Kelurahan
+batununggal.Binong('Kelurahan Binong')
+batununggal.Cibangkong('Kelurahan Cibangkong')
+batununggal.Gumuruh('Kelurahan Gumuruh')
+batununggal.Kacapiring('Kelurahan Kacapiring')
+batununggal.Kebongedang('Kelurahan Kebongedang')
+batununggal.Kebonwaru('Kelurahan Kebonwaru')
+batununggal.Maleer('Kelurahan Maleer')
+batununggal.Samoja('Kelurahan Samoja')
+# Kantor Kelurahan
+batununggal.kantorKelurahanBinong('Kantor Kelurahan Campaka')
+batununggal.kantorKelurahanCibangkong('Kantor Kelurahan Ciroyom')
+batununggal.kantorKelurahanGumuruh('Kantor Kelurahan Dungus Cariang')
+batununggal.kantorKelurahanKacapiring('Kantor Kelurahan Garuda')
+batununggal.kantorKelurahanKebongedang('Kantor Kelurahan Kebon Jeruk')
+batununggal.kantorKelurahanKebonwaru('Kantor Kelurahan Maleber')
+batununggal.kantorKelurahanMaleer('Kantor Kelurahan Kebon Jeruk')
+batununggal.kantorKelurahanSamajo('Kantor Kelurahan Maleber')
+# Jalan
+batununggal.jalanKelurahanCampaka('Jalan Kelurahan Campaka')
+batununggal.close()
+####################################################
+#############          Selesai         #############
+####################################################
+
 #3B
 ####################################################
 #############   Faisal Najib Abdullah  #############

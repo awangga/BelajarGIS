@@ -850,6 +850,52 @@ Rancabali.close()
 #############          Selesai         #############
 ####################################################
 
+####################################################
+##########    Fanny Shafira 1174069    #############
+##########            Mulai            #############
+####################################################
+
+import nagreg
+
+# Fanny Shafira 1174069
+nagreg = nagreg.Nagreg()
+
+# Desa
+nagreg.citaman('Desa Citaman')
+nagreg.bojong('Desa Bojong')
+nagreg.mandalawangi('Desa Mandalawangi')
+nagreg.ciherang('Desa Ciherang')
+nagreg.ciaro('Desa Ciaro')
+nagreg.nagregkendan('Desa Nagregkendan')
+nagreg.nagreg('Desa Nagreg')
+
+
+# Kantor Desa
+nagreg.kantorDesaCitaman('Kantor Desa Citaman')
+nagreg.kantorDesaBojong('Kantor Desa Bojong')
+nagreg.kantorDesaMandalawangi('Kantor Desa Mandalawangi')
+nagreg.kantorDesaCiherang('Kantor Desa Ciherang')
+nagreg.kantorDesaCiaro('Kantor Desa Ciaro')
+nagreg.kantorDesaGanjarsabar('Kantor Desa Ganjarsabar')
+nagreg.kantorDesaNagregkendan('Kantor Desa Nagregkendan')
+nagreg.kantorDesaNagreg('Kantor Desa Nagreg')
+
+# Jalan
+nagreg.jlCitaman('Jl. Citaman')
+nagreg.jlBojong('Jl. Bojong')
+nagreg.jlMandalawangi('Jl. Mandalawangi')
+nagreg.jlCiherang('Jl. Ciherang')
+nagreg.jlCiaro('Jl. Ciaro')
+nagreg.jlGanjarsabar('Jl. Ganjarsabar')
+nagreg.jlNagregkendan('Jl. Nagregkendan')
+nagreg.jlNagreg('Jl. Nagreg')
+
+nagreg.close()
+
+####################################################
+##########    Fanny Shafira 1174069    #############
+##########          Selesai            #############
+####################################################
 
 #--------------------------    Batas    -------------------------#
 

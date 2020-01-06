@@ -778,6 +778,50 @@ paseh.close()
 #############          Selesai         #############
 ####################################################
 
+####################################################
+#############  Chandra Kirana Poetra   #############
+#############           Mulai          #############
+####################################################
+sys.path.insert(0, 'ketiga')
+import Rancabali
+
+# Difa Al Fansha 1174076
+Rancabali = Rancabali.Rancabali()
+
+# Kelurahan
+Rancabali.Alamendah('Kelurahan Alamendah')
+Rancabali.Patengan('Kelurahan Patengan')
+Rancabali.Cipelah('Kelurahan Cipelah')
+Rancabali.Indragiri('Kelurahan Indragiri')
+Rancabali.Sukaresmi('Kelurahan Sukaresmi')
+
+
+# Kantor Kelurahan
+Rancabali.KantorAlamendah('Kantor Kelurahan Alamendah')
+Rancabali.KantorPatengan('Kantor Kelurahan Patengan')
+Rancabali.KantorCipelah('Kantor Kelurahan Cipelah')
+Rancabali.KantorIndragiri('Kantor Kelurahan Indragiri')
+Rancabali.KantorSukaresmi('Kantor Kelurahan Sukaresmi')
+
+# Jalan
+Rancabali.jalanpatengan('Jl. Raya Ciwidey - Patengan')
+Rancabali.jalanrayaciwidey('Jl. Raya Ciwidey - Patengan')
+Rancabali.jalanalamendah('Jl. Alamendah')
+Rancabali.jalankurunangan('Jl. Kurunangan')
+Rancabali.jalanpatuharesort('Jl. Patuh Resort')
+Rancabali.jalanciasin('Jl. Ciasin')
+Rancabali.jalankarangjaya('Jl.Karang Jaya')
+Rancabali.jalanPTPNVIII('Jl. PTPNVIII')
+Rancabali.jalanSukaresmi('Jl. Sukaresmi')
+
+Rancabali.close()
+
+####################################################
+#############  Chandra Kirana Poetra   #############
+#############          Selesai         #############
+####################################################
+
+
 #--------------------------    Batas    -------------------------#
 
 

@@ -510,6 +510,48 @@ najib.close()
 ####################################################
 
 ####################################################
+#############      Liyana    ############# 
+#############           Mulai          #############
+####################################################
+import sys
+sys.path.insert(0, 'kedua')
+import cipatat
+cipatat = cipatat.cipatat()
+# Kelurahan
+cipatat.KertaMukti('Kertamukti')
+cipatat.ciptaHarja('Cipta Harja')
+cipatat.ciwamekar('Ciwamekar')
+cipatat.citatah('Citatah')
+cipatat.mandalaSari('Mandalasari')
+cipatat.mandalaWangi('Mandalawangi')
+cipatat.nyalindung('Nyalindung')
+cipatat.sariMukti('SariMukti')
+cipatat.rajamandalaKulon('Raja Mandala Kulon')
+cipatat.sumurBandung('Sumur Bandung')
+cipatat.gunungMasigit('Gunung Masigit')
+# Kantor Kelurahan
+cipatat.kantorCipatat('Kantor Cipatat')
+cipatat.kantorCiwamekar('kantor ciwamekar')
+cipatat.kantorCiptaharja('kantor ciptaharja')
+cipatat.kantorKertamukti('Kantor Kertamukti')
+cipatat.kantorSumurbandung('kantor sumurbandung')
+cipatat.kantorCitatah('kantor Citatah')
+cipatat.kantorMandalawangi('kantor mandalawangi')
+cipatat.kantorMandalasari('kantor mandalasari')
+cipatat.kantorMasigit('kantor GunungMasigit')
+cipatat.kantorNyalindung('kantor Nyalindung')
+cipatat.kantorMandalaKulon('Kantor Mandala Kulon')
+# Jalan
+cipatat.jalanSarimukti('jalan sarimukti')
+cipatat.jalanNyalindung('jalan Nyalindung')
+cipatat.jalanMandalawangi('jalan Mandalawangi')
+cipatat.jalanMasigit('jalan Masigit')
+
+####################################################
+#############          Selesai         #############
+####################################################
+
+####################################################
 #############   Luthfi Muhammad Nabil  #############
 #############           Mulai          #############
 ####################################################

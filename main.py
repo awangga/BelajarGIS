@@ -328,6 +328,63 @@ sumurbandung.close()
 #############          Selesai         #############
 ####################################################
 
+####################################################
+#############           SRI RAHAYU     #############
+#############           Mulai          #############
+####################################################
+import sys
+sys.path.insert(0, 'pertama')
+import cibiru
+cibiru = cibiru.Cibiru()
+# Kelurahan
+cibiru.kelurahanCipadung('Kelurahan Cipadung')
+cibiru.kelurahanCisurupan('Kelurahan Cisurupan')
+cibiru.kelurahanPalasari('Kelurahan Palasari')
+cibiru.kelurahanPasirBiru('Kelurahan PasirBiru')
+# Kantor Kelurahan
+cibiru.kantorCipadung('Kantor Cipadung')
+cibiru.kantorCisurupan('Kantor Cisurupan')
+cibiru.kantorPalasari('Kantor Palasari')
+cibiru.kantorPasirBiru('Kantor PasirBiru')
+# Jalan
+cibiru.jalanKusumaUtama('jalanKusumaUtama')
+cibiru.jalanSunanGunungDjati('jalanSunanGunungDjati')
+cibiru.jalanCibiru2('jalanCibiru2')
+cibiru.jalanAstom('jalanAstom')
+cibiru.jalanJikuda('jalanJikuda')
+cibiru.jalanJikuda2('jalanJikuda2')
+cibiru.jalanSukaluyu2('jalanSukaluyu2')
+cibiru.jalanPalasari2('jalanPalasari2')
+cibiru.jalanKomplekButikCitraBiru('jalanKomplekButikCitraBiru')
+cibiru.jalanpanday('jalanpanday')
+cibiru.jalanSukaluyu('jalanSukaluyu')
+cibiru.jalanDesaCibiru('jalanDesaCibiru')
+cibiru.jalanDesaCipadang('jalanDesaCipadang')
+cibiru.jalanDesaEmbenJaksa('jalanDesaEmbenJaksa')
+cibiru.jalanCilangkarang3('jalanCilangkarang3')
+cibiru.jalanjikuda('jalanjikuda')
+cibiru.jalanSukakaya('jalanSukakaya')
+cibiru.jalanBalerafasya('jalanBalerafasya')
+cibiru.jalanCipadung('jalanCipadung')
+cibiru.jalanKomplekWijaya2('jalanKomplekWijaya2')
+cibiru.jalanKirangkarang2('jalanKirangkarang2')
+cibiru.jalanKrisdaNusantara('jalanKrisdaNusantara')
+cibiru.jalanJaksa('jalanJaksa')
+cibiru.jalanKompelKopedi2('jalanKompelKopedi2')
+cibiru.jalanPalasarihilis('jalanPalasarihilis')
+cibiru.jalanWisataCigagak('jalanWisataCigagak')
+cibiru.jalanImahNyai('jalanImahNyai')
+cibiru.jalanManglayangpark('jalanManglayangpark')
+cibiru.jalanPalasari('jalanPalasari')
+cibiru.jalanGanindojaya('jalanGanindojaya')
+cibiru.jalanCigagak('jalanCigagak')
+cibiru.jalanMayang1('jalanMayang1')
+cibiru.jalanMayang2('jalanMayang2')
+cibiru.close()
+####################################################
+#############          Selesai         #############
+####################################################
+
 #3B
 ####################################################
 #############   Faisal Najib Abdullah  #############

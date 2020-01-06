@@ -2,6 +2,8 @@
 #############          Quiz 3          #############
 ####################################################
 
+#############          3A              #############
+
 ####################################################
 ############# Kadek Diva Krishna Murti #############
 #############           Mulai          #############
@@ -37,6 +39,32 @@ andir.close()
 #############          Selesai         #############
 ####################################################
 
+####################################################
+#############   Harun Ar - Rasyid      #############
+#############           Mulai          #############
+####################################################
+import cidadap
+cidadap = cidadap.Cidadap()
+cidadap.kelledeng('Ledeng')
+cidadap.kelciumbuluit('Ciumbuluit')
+cidadap.kelhegarmanah('Hegarmanah')
+cidadap.kantorledeng('Kantor Kelurahan Ledeng')
+cidadap.kantorciumbuluit('Kantor Kelurahan Ciumbuluit')
+cidadap.kantorhegarmanah('Kantor Kelurahan Hegarmanah')
+cidadap.kantorcidadap('Kantor Kecamatan Cidadap')
+cidadap.jalansetiabudhi('Jl. Dr. Setiabudi')
+cidadap.jalanpanumbangjaya('Jl. Panumbang Jaya')
+cidadap.budiindahiii('Jl. Budi Indah III')
+cidadap.cipakuindahv('Jl. Cipaku indah V')
+cidadap.kiputihdalam('Jl. Kiputih Dalam')
+cidadap.dagogiri('Jl. Dago Giri')
+cidadap.citragreen('Jl. Citra Green')
+cidadap.close()
+####################################################
+#############          Selesai         #############
+####################################################
+
+#3B
 ####################################################
 #############   Faisal Najib Abdullah  #############
 #############           Mulai          #############

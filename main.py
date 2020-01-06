@@ -696,6 +696,90 @@ cimaung.close()
 
 #--------------------------    Batas    -------------------------#
 
+####################################################
+#############  D.Irga B. Naufal Fakhri #############
+#############           Mulai          #############
+####################################################
+import paseh
+
+# D.Irga B. Naufal Fakhri 1174066
+paseh = paseh.Paseh()
+
+# Kelurahan/Desa
+paseh.cigentur("Kelurahan Cigentur")
+paseh.cijagra("Kelurahan Cijagra")
+paseh.cipaku("Kelurahan Cipaku")
+paseh.cipedes("Kelurahan Cipedes")
+paseh.drawati("Kelurahan Drawati")
+paseh.karangtunggal("Kelurahan Karangtunggal")
+paseh.loa("Kelurahan Loa")
+paseh.mekarpawitan("Kelurahan Mekarpawitan")
+paseh.sindangsari("Kelurahan Sindangsari")
+paseh.sukamanah("Kelurahan Sukamanah")
+paseh.sukamantri("Kelurahan Sukamantri")
+paseh.tangsimekar("Kelurahan Tangsimekar")
+
+
+# Kantor Kelurahan/Desa
+paseh.kantorKelurahanCigentur("Kantor Kelurahan Cigentur")
+paseh.kantorKelurahanCijagra("Kantor Kelurahan Cijagra")
+paseh.kantorKelurahanCipaku("Kantor Kelurahan Cipaku")
+paseh.kantorKelurahanCipedes("Kantor Kelurahan Cipedes")
+paseh.kantorKelurahanDrawati("Kantor Kelurahan Drawati")
+paseh.kantorKelurahanKarangtunggal("Kantor Kelurahan Karangtunggal")
+paseh.kantorKelurahanLoa("Kantor Kelurahan Loa")
+paseh.kantorKelurahanMekarPawitan("Kantor Kelurahan Mekarpawitan")
+paseh.kantorKelurahanSindangsari("Kantor Kelurahan Sindangsari")
+paseh.kantorKelurahanSukamanah("Kantor Kelurahan Sukamanah")
+paseh.kantorKelurahanSukamantri("Kantor Kelurahan Sukamantri")
+paseh.kantorKelurahanTangsimekar("Kantor Kelurahan Tangsimekar")
+
+# Jalan
+paseh.jlCipaku("Jl. Cipaku")
+paseh.jlKadutan("Jl. Kadutan")
+paseh.jlCipakuLoa("Jl. Cipaku Loa")
+paseh.jlBatuJongkol("Jl. Batu Jongkol")
+paseh.jlKebonCau("Jl. Kebon Cau")
+paseh.jlKebonCau2("Jl. Kebon Cau")
+paseh.jlCijagra("Jl. Cijagra")
+paseh.jlRayaCilangkaMajalaya("Jl. Raya Cilangka - Majalaya")
+paseh.jlDangusBuut("Jl. Dangus Buut")
+paseh.jlSukasari("Jl. Suka Sari")
+paseh.jlPasirKijang("Jl. Pasir Kijang")
+paseh.jlDrawati("Jl. Drawati")
+paseh.jlLagokPago("Jl. Lagok Pago")
+paseh.jlCitayem("Jl. Citayem")
+paseh.jlBungkur("Jl. Bungkur")
+paseh.jlBungkur2("Jl. Bungkur")
+paseh.jlCibuan("Jl. Cibuan")
+paseh.jlCiletik("Jl. Ciletik")
+paseh.jlTanggengLekob("Jl. Tanggeng Lekob")
+paseh.jlCihampelas("Jl. Cihampelas")
+paseh.jlNeglesari("Jl. Neglesari")
+paseh.jlBarunai("Jl. Barunai")
+paseh.jlNeglesari2("Jl. Neglesari")
+paseh.jlSingaGelombang("Jl. Singa Gelomang")
+paseh.jlJatiSari("Jl. Jati Sati")
+paseh.jlPasirAyunan("Jl. Pasir Ayunan")
+paseh.jlPalajiwaSalayu("Jl. Pajaliwa Salayu")
+paseh.jlCurugDedes("Jl. Curug Dedes")
+paseh.jlSukarame("Jl. Sukaramae")
+paseh.jlMalang("Jl. Malang")
+paseh.jlTangsiMekar("Jl. Tangsi Mekar")
+paseh.jlTangsiMekar2("Jl. Tangsi Mekar")
+paseh.jlSalamanjah("Jl. Salamanjah")
+paseh.jlCurugDedes2("Jl. Curug Dedes")
+
+
+paseh.close()
+
+####################################################
+#############  D.Irga B. Naufal Fakhri #############
+#############          Selesai         #############
+####################################################
+
+#--------------------------    Batas    -------------------------#
+
 
 import ketiga
 import kedua

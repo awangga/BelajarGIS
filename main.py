@@ -104,7 +104,37 @@ sukajadi.close()
 #############          Selesai         #############
 ####################################################
 
-
+####################################################
+#############   Muh. Rifky Prananda    #############
+#############           Mulai          #############
+####################################################
+####################################################
+#############          Selesai         #############
+####################################################
+import BojongloaKaler
+BojongloaKaler = BojongloaKaler.Bojongloakaler()
+# Kelurahan
+BojongloaKaler.kelurahanBabakanAsih('Kelurahan Babakan Asih')
+BojongloaKaler.kelurahanJamika('Kelurahan Jamika')
+BojongloaKaler.kelurahanSukaAsih('Kelurahan Suka Asih')
+BojongloaKaler.kelurahanBabakanTarogong('Kelurahan Babakan Tarogong')
+BojongloaKaler.kelurahanKopo('Kelurahan Kopo')
+# Kantor Kelurahan
+BojongloaKaler.kantorKelurahanBabakanAsih('Kantor Kelurahan Babakan Asih')
+BojongloaKaler.kantorKelurahanJamika('Kantor Kelurahan Jamika')
+BojongloaKaler.kantorKelurahanSukaAsih('Kantor Kelurahan Suka Asih')
+BojongloaKaler.kantorKelurahanBabakanTarogong('Kantor Kelurahan Babakan Tarogong')
+BojongloaKaler.kantorKelurahanKopo('Kantor Kelurahan Kopo')
+# Jalan
+BojongloaKaler.jalanPeta('Jalan Peta')
+BojongloaKaler.jalanTerusanPasirKoja('Jalan Terusan Pasir Koja')
+BojongloaKaler.jalanPagarsih('Jalan Pagarsih')
+BojongloaKaler.jalanSoekarnoHatta('Jalan Soekarno Hatta')
+BojongloaKaler.jalanJamika('Jalan Jamika')
+BojongloaKaler.close()
+####################################################
+#############          Selesai         #############
+####################################################
 #3B
 ####################################################
 #############   Faisal Najib Abdullah  #############

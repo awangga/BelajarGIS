@@ -385,6 +385,42 @@ cibiru.close()
 #############          Selesai         #############
 ####################################################
 
+
+####################################################
+#############   Arjun Yuda Firwanda    #############
+#############           Mulai          #############
+####################################################
+
+import rancasari
+rancasari = rancasari.Rancasari()
+# Batas Kelurahan
+rancasari.kelurahanCipamokolan('Kelurahan Cipamokolan')
+rancasari.kelurahanDerwati('Kelurahan Derwati')
+rancasari.kelurahanManjahlega('Kelurahan Manjahlega')
+rancasari.kelurahanMekarjaya('Kelurahan Mekarjaya')
+
+# Kantor Kelurahan
+rancasari.kantorKelurahanCipamokolan('Kantor Kelurahan Cipamokolan')
+rancasari.kantorKelurahanDerwati('Kantor Kelurahan Derwati')
+rancasari.kantorKelurahanManjahlega('Kantor Kelurahan Manjahlega')
+rancasari.kantorKelurahanMekarjaya('Kantor Kelurahan Mekarjaya')
+
+# Kantor Kelurahan
+rancasari.kantorKecamatanRancasari('Kantor Kecamatan Rancasari')
+
+# Jalan
+rancasari.jalanBabakanKaret('Jalan Babakan Karet')
+rancasari.jalanCibogo('Jalan Cibogo')
+rancasari.jalanManjahlega('Jalan Manjahlega')
+rancasari.jalanBabakanWadana('Jalan Babakan Wadana')
+rancasari.jalanSoekarnoHatta('Jalan Soekarno Hatta')
+rancasari.jalanTolPurbaleunyi('Jalan Tol Purbaleunyi')
+rancasari.close()
+####################################################
+#############          Selesai         #############
+####################################################
+
+
 #3B
 ####################################################
 #############   Faisal Najib Abdullah  #############

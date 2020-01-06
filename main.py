@@ -941,6 +941,41 @@ kertasari.close()
 ##########           Selesai           #############
 ####################################################
 
+
+####################################################
+#############     Tia Nur Candida      #############
+#############           Mulai          #############
+####################################################
+
+import pameungpeuk
+pameungpeuk = pameungpeuk.Pameungpeuk()
+# Kelurahan
+pameungpeuk.kelurahanBojongkunci('Kelurahan Bojongkunci')
+pameungpeuk.kelurahanRancatungku('Kelurahan Rancatungku')
+pameungpeuk.kelurahanRancamulya('Kelurahan Rancamulya')
+pameungpeuk.kelurahanSukasari('Kelurahan Sukasari')
+pameungpeuk.kelurahanLangonsari('Kelurahan Langonsari')
+pameungpeuk.kelurahanBojongmanggu('KelurahanBojongmanggu')
+# Kantor Kelurahan
+pameungpeuk.kantorKelurahanBojongkunci('Kantor Kelurahan Bojongkunci')
+pameungpeuk.kantorKelurahanRancatungku('Kantor Kelurahan Ranctungku')
+pameungpeuk.kantorKelurahanRancamulya('Kantor Kelurahan Rancamulya')
+pameungpeuk.kantorKelurahanSukasari('Kantor Kelurahan Sukasari')
+pameungpeuk.kantorKelurahanLangonsari('Kantor Kelurahan Langonsari')
+pameungpeuk.kantorKelurahanBojongmanggu('Kantor Kelurahan Bojongmanggu')
+# Jalan
+pameungpeuk.jalanKelurahanBojongkunci('Jalan Kelurahan Bojongkunci')
+pameungpeuk.jalanKelurahanRancatungku('Jalan Kelurahan Rancatungku')
+pameungpeuk.jalanKelurahanRancamulya('Jalan Kelurahan Rancamulya')
+pameungpeuk.jalanKelurahanSukasari('Jalan Kelurahan Sukasari')
+pameungpeuk.jalanKelurahanLangonsari('Jalan Kelurahan Langonsari')
+pameungpeuk.jalanKelurahanBojongmanggu('Jalan Kelurahan Bojongmanggu')
+pameungpeuk.close()
+####################################################
+#############          Selesai         #############
+####################################################
+
+
 #--------------------------    Batas    -------------------------#
 
 

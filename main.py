@@ -11,6 +11,8 @@
 import sys
 sys.path.insert(0, 'pertama')
 sys.path.insert(0, 'kedua')
+sys.path.insert(0, 'ketiga')
+
 import andir
 andir = andir.Andir()
 # Kelurahan
@@ -94,6 +96,7 @@ najib.close()
 #############          Selesai         #############
 ####################################################
 
+<<<<<<< HEAD
 
 
 ##########################      KELAS C     #############################
@@ -144,6 +147,53 @@ baleendah.close()
 #############          Selesai         #############
 ####################################################
 
+=======
+########## ILHAM MUHAMMAD ARIQ 1174087 ###########
+import ibun
+ibun = ibun.Ibun()
+# Kelurahan
+ibun.kelurahanCibeet('Kelurahan Cibeet')
+ibun.kelurahanDukuh('Kelurahan Dukuh')
+ibun.kelurahanIbun('Kelurahan Ibun')
+ibun.kelurahanKaryalaksana('Kelurahan Karyalaksana')
+ibun.kelurahanLaksana('Kelurahan Laksana')
+ibun.kelurahanLampegan('Kelurahan Lampegan')
+ibun.kelurahanMekarwangi('Kelurahan Mekarwangi')
+ibun.kelurahanNeglasari('Kelurahan Neglasari')
+ibun.kelurahanPangguh('Kelurahan Pangguh')
+ibun.kelurahanSudi('Kelurahan Sudi')
+ibun.kelurahanTalun('Kelurahan Talun')
+ibun.kelurahanTanggulun('Kelurahan Tanggulun')
+
+# Jalan
+ibun.jalanKelurahanCibeet('Jalan Kelurahan Cibeet')
+ibun.jalanKelurahanDukuh('Jalan Kelurahan Dukuh')
+ibun.jalanKelurahanIbun('Jalan Kelurahan Ibun')
+ibun.jalanKelurahanKaryalaksana('Jalan Kelurahan Karyalaksana')
+ibun.jalanKelurahanLaksana('Jalan Kelurahan Laksana')
+ibun.jalanKelurahanLampegan('Jalan Kelurahan Lampegan')
+ibun.jalanKelurahanMekarwangi('Jalan Kelurahan Mekarwangi')
+ibun.jalanKelurahanNeglasari('Jalan Kelurahan Neglasari')
+ibun.jalanKelurahanPangguh('Jalan Kelurahan Pangguh')
+ibun.jalanKelurahanSudi('Jalan Kelurahan Sudi')
+ibun.jalanKelurahanTalun('Jalan Kelurahan Talun')
+ibun.jalanKelurahanTanggulun('Jalan Kelurahan Tanggulun')
+
+# Kantor
+ibun.kantorDesaCibeet('Kantor Desa Cibeet')
+ibun.kantorDesaDukuh('Kantor Desa Dukuh')
+ibun.kantorDesaIbun('Kantor Desa Ibun')
+ibun.kantorDesaKaryalaksana('Kantor Desa Karyalaksana')
+ibun.kantorDesaLaksana('Kantor Desa Laksana')
+ibun.kantorDesaLampegan('Kantor Desa Lampegan')
+ibun.kantorDesaMekarwangi('Kantor Desa Mekarwangi')
+ibun.kantorDesaNeglasari('Kantor Desa Neglasari')
+ibun.kantorDesaPangguh('Kantor Desa Pangguh')
+ibun.kantorDesaSudi('Kantor Desa Sudi')
+ibun.kantorDesaTalun('Kantor Desa Talun')
+ibun.kantorDesaTanggulun('Kantor Desa Tanggulun')
+ibun.close()
+########## 117408 ###########
 
 import ketiga
 import kedua

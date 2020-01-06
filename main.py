@@ -598,6 +598,48 @@ gununghalu.close()
 #############          Selesai         #############
 ####################################################
 
+####################################################
+#############   Alit Fajar Kurniawan   #############
+#############          Mulai           #############
+####################################################
+
+import Saguling
+
+# Alit Fajar Kurniawan - 1174057
+Saguling = Saguling.Saguling()
+
+# Kelurahan atau Desa
+Saguling.Saguling('Desa Saguling dan Bojongheulang')
+Saguling.Jati('Desa Jati')
+Saguling.Cipangeran('Desa Cipangeran')
+Saguling.Girimukti('Desa Girimukti')
+Saguling.Cikande('Desa Cikande')
+
+
+# Kantor Kelurahan
+Saguling.KantorKecSaguling('Kantor Kec Saguling')
+Saguling.KantorDesaCipangeran('Kantor Desa Cipangeran')
+Saguling.KantorDesaJati('Kantor Desa Jati')
+Saguling.KantorDesaSaguling('Kantor Desa Saguling')
+Saguling.KantorDesaCikande('Kantor Desa Cikande')
+
+# Jalan
+Saguling.jalanCiranjiHilir('Jl. Ciranji Hilir')
+Saguling.jalanLintasKecamatan('Jl. Lintas Kecamatan')
+Saguling.jalanRajaMandala('Jl. Raja Mandala')
+Saguling.jalanDamSaguling('Jl. Dam Saguling')
+Saguling.jalanMekarSari('Jl. MekarSari')
+Saguling.jalanBangkenangCiranjiTonggoh('Jl. Bangkenang Ciranji Tonggoh')
+Saguling.jalanCiheunyingCipenderHilir('Jl. Ciheunying Cipender Hilir')
+Saguling.jalanCisagu('Jl. Cisagu')
+Saguling.jalanDesaCiptaharja('Jl. Desa Ciptaharja')
+
+Saguling.close()
+
+####################################################
+#############          Selesai         #############
+####################################################
+
 ##########################      KELAS C     #############################
 
 ####################################################

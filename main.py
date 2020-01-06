@@ -144,6 +144,48 @@ baleendah.close()
 #############          Selesai         #############
 ####################################################
 
+####################################################
+############# Aulyardha Anindita 1174054 ###########
+#############           Mulai            ###########
+
+import cangkuang
+
+cangkuang = cangkuang.Cangkuang()
+
+#Kelurahan
+cangkuang.kelurahanBandasari('Kelurahan Bandasari')
+cangkuang.kelurahanCiluncat('Kelurahan Ciluncat')
+cangkuang.kelurahanJatisari('Kelurahan Jatisari')
+cangkuang.kelurahanNagrak('Kelurahan Nagrak')
+cangkuang.kelurahanPananjung('Kelurahan Pananjung')
+cangkuang.kelurahanTanjungsari('Kelurahan Tanjungsari')
+cangkuang.kelurahanCangkuang('Kelurahan Cangkuang')
+
+#Kantor
+cangkuang.kantorKecamatanCangkuang('Kantor Kecamatan Cangkuang')
+cangkuang.kantorKelurahanCangkuang('Kantor Kelurahan Cangkuang')
+cangkuang.kantorKelurahanTanjungsari('Kantor Kelurahan Tanjungsari')
+cangkuang.kantorKelurahanPananjung('Kantor Kelurahan Pananjung')
+cangkuang.kantorKelurahanBandasari('Kantor Kelurahan Bandasari')
+cangkuang.kantorKelurahanJatisari('Kantor Kelurahan Jatisari')
+cangkuang.kantorKelurahanNagrak('Kantor Kelurahan Nagrak')
+cangkuang.kantorKelurahanCiluncat('Kantor Kelurahan Ciluncat')
+
+#Jalan
+cangkuang.jalanKelurahanPananjung('Jalan Kelurahan Pananjung')
+cangkuang.jalanKelurahanBandasari('Jalan Kelurahan Bandasari')
+cangkuang.jalanKelurahanNagrak('Jalan Kelurahan Nagrak')
+cangkuang.jalanKelurahanJatisari('Jalan Kelurahan Jatisari')
+cangkuang.jalanKelurahanCiluncat('Jalan Kelurahan Ciluncat')
+cangkuang.jalanKelurahanCangkuang('Jalan Kelurahan Cangkuang')
+cangkuang.jalanKelurahanTanjungsari('Jalan Kelurahan Tanjungsari')
+
+cangkuang.close()
+
+####################################################
+#############    Aulyardha Anindita    #############
+#############          Selesai         #############
+####################################################
 
 import ketiga
 import kedua

@@ -240,6 +240,94 @@ kiaracondong.jalanHantapRaya('Jalan Hantap Raya')
 #############          Selesai         #############
 ####################################################
 
+####################################################
+############# Muhammad Tomy Nur Maulidy ############
+#############           Mulai          #############
+####################################################
+import sys
+sys.path.insert(0, 'pertama')
+import sumurbandung
+sumurbandung = sumurbandung.SumurBandung()
+# Kelurahan
+sumurbandung.kelurahanBabakanCiamis('Kelurahan Babakan Ciamis')
+sumurbandung.kelurahanBraga('Kelurahan Braga')
+sumurbandung.kelurahanKebonPisang('Kelurahan Kebon Pisang')
+sumurbandung.kelurahanMerdeka('Kelurahan Merdeka')
+# Kantor Kelurahan
+sumurbandung.kantorKelurahanBabakanCiamis('Kantor Kelurahan Babakan Ciamis')
+sumurbandung.kantorKelurahanBraga('Kantor Kelurahan Braga')
+sumurbandung.kantorKelurahanKebonPisang('Kantor Kelurahan Kebon Pisang')
+sumurbandung.kantorKelurahanMerdeka('Kantor Kelurahan Merdeka')
+# Jalan
+sumurbandung.jalanBraga('Jalan Braga')
+sumurbandung.jalanMerdeka('Jalan Merdeka')
+sumurbandung.jalanLembong('Jalan Lembong')
+sumurbandung.jalanVeteran('Jalan Veteran')
+sumurbandung.jalanSunda('Jalan Sunda')
+sumurbandung.jalanSumbawa('Jalan Sumbawa')
+sumurbandung.jalanAceh('Jalan Aceh')
+sumurbandung.jalanBabakanCiamis('Jalan Babakan Ciamis')
+sumurbandung.jalanKBJukut('Jalan KB Jukut')
+sumurbandung.jalanGangHRapli('Jalan Gang H Rapli')
+sumurbandung.jalanKebonSirih('Jalan Kebon Sirih')
+sumurbandung.jalanJalan('Jalan Jalan')
+sumurbandung.jalanLabas('Jalan Labas')
+sumurbandung.jalanPurnawarman('Jalan Purnawarman')
+sumurbandung.jalanSegitiga('Jalan Segitiga')
+sumurbandung.jalanSukamulya('Jalan Sukamulya')
+sumurbandung.jalanTembus('Jalan Tembus')
+sumurbandung.jalanKenari('Jalan Kenari')
+sumurbandung.jalanJawa('Jalan Jawa')
+sumurbandung.jalanKalimantan('Jalan Kalimantan')
+sumurbandung.jalanBelitung('Jalan Belitung')
+sumurbandung.jalanBanda('Jalan Banda')
+sumurbandung.jalanLombok('Jalan Lombok')
+sumurbandung.jalanBawean('Jalan Bawean')
+sumurbandung.jalanBangka('Jalan Bangka')
+sumurbandung.jalanGudangSelatan('Jalan Gudang Selatan')
+sumurbandung.jalanBali('Jalan Bali')
+sumurbandung.jalanGudangUtara('Jalan Gudang Utara')
+sumurbandung.jalanGandapura('Jalan Ganda Pura')
+sumurbandung.jalanTongkeng('Jalan Tongkeng')
+sumurbandung.jalanMenado('Jalan Menado')
+sumurbandung.jalanErmawar('Jalan Ermawar')
+sumurbandung.jalanPotrakomala('Jalan Potrakomala')
+sumurbandung.jalanAnggrek('Jalan Anggrek')
+sumurbandung.jalanKamuning('Jalan Kamuning')
+sumurbandung.jalanSoka('Jalan Soka')
+sumurbandung.jalanDahlia('Jalan Dahlia')
+sumurbandung.jalanPudak('Jalan Pudak')
+sumurbandung.jalanCulan('Jalan Culan')
+sumurbandung.jalanTongkeng2('Jalan Tongkeng2')
+sumurbandung.jalanPutraKomalaDalam('Jalan Putra Komala Dalam')
+sumurbandung.jalanSumarsana('Jalan Sumarsana')
+sumurbandung.jalanSrigading('Jalan Srigading')
+sumurbandung.jalanSumarsono('Jalan Sumarsono')
+sumurbandung.jalanVijayaKusuma('Jalan Vijaya Kusuma')
+sumurbandung.jalanAyamPenyet('Jalan Ayam Penyet')
+sumurbandung.jalanBaranangSiang('Jalan Baranang Siang')
+sumurbandung.jalanKartini('Jalan Kartini')
+sumurbandung.jalanNatuna('Jalan Natuna')
+sumurbandung.jalanRakata('Jalan Rakata')
+sumurbandung.jalanButon('Jalan Buton')
+sumurbandung.jalanVanDeventer('Jalan Van Deventer')
+sumurbandung.jalanPanaitan('Jalan Panaitan')
+sumurbandung.jalanCibunut('Jalan Cibunut')
+sumurbandung.jalanKosambi('Jalan Kosambi')
+sumurbandung.jalanAlani('Jalan Alani')
+sumurbandung.jalanGangAlani1('Jalan Gang Alani')
+sumurbandung.jalanABC('Jalan ABC')
+sumurbandung.jalanNaripan('Jalan Naripan')
+sumurbandung.jalanBenceuy('Jalan Benceuy')
+sumurbandung.jalanBelakangFactory('Jalan Belakang Factory')
+sumurbandung.jalanKejaksaan('Jalan Kejaksaan')
+sumurbandung.jalanSaad('Jalan Saad')
+sumurbandung.jalanEmbong('Jalan Embong')
+sumurbandung.close()
+####################################################
+#############          Selesai         #############
+####################################################
+
 #3B
 ####################################################
 #############   Faisal Najib Abdullah  #############
@@ -482,6 +570,8 @@ cimaung.jalanDesaSukamaju('Jalan Desa Sukamaju')
 cimaung.jalanDesaWarjabakti('Jalan Desa Warjabakti')
 
 cimaung.close()
+
+
 #--------------------------    Batas    -------------------------#
 
 

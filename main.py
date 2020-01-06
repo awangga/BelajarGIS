@@ -139,8 +139,8 @@ najib.close()
 #############   Luthfi Muhammad Nabil  #############
 #############           Mulai          #############
 ####################################################
-import ngamprah
 
+import ngamprah
 luthfi = ngamprah.Ngamprah()
 luthfi.KecamatanNgamprah('Kecamatan Ngamprah')
 luthfi.DesaNgamprah('Desa Ngamprah')

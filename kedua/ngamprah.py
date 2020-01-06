@@ -11,10 +11,9 @@ class Ngamprah:
         self.kantor_setempat.field('nama_kantor', 'C')
         self.jalanan = shapefile.Writer('ngamprah_jalanan', shapeType = shapefile.POLYLINE)
         self.jalanan.field('nama_jalanan', 'C')
-        print('called')
 
     def DesaNgamprah(self, label):
-        self.batas_wilayah.record('Desa Kecamatan')
+        self.batas_wilayah.record(label)
         self.batas_wilayah.poly([[
             [107.5228582,-6.8655126],
                 [107.5251327,-6.86449],
@@ -103,7 +102,7 @@ class Ngamprah:
                 [107.5228582,-6.8655126]
         ]])
     def DesaPakuhaji(self, label):
-        self.batas_wilayah.record('Desa Pakuhaji')
+        self.batas_wilayah.record(label)
         self.batas_wilayah.poly([[
             [107.5303683,-6.8546049],
                 [107.532085,-6.8532415],
@@ -146,7 +145,7 @@ class Ngamprah:
         ]])
 
     def DesaCilame(self, label):
-        self.batas_wilayah.record('Desa Cilame')
+        self.batas_wilayah.record(label)
         self.batas_wilayah.poly([[
             [107.5247035,-6.8563945],
                 [107.5256906,-6.8523467],
@@ -197,7 +196,7 @@ class Ngamprah:
         ]])
 
     def DesaCimanggu(self, label):
-        self.batas_wilayah.record('Desa Cimanggu')
+        self.batas_wilayah.record(label)
         self.batas_wilayah.poly([[
             [107.4916673,-6.824842],
             [107.4938989,-6.8220296],
@@ -279,7 +278,7 @@ class Ngamprah:
         ]])
     
     def DesaBojongKoneng(self, label):
-        self.batas_wilayah.record('Desa Bojong Koneng')
+        self.batas_wilayah.record(label)
         self.batas_wilayah.poly([[
             [107.5144983,-6.7932234],
                 [107.5127817,-6.7942461],
@@ -3700,3 +3699,7 @@ class Ngamprah:
             [107.51155,-6.85777],
             [107.51135,-6.85747],
             [107.51145,-6.8574]]])
+    def close(self):
+        self.batas_wilayah.close()
+        self.kantor_setempat.close()
+        self.jalanan.close()

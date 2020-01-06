@@ -135,7 +135,33 @@ najib.close()
 #############          Selesai         #############
 ####################################################
 
+####################################################
+#############   Luthfi Muhammad Nabil  #############
+#############           Mulai          #############
+####################################################
+import ngamprah
 
+luthfi = ngamprah.Ngamprah()
+luthfi.KecamatanNgamprah('Kecamatan Ngamprah')
+luthfi.DesaNgamprah('Desa Ngamprah')
+luthfi.DesaBojongKoneng('Desa Bojong Koneng')
+luthfi.DesaCilame('Desa Cilame')
+luthfi.DesaCimanggu('Desa Cimanggu')
+luthfi.DesaPakuhaji('Desa Pakuhaji')
+luthfi.DesaTanimulya('Desa Tanimulya')
+
+
+luthfi.KantorDesaBojongKoneng('Kantor Desa Bojong Koneng')
+luthfi.KantorDesaCilame('Kantor Desa Cilame')
+luthfi.KantorDesaCimanggu('Kantor Desa Cimanggu')
+luthfi.KantorDesaNgamprah('Kantor Desa Ngamprah')
+luthfi.KantorDesaTanimulya('Kantor Desa Tanimulya')
+luthfi.KantorDesaPakuhaji('Kantor Desa Pakuhaji')
+luthfi.JalananRaya()
+luthfi.close()
+####################################################
+#############          Selesai         #############
+####################################################
 
 ##########################      KELAS C     #############################
 

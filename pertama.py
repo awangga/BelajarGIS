@@ -10,92 +10,98 @@ class Pertama:
     #Harun Ar - Rasyid - 1174027
     def bauk(self, nama):
         self.pertama.record(nama)
-        self.pertama.poly([[[-4, 0], [2, 0], [2, 8], [-4, 8], [-4, 0]]])
+        self.pertama.poly([[[107.575807,-6.873297],[107.575712,-6.873282],[107.575703,-6.873356],[107.575799,-6.873359],[107.575807,-6.873297]]])
 
     #Harun Ar - Rasyid - 1174027
     def baak(self, nama):
         self.pertama.record(nama)
-        self.pertama.poly([[[2, 0], [13, 0], [13, 8], [2, 8], [2, 0]]])
+        self.pertama.poly([[[107.575799,-6.873359],[107.575703,-6.873356],[107.575681,-6.873551],[107.575770,-6.873563],[107.575799,-6.873359]]])
 
     #dzihan
     def ruang116(self, nama):
         self.pertama.record(nama)
-        self.pertama.poly([[[-16, 4], [-16, 8], [-9, 8], [-9, 4], [-16, 4]]])
+        self.pertama.poly([[[107.575714,-6.873283], [107.575727,-6.873227], [107.575669,-6.873219], [107.575660,-6.873273], [107.575714,-6.873283]]])
+
+    #Nico Ekklesia Sembiring - 1174096
+    def ruangan113(self, nama):
+        self.pertama.record(nama)
+        self.pertama.poly([[[107.575476, -6.873235], [107.575608, -6.873246], [107.575603, -6.873329], [107.575470, -6.873320], [107.575476, -6.873235]]])
 
     #Kadek Diva Krishna Murti - 1174006
     def ruangan111(self, nama):
         self.pertama.record(nama)
-        self.pertama.poly([[[-16, -28], [-16, -36], [-9, -36], [-9, -28], [-16, -28]]])
-    #Nico Ekklesia Sembiring - 1174096
-    def ruangan113(self, nama):
-        self.pertama.record(nama)
-        self.pertama.poly([[[-16, -20], [-16, -4], [-9, -4], [-9, -20], [-16, -20]]])
+        self.pertama.poly([[[107.575345, -6.873225], [107.575407, -6.873229], [107.57540, -6.873319], [107.5753382, -6.8733146], [107.575345, -6.873225]]])
     #Kadek Diva Krishna Murti - 1174006
     def wcBL(self, nama):
         self.pertama.record(nama)
-        self.pertama.poly([[[-16, -36], [-16, -40], [-9, -40], [-9, -36], [-16, -36]]])
+        self.pertama.poly([[[107.5753045, -6.8732222], [107.575345, -6.873225], [107.5753382, -6.8733146], [107.5752986, -6.8733113], [107.5753045, -6.8732222]]])
     #Kadek Diva Krishna Murti - 1174006
     def tanggaBL(self, nama):
         self.pertama.record(nama)
-        self.pertama.poly([[[-16, -40], [-16, -42], [-9, -42], [-9, -40], [-16, -40]]])
+        self.pertama.poly([[[107.5752819, -6.8732203], [107.5753045, -6.8732222], [107.5752986, -6.8733113], [107.5752767, -6.8733098], [107.5752819, -6.8732203]]])
     #Kadek Diva Krishna Murti - 1174006
     def gudangBL(self, nama):
         self.pertama.record(nama)
-        self.pertama.poly([[[-16, -42], [-16, -44], [-9, -44], [-9, -42], [-16, -42]]])
+        self.pertama.poly([[[107.5752576, -6.8732188], [107.5752819, -6.8732203], [107.5752767, -6.8733098], [107.5752512, -6.8733073], [107.5752576, -6.8732188]]])
     #Kadek Diva Krishna Murti - 1174006
     def haloPos(self, nama):
         self.pertama.record(nama)
-        self.pertama.poly([[[-4, -32], [-4, -40], [13, -40], [13, -32], [-4, -32]]])
+        self.pertama.poly([[[107.5752475, -6.8733551], [107.5753716, -6.8733654], [107.5753604, -6.8734993], [107.5752363, -6.8734896], [107.5752475, -6.8733551]]])
+		
     #Dwi Yulianingsih - 1174009
     def ruang117(self, nama):
         self.pertama.record(nama)
-        self.pertama.poly([[[-16, 8], [-16, 12], [-9, 12], [-9, 8], [-16, 8]]])
-    #dwisep
+        self.pertama.poly([[[107.5757276, -6.8732357], [107.5757198, -6.8733199], [107.5757700, -6.8733185], [107.5757828, -6.8732406], [107.5757276, -6.8732357]]])
+        
+    #Dwi Septiani Tsaniyah - 1174003
     def ruang115(self, nama):
         self.pertama.record(nama)
-        self.pertama.poly([[[-16, 0], [-16, 4], [-9, 4], [-9, 0], [-16, 0]]])
-        
+        self.pertama.poly([[[107.5756064, -6.8732302], [107.5755946, -6.8733002], [107.5756508, -6.8733111], [107.5756626, -6.8732342], [107.5756064, -6.8732302]]])
+           
     #habib
     def ruang103(self, nama):
         self.pertama.record(nama)
-        self.pertama.poly([[[18, 0], [18, 4], [25, 4], [25, 0], [18, 0]]])
+        self.pertama.poly([[[107.575659, -6.873549], [107.575623, -6.873544], [107.575618, -6.873617], [107.575656, -6.873618], [107.575659, -6.873549]]])
     
      #felix
     def ruang107(self, nama):
         self.pertama.record(nama)
-        self.pertama.poly([[[18, -16], [18, -12], [25, -12], [25, -16], [18, -16]]])
+        #
+        #self.pertama.poly([[[18, -16], [18, -12], [25, -12], [25, -16], [18, -16]]])
+        self.pertama.poly([[[107.575448, -6.873518], [107.575485, -6.873523], [107.575479, -6.873590], [107.575392, -6.873579], [107.575448, -6.873518]]])
 
     def ruang108(self, nama):
         self.pertama.record(nama)
-        self.pertama.poly([[[18, -16], [18, -24], [25, -24], [25, -16], [18, -16]]])
-
+        #self.pertama.poly([[[18, -16], [18, -24], [25, -24], [25, -16], [18, -16]]])
+        self.pertama.poly([[[107.575408, -6.873510], [107.575448, -6.873518], [107.575435, -6.873584], [107.575392, -6.873579], [107.575408, -6.873510]]])
+        
     #Evietania 1174051
     def gudangL(self, nama):
         self.pertama.record(nama)
-        self.pertama.poly([[[-16,14], [-16, 16], [-9, 16], [-9, 14], [-16,14]]])
+        self.pertama.poly([[[107.575854,-6.873303], [107.575831, -6.873297], [107.575840, -6.873223], [107.575867, -6.873229], [107.575854,-6.873303]]])
 
     def tanggaL(self, nama):
         self.pertama.record(nama)
-        self.pertama.poly([[[-16, 12], [-16, 14], [-9, 14], [-9, 12], [-16, 12]]])
+        self.pertama.poly([[[107.575831, -6.873297], [107.575840, -6.873223], [107.575822, -6.873223], [107.575808, -6.873297], [107.575831, -6.873297]]])
         
-     #Arjun Yuda Firwanda 1174008
+    #Arjun Yuda Firwanda 1174008
     def gudangR(self, nama):
         self.pertama.record(nama)
-        self.pertama.poly([[[18, 14], [18, 16], [25, 16], [25, 14], [18, 14]]])
+        self.pertama.poly([[[107.5757921,-6.8735487], [107.5757856,-6.8736337], [107.5757491,-6.8736308], [107.5757547,-6.8735455], [107.5757921,-6.8735487]]])
 
     def tanggaR(self, nama):
         self.pertama.record(nama)
-        self.pertama.poly([[[18, 12], [18, 14], [25, 14], [25, 12], [18, 12]]])
+        self.pertama.poly([[[107.5757547,-6.8735455], [107.5757491,-6.8736308], [107.5757185,-6.8736261], [107.5757218,-6.8735441], [107.5757547,-6.8735455]]])
         
     #Damara Benedikta 1174012
     def ruang102(self, nama):
         self.pertama.record(nama)
-        self.pertama.poly([[[18, 4], [18, 8], [25, 8], [25, 4], [18, 4]]])
+        self.pertama.poly([[[107.575706, -6.873555], [107.575663, -6.873547], [107.575656,-6.873617 ], [107.575694, -6.873621], [107.575706, -6.873555]]])
         
         # oni
     def ruang104(self, nama):
         self.pertama.record(nama)
-        self.pertama.poly([[[18, -4], [18, 0], [25, 0], [25, -4], [18, -4]]])
+        self.pertama.poly([[[107.575619,-6.873535], [107.575613,-6.873610], [107.575575,-6.873608], [107.575573,-6.873540], [107.575619,-6.873535]]])
         
         #Srir
     def ruang105(self, nama):
@@ -110,37 +116,37 @@ class Pertama:
         #Muhammad Tomy Nur Maulidy 1174031
     def ruang106(self, nama):
         self.pertama.record(nama)
-        self.pertama.poly([[[18, -12], [18, -8], [25, -8], [25, -12], [18, -12]]])
+        self.pertama.poly([[[107.575485, -6.873523], [107.5755327, -6.8735332], [107.5755284, -6.8736001], [107.575479, -6.873590],[107.575485, -6.873523]]])
         
         #Choirul Anam 1174004
     def ruang114(self, nama):
         self.pertama.record(nama)
-        self.pertama.poly([[[-16, -4], [-16, 0], [-9, 0], [-9, -4], [-16, -4]]])
+        self.pertama.poly([[[107.575561, -6.873189], [107.575607, -6.873195], [107.575590, -6.873262], [107.575540, -6.873255], [107.575561, -6.873189]]])
 
         #Muh. Rifky Prananda 1174017
     def ruang112(self, nama):
         self.pertama.record(nama)
-        self.pertama.poly([[[-16, -20], [-16, -28], [-9, -28], [-9, -20], [-16, -20]]])
+        self.pertama.poly([[[107.575407, -6.873229], [107.575476, -6.873235], [107.575470, -6.873320], [107.57540, -6.873319], [107.575407, -6.873229]]])
 
     #Muhammad Fahmi - 1174021
     def ruang109(self, nama):
         self.pertama.record(nama)
-        self.pertama.poly([[[18, -28], [18,-36], [25,-36], [25, -28], [18,-28]]])
+        self.pertama.poly([[[107.5753864, -6.8735276], [107.5753854, -6.8735992], [107.5753179, -6.8735945], [107.5753237, -6.8735176], [107.5753864, -6.8735276]]])
 
     #Muhammad Fahmi - 1174021
     def wcBL2(self, nama):
         self.pertama.record(nama)
-        self.pertama.poly([[[18, -36], [18, -40], [25, -40], [25, -36], [18, -36]]])
+        self.pertama.poly([[[107.5753237, -6.8735176], [107.5753179, -6.8735945], [107.5752824, -6.8735924], [107.5752876, -6.8735208], [107.5753237, -6.8735176]]])
 
     #Muhammad Fahmi - 1174021
     def tanggaBL2(self, nama):
         self.pertama.record(nama)
-        self.pertama.poly([[[18, -40], [18, -42], [25, -42], [25, -40], [18, -40]]])
+        self.pertama.poly([[[107.5752876, -6.8735208], [107.5752824, -6.8735924], [107.5752559, -6.8735910], [107.5752629, -6.8735275], [107.5752876, -6.8735208]]])
 
     #Muhammad Fahmi - 1174021
     def gudangBL2(self, nama):
         self.pertama.record(nama)
-        self.pertama.poly([[[18, -42], [18, -44], [25, -44], [25, -42], [18, -42]]])
+        self.pertama.poly([[[107.5752629, -6.8735275], [107.5752559, -6.8735910], [107.5752276, -6.8735853], [107.5752329, -6.8735267], [107.5752629, -6.8735275]]])
     
     def close(self):
         self.pertama.close()

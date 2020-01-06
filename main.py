@@ -1,3 +1,282 @@
+####################################################
+#############          Quiz 3          #############
+####################################################
+
+#############          3A              #############
+
+####################################################
+############# Kadek Diva Krishna Murti #############
+#############           Mulai          #############
+####################################################
+import sys
+sys.path.insert(0, 'pertama')
+sys.path.insert(0, 'kedua')
+sys.path.insert(0, 'ketiga')
+
+import andir
+andir = andir.Andir()
+# Kelurahan
+andir.kelurahanCampaka('Kelurahan Campaka')
+andir.kelurahanCiroyom('Kelurahan Ciroyom')
+andir.kelurahanDungusCariang('Kelurahan Dungus Cariang')
+andir.kelurahanGaruda('Kelurahan Garuda')
+andir.kelurahanKebonJeruk('Kelurahan Kebon Jeruk')
+andir.kelurahanMaleber('Kelurahan Maleber')
+# Kantor Kelurahan
+andir.kantorKelurahanCampaka('Kantor Kelurahan Campaka')
+andir.kantorKelurahanCiroyom('Kantor Kelurahan Ciroyom')
+andir.kantorKelurahanDungusCariang('Kantor Kelurahan Dungus Cariang')
+andir.kantorKelurahanGaruda('Kantor Kelurahan Garuda')
+andir.kantorKelurahanKebonJeruk('Kantor Kelurahan Kebon Jeruk')
+andir.kantorKelurahanMaleber('Kantor Kelurahan Maleber')
+# Jalan
+andir.jalanKelurahanCampaka('Jalan Kelurahan Campaka')
+andir.jalanKelurahanCiroyom('Jalan Kelurahan Ciroyom')
+andir.jalanKelurahanDungusCariang('Jalan Kelurahan Dungus Cariang')
+andir.jalanKelurahanGaruda('Jalan Kelurahan Garuda')
+andir.jalanKelurahanKebonJeruk('Jalan Kelurahan Kebon Jeruk')
+andir.jalanKelurahanMaleber('Jalan Kelurahan Maleber')
+andir.close()
+####################################################
+#############          Selesai         #############
+####################################################
+
+####################################################
+#############   Harun Ar - Rasyid      #############
+#############           Mulai          #############
+####################################################
+import cidadap
+cidadap = cidadap.Cidadap()
+cidadap.kelledeng('Ledeng')
+cidadap.kelciumbuluit('Ciumbuluit')
+cidadap.kelhegarmanah('Hegarmanah')
+cidadap.kantorledeng('Kantor Kelurahan Ledeng')
+cidadap.kantorciumbuluit('Kantor Kelurahan Ciumbuluit')
+cidadap.kantorhegarmanah('Kantor Kelurahan Hegarmanah')
+cidadap.kantorcidadap('Kantor Kecamatan Cidadap')
+cidadap.jalansetiabudhi('Jl. Dr. Setiabudi')
+cidadap.jalanpanumbangjaya('Jl. Panumbang Jaya')
+cidadap.budiindahiii('Jl. Budi Indah III')
+cidadap.cipakuindahv('Jl. Cipaku indah V')
+cidadap.kiputihdalam('Jl. Kiputih Dalam')
+cidadap.dagogiri('Jl. Dago Giri')
+cidadap.citragreen('Jl. Citra Green')
+cidadap.close()
+####################################################
+#############          Selesai         #############
+####################################################
+
+####################################################
+#############          Quiz 3          #############
+####################################################
+
+####################################################
+############# Nico Ekklesia Sembiring #############
+#############           Mulai          #############
+####################################################
+import sys
+sys.path.insert(0, 'pertama')
+import sukajadi
+sukajadi = sukajadi.Sukajadi()
+# Batas Kelurahan
+sukajadi.kelurahanPasteur('Kelurahan Pasteur')
+sukajadi.kelurahanCipedes('Kelurahan Cipedes')
+sukajadi.kelurahanSukabungah('Kelurahan Sukabungah')
+sukajadi.kelurahanSukagalih('Kelurahan Sukagalih')
+sukajadi.kelurahanSukawarna('Kelurahan Sukawarna')
+
+# Kantor Pemerintahan
+sukajadi.kantorKelurahanPasteur('Kantor Kelurahan Pasteur')
+sukajadi.kantorKelurahanCipedes('Kantor Kelurahan Cipedes')
+sukajadi.kantorKelurahanSukabungah('Kantor Kelurahan Sukabungah')
+sukajadi.kantorKelurahanSukagalih('Kantor Kelurahan Sukagalih')
+sukajadi.kantorKelurahanSukawarna('Kantor Kelurahan Sukawarna')
+sukajadi.kantorKecamatanSukajadi('Kantor Kecamatan Sukajadi')
+
+# Jalan
+sukajadi.jalanKelurahanPasteur('Jalan Kelurahan Pasteur')
+sukajadi.jalanKelurahanCipedes('Jalan Kelurahan Cipedes')
+sukajadi.jalanKelurahanSukabungah('Jalan Kelurahan Sukabungah')
+sukajadi.jalanKelurahanSukagalih('Jalan Kelurahan Sukagalih')
+sukajadi.jalanKelurahanSukawarna('Jalan Kelurahan Sukawarna')
+sukajadi.close()
+####################################################
+#############          Selesai         #############
+####################################################
+
+
+#3B
+####################################################
+#############   Faisal Najib Abdullah  #############
+#############           Mulai          #############
+####################################################
+import najib
+najib = najib.Najib()
+#Kelurahan
+najib.karyawangi('karyawangi')
+najib.Cihideung('Cihideung')
+najib.Sariwangi('Sariwangi')
+najib.Cihanjuangrahayu('Cihanjuangrahayu')
+najib.Cihanjuang('Cihanjuang')
+najib.Cigugurgirang('Cigugurgirang')
+najib.Ciwaruga('Ciwaruga')
+#Kantor
+najib.Kantorkaryawangi('karyawangi')
+najib.KantorCihideung('Cihideung')
+najib.KantorSariwangi('Sariwangi')
+najib.KantorCihanjuangrahayu('Cihanjuangrahayu')
+najib.KantorCihanjuang('Cihanjuang')
+najib.KantorCigugurgirang('Cigugurgirang')
+najib.KantorCiwaruga('Ciwaruga')
+#jalan
+najib.jalanParongpong("jalanParongpong")
+najib.close()
+####################################################
+#############          Selesai         #############
+####################################################
+
+
+
+##########################      KELAS C     #############################
+
+####################################################
+#############        Difa Al Fansha    #############
+#############           Mulai          #############
+####################################################
+sys.path.insert(0, 'ketiga')
+import baleendah
+
+# Difa Al Fansha 1174076
+baleendah = baleendah.Baleendah()
+
+# Kelurahan
+baleendah.andir('Kelurahan Andir')
+baleendah.baleendah('Kelurahan Baleendah')
+baleendah.bojongmalaka('Kelurahan Bojongmalaka')
+baleendah.jelekong('Kelurahan Jelekong')
+baleendah.malakasari('Kelurahan Malakasari')
+baleendah.manggahang('Kelurahan Manggahang')
+baleendah.rancamanyar('Kelurahan Rancamanyar')
+baleendah.wargamekar('Kelurahan Wargamekar')
+
+# Kantor Kelurahan
+baleendah.kantorKelurahanAndir('Kantor Kelurahan Andir')
+baleendah.kantorKelurahanBaleendah('Kantor Kelurahan Baleendah')
+baleendah.kantorKelurahanBojongmalaka('Kantor Kelurahan Bojongmalaka')
+baleendah.kantorKelurahanJelekong('Kantor Kelurahan Jelekong')
+baleendah.kantorKelurahanMalakasari('Kantor Kelurahan Malakasari')
+baleendah.kantorKelurahanManggahang('Kantor Kelurahan Manggahang')
+baleendah.kantorKelurahanRancamanyar('Kantor Kelurahan Rancamanyar')
+baleendah.kantorKelurahanWargamekar('Kantor Kelurahan Wargamekar')
+
+# Jalan
+baleendah.jlDayeuhKolotCiparay('Jl. Dayeuh Kolot Ciparay No.364, Wargamekar')
+baleendah.jlBanjaran('Jl. Raya banjaran no. 209 kel andir kec. Baleendah, Andir')
+baleendah.jlRayaLaswi('Jl. Raya Laswi No.190, Manggahang')
+baleendah.jlCiodeng('Jl. Ciodeng No.10, Andir')
+baleendah.jlRancamanyar('Jl. Rancamanyar No.21, Rancamanyar')
+baleendah.jlJatimekar('Jl. Jatimekar, Bojongmalaka')
+baleendah.jlPurawijaya('Jl. Purawijaya No.89, Bojongmalaka, Kec. Baleendah')
+
+baleendah.close()
+
+####################################################
+#############       Difa Al Fansha     #############
+#############          Selesai         #############
+####################################################
+
+
+####################################################
+############# Aulyardha Anindita 1174054 ###########
+#############           Mulai            ###########
+
+import cangkuang
+
+cangkuang = cangkuang.Cangkuang()
+
+#Kelurahan
+cangkuang.kelurahanBandasari('Kelurahan Bandasari')
+cangkuang.kelurahanCiluncat('Kelurahan Ciluncat')
+cangkuang.kelurahanJatisari('Kelurahan Jatisari')
+cangkuang.kelurahanNagrak('Kelurahan Nagrak')
+cangkuang.kelurahanPananjung('Kelurahan Pananjung')
+cangkuang.kelurahanTanjungsari('Kelurahan Tanjungsari')
+cangkuang.kelurahanCangkuang('Kelurahan Cangkuang')
+
+#Kantor
+cangkuang.kantorKecamatanCangkuang('Kantor Kecamatan Cangkuang')
+cangkuang.kantorKelurahanCangkuang('Kantor Kelurahan Cangkuang')
+cangkuang.kantorKelurahanTanjungsari('Kantor Kelurahan Tanjungsari')
+cangkuang.kantorKelurahanPananjung('Kantor Kelurahan Pananjung')
+cangkuang.kantorKelurahanBandasari('Kantor Kelurahan Bandasari')
+cangkuang.kantorKelurahanJatisari('Kantor Kelurahan Jatisari')
+cangkuang.kantorKelurahanNagrak('Kantor Kelurahan Nagrak')
+cangkuang.kantorKelurahanCiluncat('Kantor Kelurahan Ciluncat')
+
+#Jalan
+cangkuang.jalanKelurahanPananjung('Jalan Kelurahan Pananjung')
+cangkuang.jalanKelurahanBandasari('Jalan Kelurahan Bandasari')
+cangkuang.jalanKelurahanNagrak('Jalan Kelurahan Nagrak')
+cangkuang.jalanKelurahanJatisari('Jalan Kelurahan Jatisari')
+cangkuang.jalanKelurahanCiluncat('Jalan Kelurahan Ciluncat')
+cangkuang.jalanKelurahanCangkuang('Jalan Kelurahan Cangkuang')
+cangkuang.jalanKelurahanTanjungsari('Jalan Kelurahan Tanjungsari')
+
+cangkuang.close()
+
+####################################################
+#############    Aulyardha Anindita    #############
+#############          Selesai         #############
+####################################################
+
+
+########## ILHAM MUHAMMAD ARIQ 1174087 ###########
+import ibun
+ibun = ibun.Ibun()
+# Kelurahan
+ibun.kelurahanCibeet('Kelurahan Cibeet')
+ibun.kelurahanDukuh('Kelurahan Dukuh')
+ibun.kelurahanIbun('Kelurahan Ibun')
+ibun.kelurahanKaryalaksana('Kelurahan Karyalaksana')
+ibun.kelurahanLaksana('Kelurahan Laksana')
+ibun.kelurahanLampegan('Kelurahan Lampegan')
+ibun.kelurahanMekarwangi('Kelurahan Mekarwangi')
+ibun.kelurahanNeglasari('Kelurahan Neglasari')
+ibun.kelurahanPangguh('Kelurahan Pangguh')
+ibun.kelurahanSudi('Kelurahan Sudi')
+ibun.kelurahanTalun('Kelurahan Talun')
+ibun.kelurahanTanggulun('Kelurahan Tanggulun')
+
+# Jalan
+ibun.jalanKelurahanCibeet('Jalan Kelurahan Cibeet')
+ibun.jalanKelurahanDukuh('Jalan Kelurahan Dukuh')
+ibun.jalanKelurahanIbun('Jalan Kelurahan Ibun')
+ibun.jalanKelurahanKaryalaksana('Jalan Kelurahan Karyalaksana')
+ibun.jalanKelurahanLaksana('Jalan Kelurahan Laksana')
+ibun.jalanKelurahanLampegan('Jalan Kelurahan Lampegan')
+ibun.jalanKelurahanMekarwangi('Jalan Kelurahan Mekarwangi')
+ibun.jalanKelurahanNeglasari('Jalan Kelurahan Neglasari')
+ibun.jalanKelurahanPangguh('Jalan Kelurahan Pangguh')
+ibun.jalanKelurahanSudi('Jalan Kelurahan Sudi')
+ibun.jalanKelurahanTalun('Jalan Kelurahan Talun')
+ibun.jalanKelurahanTanggulun('Jalan Kelurahan Tanggulun')
+
+# Kantor
+ibun.kantorDesaCibeet('Kantor Desa Cibeet')
+ibun.kantorDesaDukuh('Kantor Desa Dukuh')
+ibun.kantorDesaIbun('Kantor Desa Ibun')
+ibun.kantorDesaKaryalaksana('Kantor Desa Karyalaksana')
+ibun.kantorDesaLaksana('Kantor Desa Laksana')
+ibun.kantorDesaLampegan('Kantor Desa Lampegan')
+ibun.kantorDesaMekarwangi('Kantor Desa Mekarwangi')
+ibun.kantorDesaNeglasari('Kantor Desa Neglasari')
+ibun.kantorDesaPangguh('Kantor Desa Pangguh')
+ibun.kantorDesaSudi('Kantor Desa Sudi')
+ibun.kantorDesaTalun('Kantor Desa Talun')
+ibun.kantorDesaTanggulun('Kantor Desa Tanggulun')
+ibun.close()
+########## 117408 ###########
+
 import ketiga
 import kedua
 import pertama

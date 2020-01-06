@@ -897,6 +897,50 @@ nagreg.close()
 ##########          Selesai            #############
 ####################################################
 
+####################################################
+######## Muhammad Reza Syachrani 1174084 ###########
+##########            Mulai            #############
+####################################################
+
+import kertasari
+
+# Muhammad Reza Syachrani 1174084
+kertasari = kertasari.Kertasari()
+
+# Kelurahan
+kertasari.kelurahanCibeureum('Kelurahan Cibeureum')
+kertasari.kelurahanCihawuk('Kelurahan Cihawuk')
+kertasari.kelurahanCikembang('Kelurahan Cikembang')
+kertasari.kelurahanNeglawangi('Kelurahan Neglawangi')
+kertasari.kelurahanSantosa('Kelurahan Santosa')
+kertasari.kelurahanSukapura('Kelurahan Sukapura')
+kertasari.kelurahanTarumajaya('Kelurahan Tarumajaya')
+
+# Kantor Kelurahan
+kertasari.kantorKelurahanCibeureum('Kantor Kelurahan Cibeureum')
+kertasari.kantorKelurahanCihawuk('Kantor Kelurahan Cihawuk')
+kertasari.kantorKelurahanCikembang('Kantor Kelurahan Cikembang')
+kertasari.kantorKelurahanNeglawangi('Kantor Kelurahan Neglawangi')
+kertasari.kantorKelurahanSantosa('Kantor kelurahan Santosa')
+kertasari.kantorKelurahanSukapura('Kantor kelurahan Sukapura')
+kertasari.kantorKelurahanTarumajaya('Kantor Kelurahan Tarumajaya')
+
+# Jalan
+kertasari.jalanKelurahanSukapura('Jalan Kelurahan Sukapura')
+kertasari.jalanKelurahanCihawuk('Jalan Kelurahan Cihawuk')
+kertasari.jalanKelurahanCikembang('Jalan Kelurahan Cikembang')
+kertasari.jalanKelurahanTarumajaya('Jalan Kelurahan Tarumajaya')
+kertasari.jalanKelurahanCibeureum('Jalan Kelurahan Cibeureum')
+kertasari.jalanKelurahanSantosa('Jalan Kelurahan Santosa')
+kertasari.jalanKelurahanNeglawangi('Jalan Kelurahan Neglawangi')
+
+kertasari.close()
+
+####################################################
+######## Muhammad Reza Syachrani 1174084 ###########
+##########           Selesai           #############
+####################################################
+
 #--------------------------    Batas    -------------------------#
 
 

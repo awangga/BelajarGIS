@@ -537,6 +537,25 @@ luthfi.close()
 #############          Selesai         #############
 ####################################################
 
+####################################################
+#############   Hagan Rowlenstino A. S.  #############
+#############           Mulai          #############
+####################################################
+import gununghalu
+
+gununghalu = gununghalu.Gununghalu()
+
+gununghalu.GunungHalu('Kelurahan Gunung Halu')
+gununghalu.Celak("Celak")
+gununghalu.Bunijaya("Bunijaya")
+gununghalu.Sindangjaya("Sindangjaya")
+gununghalu.Tamanjaya("Tamanjaya")
+gununghalu.close()
+
+####################################################
+#############          Selesai         #############
+####################################################
+
 ##########################      KELAS C     #############################
 
 ####################################################

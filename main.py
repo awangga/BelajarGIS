@@ -1067,6 +1067,48 @@ solokanJeruk.JlAnyar('Jl.Anyar')
 solokanJeruk.JlCitarikBaru('Jl.Citarik Baru')
 
 solokanJeruk.close()
+
+#---------------------   Mulai Quiz 3    ------------------------#
+#-------------------    Dini Permata Putri     -------------------#
+
+import ciwidey
+
+ciwidey = ciwidey.Ciwidey()
+
+# Kelurahan di Desa Ciwidey
+ciwidey.kelurahanLebakmuncang('Kelurahan Lebakmuncang')
+ciwidey.kelurahanNengkelan('Kelurahan Nengkelan')
+ciwidey.kelurahanPanundaan('Kelurahan Panundaan')
+ciwidey.kelurahanPanyocokan('Kelurahan Panyocokan')
+ciwidey.kelurahanRawabogo('Kelurahan RawaBogo')
+ciwidey.kelurahanSukawening('Kelurahan Sukawening')
+ciwidey.kelurahanCiwidey('Kelurahan Ciwidey')
+
+# Kantor Desa Ciwidey
+ciwidey.kantorDesaRawabogo('Kantor Desa RawaBogo')
+ciwidey.kantorDesaSukawening('kantor Desa Sukawening')
+ciwidey.kantorDesaLebakMuncang('Kantor Desa Lebakmuncang')
+ciwidey.kantorDesaPanyocokan('kantor Desa Panyocokan')
+ciwidey.kantorDesaNengkelan('kantor Desa Nengkelan')
+ciwidey.kantorDesaPanundaan('kantor Desa Panundaan')
+ciwidey.kantorDesaCiwidey('kantor Desa Ciwidey')
+
+# Jalan di Kecamatan SolokanJeruk
+ciwidey.jalanCiwidey('Jalan Ciwidey')
+ciwidey.jalanLebakmuncang('Jalan Lebakmuncang')
+ciwidey.jalanNengkelan('Jalan Nengkelan')
+ciwidey.jalanPanunadaan('Jalan Panundaan')
+ciwidey.jalanPanyocokan('Jalan Panyocokan')
+ciwidey.jalanRawaBogo('Jalan Rawa Bogo')
+ciwidey.jalanRawaBogo2('Jalan Rawa Bogo 2')
+ciwidey.jalanSukawening('Jalan Sukawening')
+
+ciwidey.close()
+
+####################################################
+#############  Dini Permata Putri      #############
+#############          Selesai         #############
+####################################################
 #--------------------------    Batas    -------------------------#
 
 

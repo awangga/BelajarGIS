@@ -448,8 +448,37 @@ Gedebage.jalanGedebage('Jalan Gedebage')
 Gedebage.jalanCimincrang('Jalan Cimincrang')
 Gedebage.jalanRancaNumpang('Jalan RancaNumpang')
 Gedebage.close()
+####################################################
+#############          Selesai         #############
+####################################################
 
+####################################################
+#############    Damara Benedikta     #############
+#############           Mulai          #############
+####################################################
+import buahbatu
+buahbatu = buahbatu.buahbatu()
+# Kelurahan
+buahbatu.kelurahanCijaura('Kelurahan Cijaura')
+buahbatu.Sekejati('Kelurahan Sekejati')
+buahbatu.KelurahanJatisari('Kelurahan Dungus Jatisari')
+buahbatu.kelurahanMargasari('Kelurahan Margasari')
+# Kantor Kelurahan
+buahbatu.kantorKelurahanCijawura('Kantor Kelurahan Cijawura')
+buahbatu.kantorKelurahanMergasari('Kantor Kelurahan Margasari')
+buahbatu.kantorKelurahanSekejati('Kantor Kelurahan Dungus Sekejati')
+buahbatu.kantorKelurahanJatisari('Kantor Kelurahan Jatisari')
+# Jalan
+buahbatu.jalanKelurahanCijawura('Jalan Kelurahan Cijawura')
+buahbatu.jalankencanaarum('Jalan Kencana Arum ')
+buahbatu.jalankewaluyanindah('Jalan Kewaluyan Indah')
+buahbatu.jalansanggarkencana('Jalan Sanggar Kencana')
 
+buahbatu.jalancijawura('Jalan Cijawura')
+buahbatu.close()
+####################################################
+#############          Selesai         #############
+####################################################
 #3B
 ####################################################
 #############   Faisal Najib Abdullah  #############

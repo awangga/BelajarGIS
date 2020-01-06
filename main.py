@@ -277,6 +277,53 @@ ibun.kantorDesaTanggulun('Kantor Desa Tanggulun')
 ibun.close()
 ########## 117408 ###########
 
+#------------------------    Quiz 3    --------------------------#
+#-------------------    Bakti Qilan Mufid     -------------------#
+import cimaung
+
+cimaung = cimaung.Cimaung()
+
+# Desa/Kelurahan di Kecamatan Cimaung
+cimaung.desaCampakamulya('Desa Campakamulya')
+cimaung.desaCikalong('Desa Cikalong')
+cimaung.desaCimaung('Desa Cimaung')
+cimaung.desaCipinang('Desa Cipinang')
+cimaung.desaJagabaya('Desa Jagabaya')
+cimaung.desaMalasari('Desa Malasari')
+cimaung.desaMekarsari('Desa Mekarsari')
+cimaung.desaPasirhuni('Desa Pasirhuni')
+cimaung.desaSukamaju('Desa Sukamaju')
+cimaung.desaWarjabakti('Desa Warjabakti')
+
+# Kantor Desa / Kelurahan di Kecamatan Cimaung
+cimaung.kantorDesaCampakamulya('Kantor Desa Campakamulya')
+cimaung.kantorDesaCikalong('Kantor Desa Cikalong')
+cimaung.kantorDesaCimaung('Kantor Desa Cimaung')
+cimaung.kantorDesaCipinang('Kantor Desa Cipinang')
+cimaung.kantorDesaJagabaya('Kantor Desa Jagabaya')
+cimaung.kantorDesaMalasari('Kantor Desa Malasari')
+cimaung.kantorDesaMekarsari('Kantor Desa Mekarsari')
+cimaung.kantorDesaPasirhuni('Kantor Desa Pasirhuni')
+cimaung.kantorDesaSukamaju('Kantor Desa Sukamaju')
+cimaung.kantorDesaWarjabakti('Kantor Desa Warjabakti')
+cimaung.kantorKecamatanCimaung('Kanto Kecamatan Cimaung')
+
+# Jalan di Kecamatan Cimaung
+cimaung.jalanDesaCampakamulya('Jalan Desa Campakamulya')
+cimaung.jalanDesaCikalong('Jalan Desa Cikalong')
+cimaung.jalanDesaCimaung('Jalan Desa Cimaung')
+cimaung.jalanDesaCipinang('Jalan Desa Cipinang')
+cimaung.jalanDesaJagabaya('Jalan Desa Jagabaya')
+cimaung.jalanDesaMalasari('Jalan Desa Malakasari')
+cimaung.jalanDesaMekarsari('Jalan Desa Mekarsari')
+cimaung.jalanDesaPasirhuni('Jalan Desa Pasirhuni')
+cimaung.jalanDesaSukamaju('Jalan Desa Sukamaju')
+cimaung.jalanDesaWarjabakti('Jalan Desa Warjabakti')
+
+cimaung.close()
+#--------------------------    Batas    -------------------------#
+
+
 import ketiga
 import kedua
 import pertama

@@ -199,6 +199,47 @@ BandungKidul.close()
 #############          Selesai         #############
 ####################################################
 
+####################################################
+#############      Dwi Yulianingsih    #############
+#############           Mulai          #############
+####################################################
+import sys
+sys.path.insert(0, 'pertama')
+import kiaracondong
+kiaracondong = kiaracondong.Kiaracondong()
+# Kelurahan
+kiaracondong.BabakanSurabaya('Babakan Surabaya')
+kiaracondong.BabakanSari('Babakan Sari')
+kiaracondong.KebonJayanti('Kebon Jayanti')
+kiaracondong.Sukapura('Sukapura')
+kiaracondong.KebonKangkung('Kebon Kangkung')
+kiaracondong.Cicaheum('Cicaheum')
+# Kantor Kelurahan
+kiaracondong.kantorBabakanSurabaya('Kantor Babakan Surabaya')
+kiaracondong.kantorBabakanSari('Kantor Babakan sari')
+kiaracondong.kantorCicaheum('Kantor Cicaheum')
+kiaracondong.kantorSukapura('Kantor Sukapura')
+kiaracondong.kantorKebonKangkung('Kantor Kebon Kangkung')
+kiaracondong.kantorKebonJayanti('Kantor Kebon Jayanti')
+kiaracondong.kantorKecamatanKiaracondong('Kantor Kecamatan Kiaracondong')
+
+# Jalan
+kiaracondong.jalanSekejati2('Jalan Sekejati II')
+kiaracondong.ggSukabakti1('Gang Sukabakti I')
+kiaracondong.jalanSulaksana('Jalan Sulaksana')
+kiaracondong.jalanAtlas('Jalan Atlas')
+kiaracondong.jalanKebonJayanti('Jalan Kebon Jayanti')
+kiaracondong.jalanSukamana('Jalan Sukamana')
+kiaracondong.jalanPindad('Jalan Pindad')
+kiaracondong.jalanAntapani('Jalan Antapani')
+kiaracondong.jalanSukanegala('Jalan Sukanegala')
+kiaracondong.jalanSulak('Jalan Sulak')
+kiaracondong.jalanHantapRaya('Jalan Hantap Raya')
+
+####################################################
+#############          Selesai         #############
+####################################################
+
 #3B
 ####################################################
 #############   Faisal Najib Abdullah  #############

@@ -975,8 +975,41 @@ pameungpeuk.close()
 #############          Selesai         #############
 ####################################################
 
+#---------------------   Mulai Quiz 3    ------------------------#
+#-------------------    Handi Hermawan     -------------------#
+import solokanJeruk
 
+solokanJeruk = solokanJeruk.SolokanJeruk()
+
+# Desa di kecamatan SolokanJeruk
+solokanJeruk.desaBojongemas('Desa Bojongemas')
+solokanJeruk.desaRancakasumba('Desa Rancakasumba')
+solokanJeruk.desaSolokanJeruk('Desa Solokan Jeruk')
+solokanJeruk.desaLangensari('Desa Langensari')
+solokanJeruk.desaCibodas('Desa Cibodas')
+solokanJeruk.desaPadamukti('Desa Padamukti')
+solokanJeruk.desaPanyadap('Desa Panyadap')
+
+# Kantor Desa di Kecamatan SolokanJeruk
+solokanJeruk.KantorDesaBojongemas('Kantor Desa Bojongemas')
+solokanJeruk.kantorDesaRancakasumba('kantor Desa Rancakasumba')
+solokanJeruk.kantorDesaSolokanJeruk('Kantor Desa Solokan Jeruk')
+solokanJeruk.kantorDesaLangensari('kantor Desa Langensari')
+solokanJeruk.kantorDesaCibodas('kantor Desa Cibodas')
+solokanJeruk.kantorDesaPadamukti('kantor Desa Padamukti')
+solokanJeruk.kantorDesaPanyadap('kantor Desa Panyadap')
+
+# Jalan di Kecamatan SolokanJeruk
+solokanJeruk.JlSastraSolokanJeruk('Jl.Sastra Solokan Jeruk')
+solokanJeruk.JlRayaSapan('Jl.Raya Sapan')
+solokanJeruk.JlAnyar('Jl.Anyar')
+solokanJeruk.JlCitarikBaru('Jl.Citarik Baru')
+
+solokanJeruk.close()
 #--------------------------    Batas    -------------------------#
+
+
+
 
 
 import ketiga

@@ -64,6 +64,45 @@ cidadap.close()
 #############          Selesai         #############
 ####################################################
 
+####################################################
+#############          Quiz 3          #############
+####################################################
+
+####################################################
+############# Nico Ekklesia Sembiring #############
+#############           Mulai          #############
+####################################################
+import sys
+sys.path.insert(0, 'pertama')
+import sukajadi
+sukajadi = sukajadi.Sukajadi()
+# Batas Kelurahan
+sukajadi.kelurahanPasteur('Kelurahan Pasteur')
+sukajadi.kelurahanCipedes('Kelurahan Cipedes')
+sukajadi.kelurahanSukabungah('Kelurahan Sukabungah')
+sukajadi.kelurahanSukagalih('Kelurahan Sukagalih')
+sukajadi.kelurahanSukawarna('Kelurahan Sukawarna')
+
+# Kantor Pemerintahan
+sukajadi.kantorKelurahanPasteur('Kantor Kelurahan Pasteur')
+sukajadi.kantorKelurahanCipedes('Kantor Kelurahan Cipedes')
+sukajadi.kantorKelurahanSukabungah('Kantor Kelurahan Sukabungah')
+sukajadi.kantorKelurahanSukagalih('Kantor Kelurahan Sukagalih')
+sukajadi.kantorKelurahanSukawarna('Kantor Kelurahan Sukawarna')
+sukajadi.kantorKecamatanSukajadi('Kantor Kecamatan Sukajadi')
+
+# Jalan
+sukajadi.jalanKelurahanPasteur('Jalan Kelurahan Pasteur')
+sukajadi.jalanKelurahanCipedes('Jalan Kelurahan Cipedes')
+sukajadi.jalanKelurahanSukabungah('Jalan Kelurahan Sukabungah')
+sukajadi.jalanKelurahanSukagalih('Jalan Kelurahan Sukagalih')
+sukajadi.jalanKelurahanSukawarna('Jalan Kelurahan Sukawarna')
+sukajadi.close()
+####################################################
+#############          Selesai         #############
+####################################################
+
+
 #3B
 ####################################################
 #############   Faisal Najib Abdullah  #############

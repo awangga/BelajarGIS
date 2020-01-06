@@ -66,6 +66,57 @@ najib.close()
 #############          Selesai         #############
 ####################################################
 
+
+
+##########################      KELAS C     #############################
+
+####################################################
+#############        Difa Al Fansha    #############
+#############           Mulai          #############
+####################################################
+sys.path.insert(0, 'ketiga')
+import baleendah
+
+# Difa Al Fansha 1174076
+baleendah = baleendah.Baleendah()
+
+# Kelurahan
+baleendah.andir('Kelurahan Andir')
+baleendah.baleendah('Kelurahan Baleendah')
+baleendah.bojongmalaka('Kelurahan Bojongmalaka')
+baleendah.jelekong('Kelurahan Jelekong')
+baleendah.malakasari('Kelurahan Malakasari')
+baleendah.manggahang('Kelurahan Manggahang')
+baleendah.rancamanyar('Kelurahan Rancamanyar')
+baleendah.wargamekar('Kelurahan Wargamekar')
+
+# Kantor Kelurahan
+baleendah.kantorKelurahanAndir('Kantor Kelurahan Andir')
+baleendah.kantorKelurahanBaleendah('Kantor Kelurahan Baleendah')
+baleendah.kantorKelurahanBojongmalaka('Kantor Kelurahan Bojongmalaka')
+baleendah.kantorKelurahanJelekong('Kantor Kelurahan Jelekong')
+baleendah.kantorKelurahanMalakasari('Kantor Kelurahan Malakasari')
+baleendah.kantorKelurahanManggahang('Kantor Kelurahan Manggahang')
+baleendah.kantorKelurahanRancamanyar('Kantor Kelurahan Rancamanyar')
+baleendah.kantorKelurahanWargamekar('Kantor Kelurahan Wargamekar')
+
+# Jalan
+baleendah.jlDayeuhKolotCiparay('Jl. Dayeuh Kolot Ciparay No.364, Wargamekar')
+baleendah.jlBanjaran('Jl. Raya banjaran no. 209 kel andir kec. Baleendah, Andir')
+baleendah.jlRayaLaswi('Jl. Raya Laswi No.190, Manggahang')
+baleendah.jlCiodeng('Jl. Ciodeng No.10, Andir')
+baleendah.jlRancamanyar('Jl. Rancamanyar No.21, Rancamanyar')
+baleendah.jlJatimekar('Jl. Jatimekar, Bojongmalaka')
+baleendah.jlPurawijaya('Jl. Purawijaya No.89, Bojongmalaka, Kec. Baleendah')
+
+baleendah.close()
+
+####################################################
+#############       Difa Al Fansha     #############
+#############          Selesai         #############
+####################################################
+
+
 import ketiga
 import kedua
 import pertama

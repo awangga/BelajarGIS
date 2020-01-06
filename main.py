@@ -137,7 +137,7 @@ BojongloaKaler.close()
 ####################################################
 
 ####################################################
-############# Kadek Diva Krishna Murti #############
+############# Felix Setiawan Lase      #############
 #############           Mulai          #############
 ####################################################
 import sys
@@ -165,6 +165,36 @@ batununggal.kantorKelurahanSamajo('Kantor Kelurahan Maleber')
 # Jalan
 batununggal.jalanKelurahanCampaka('Jalan Kelurahan Campaka')
 batununggal.close()
+####################################################
+#############          Selesai         #############
+####################################################
+
+####################################################
+#############    Habib Abdul Rasyid    #############
+#############           Mulai          #############
+####################################################
+import sys
+sys.path.insert(0, 'pertama')
+import BandungKidul
+BandungKidul = BandungKidul.BandungKidul()
+# Kelurahan
+BandungKidul.KelurahanWates('Kelurahan Wates')
+BandungKidul.kelurahanMengger('Kelurahan Mengger')
+BandungKidul.kelurahanBatununggal('Kelurahan Batununggal')
+BandungKidul.kelurahanKujangsari('Kelurahan Kujangsari')
+# Kantor Kelurahan
+BandungKidul.kantorKelurahanWates('Kantor Kelurahan Wates')
+BandungKidul.kantorKelurahanMengger('Kantor Kelurahan Mengger')
+BandungKidul.kantorKelurahanBatununggal('Kantor Kelurahan Batununggal')
+BandungKidul.kantorKelurahanKujangsari('Kantor Kelurahan Kujangsari')
+BandungKidul.kantorKecamatanBandungKidul('Kantor Kecamatan Bandung Kidul')
+
+# Jalan
+BandungKidul.jalanKelurahanWates('Jalan Kelurahan Wates')
+BandungKidul.jalanKelurahanMengger('Jalan Kelurahan Wates')
+BandungKidul.jalanKelurahanBatununggal('Jalan Kelurahan Wates')
+BandungKidul.jalanKelurahanKujangsari('Jalan Kelurahan Wates')
+BandungKidul.close()
 ####################################################
 #############          Selesai         #############
 ####################################################

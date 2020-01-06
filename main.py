@@ -420,6 +420,35 @@ rancasari.close()
 #############          Selesai         #############
 ####################################################
 
+####################################################
+#############          Selesai         #############
+####################################################
+
+####################################################
+#############       Choirul Anam       #############
+#############           Mulai          #############
+####################################################
+####################################################
+#############          Selesai         #############
+####################################################
+import Gedebage
+Gedebage = Gedebage.Gedebage()
+# Kelurahan
+Gedebage.kelurahanCimincrang('Kelurahan Cimincrang')
+Gedebage.kelurahanCisarantenKidul('Kelurahan Cisaranten Kidul')
+Gedebage.kelurahanRancaBolang('Kelurahan Rancabolang')
+Gedebage.kelurahanRancaNumpang('Kelurahan RancaNumpang')
+# Kantor Kelurahan
+Gedebage.kantorKelurahanCimincrang('Kantor Kelurahan Cimincrang')
+Gedebage.kantorKelurahanCisarantenKidul('Kantor Kelurahan Cisaranten Kidul')
+Gedebage.kantorKelurahanRancaBolang('Kantor Kelurahan Rancabolang')
+Gedebage.kantorKelurahanRancaNumpang('Kantor Kelurahan RancaNumpang')
+# Jalan
+Gedebage.jalanGedebage('Jalan Gedebage')
+Gedebage.jalanCimincrang('Jalan Cimincrang')
+Gedebage.jalanRancaNumpang('Jalan RancaNumpang')
+Gedebage.close()
+
 
 #3B
 ####################################################

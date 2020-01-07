@@ -1462,7 +1462,56 @@ margaasih.close()
 #############    Muhammad Abdul Gani Wijaya   #############
 #############             Selesai             #############
 ###########################################################
+
+####################################################
+############# Nurul Izza Hamka 1174062   ###########
+#############           Mulai            ###########
+
+import soreang
+soreang = soreang.Soreang()
+# Kelurahan
+soreang.kelurahanPamekaran('Kelurahan Pamekaran')
+soreang.kelurahanCingcin('Kelurahan Cingcin')
+soreang.kelurahanKaramatmulya('Kelurahan Karamatmulya')
+soreang.kelurahanSoreang('Kelurahan Soreang')
+soreang.kelurahanSukajadi('Kelurahan Sukajadi')
+soreang.kelurahanSukanagara('Kelurahan sukanagara')
+soreang.kelurahanPanyirapan('Kelurahan panyirapan')
+soreang.kelurahanSekarwangi('Kelurahan Sekarwangi')
+soreang.kelurahanParungserap('Kelurahan Parungserap')
+soreang.kelurahanSadu('Kelurahan Sadu')
+# Kantor Kelurahan
+soreang.kantorKelurahanPamekaran('Kantor Kelurahan Pamekaran')
+soreang.kantorKelurahanCingcin('Kantor Kelurahan Cincing')
+soreang.kantorKelurahanKaramatmulya('Kantor Kelurahan Karamatmulya')
+soreang.kantorKelurahanSoreang('Kantor Kelurahan Soreang')
+soreang.kantorKelurahanSukajadi('Kantor Kelurahan Sukajadi')
+soreang.kantorKelurahanSukanagara('Kantor Kelurahan Sukanagara')
+soreang.kantorKelurahanPanyirapan('Kantor Kelurahan Panyirapan')
+soreang.kantorKelurahanSekarwangi('Kantor Kelurahan Sekarwangi')
+soreang.kantorKelurahanParungserap('Kantor Kelurahan Parungserap')
+soreang.kantorKelurahanSadu('Kantor Kelurahan Sadu')
+# Jalan
+soreang.jalanKelurahanPamekaran('Jl.Pamekaran')
+soreang.jalanKelurahanCingcin('Jl.Cingcin')
+soreang.jalanKelurahanKaramatmulya('Jl.Karamatmulya')
+soreang.jalanKelurahanSoreang('Jn.Soreang')
+soreang.jalanKelurahanSukajadi('Jl.Sukajadi')
+soreang.jalanKelurahanSukanagara('Jl.Sukanagara')
+soreang.jalanKelurahanPanyirapan('Jl.Panyirapan')
+soreang.jalanKelurahanSekarwangi('Jl.Sekarwangi')
+soreang.jalanKelurahanParungserap('Jl.Parungserap')
+soreang.jalanKelurahanSadu('Jl.Sadu')
+
+
+soreang.close()
+
+####################################################
+############# Nurul Izza Hamka 1174062   ###########
+#############           SELESAI          ###########
+
 #--------------------------    Batas    -------------------------#
+
 
 
 

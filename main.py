@@ -170,6 +170,39 @@ batununggal.close()
 ####################################################
 
 ####################################################
+############# Muhammad Dzihan Al-Bana  #############
+#############           Mulai          #############
+####################################################
+
+import panyileukan2
+panyileukan = panyileukan2.Panyileukan()
+# Kelurahan
+panyileukan.kelurahanCipadungKidul('Kelurahan Cipadung Kidul')
+panyileukan.kelurahanCipadungWetan('Cipadung Wetan')
+panyileukan.kelurahanMekarMulya('Kelurahan Mekar Mulya')
+panyileukan.kelurahanCipadungKulon('Kelurahan Cipadung Kulon')
+#jalan
+panyileukan.jalanSindangSari('jalan sindang sari')
+panyileukan.jalanSukamaju('jalan sukamaju')
+panyileukan.jalanAHNasution('jalan AH Nasution')
+panyileukan.jalanMekarMulya('jalan Mekar Mulya')
+panyileukan.jalanPanghegar('jalan panghegar')
+panyileukan.jalanGempol('jalan gempol')
+panyileukan.jalanSoekarnoHatta('jalan soekarno hatta')
+panyileukan.jalanNasionalTiga('jalan nasional tiga')
+panyileukan.jalanCimincrang('jalan cimincrang')
+#kantor
+panyileukan.kantorKecamatanPanyileukan('kantor kecamatan panyileukan')
+panyileukan.kantorKelurahanCipadungKidul('kantor cipadung kidul')
+panyileukan.kantorKelurahanCipadungKulon('kantor cipadung kulon')
+panyileukan.kantorKelurahanCipadungWetan('kantor cipadung wetan')
+panyileukan.kantorKelurahanMekarMulya('kantor mekar mulya')
+panyileukan.close()
+####################################################
+#############          Selesai         #############
+####################################################
+
+####################################################
 #############    Habib Abdul Rasyid    #############
 #############           Mulai          #############
 ####################################################

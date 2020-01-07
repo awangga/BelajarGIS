@@ -512,6 +512,34 @@ buahbatu.close()
 ####################################################
 #############          Selesai         #############
 ####################################################
+
+
+####################################################
+############# Oniwaldus Bere Mali#############
+#############           Mulai          #############
+####################################################
+import wetan
+wetan = wetan.Wetan()
+# Batas Kelurahan
+wetan.kelurahanCihapit('Kelurahan Cihapit')
+wetan.kelurahanCitarum('Kelurahan Citarum')
+wetan.kelurahanTamanSari('Kelurahan TamanSari')
+
+
+# Kantor Pemerintahan
+wetan.kantorKelurahanCihapit('Kantor Kelurahan Cihapit')
+wetan.kantorKelurahanCitarum('Kantor Kelurahan Citarum')
+wetan.kantorKelurahanTamanSari('Kantor Kelurahan TamanSari')
+
+# Jalan
+wetan.jalanKelurahanCihapit('Jalan Kelurahan Cihapit')
+wetan.jalanKelurahanCitarum('Jalan Kelurahan Citarum')
+wetan.jalanKelurahanTamanSari('Jalan Kelurahan TamanSari')
+wetan.close()
+####################################################
+#############          Selesai         #############
+####################################################
+
 #3B
 ####################################################
 #############   Faisal Najib Abdullah  #############

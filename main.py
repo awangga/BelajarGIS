@@ -540,6 +540,33 @@ wetan.close()
 #############          Selesai         #############
 ####################################################
 
+####################################################
+#############   Evietania Charis S     #############
+#############           Mulai          #############
+####################################################
+import Lengkong
+lengkong = Lengkong.Lengkong()
+lengkong.kelurahanBurangrang('Kelurahan Burangrang')
+lengkong.kelurahanCijagra('Kelurahan Cijagra')
+lengkong.kelurahanCikawao('kelurahan Cikawao')
+lengkong.kelurahanPaledang('kelurahan Paledang')
+lengkong.kelurahanTurangga('kelurahanTurangga')
+lengkong.kelurahanLingkarSelatan('kelurahanLingkarSelatan')
+lengkong.kelurahanMalabar('kelurahanMalabar')
+lengkong.kantorBurangrang('kantor Kecamatan Burangrang')
+lengkong.kantorCijagra('kantor Kecamatan Cijagra')
+lengkong.kantorCikawao('kantor Kecamatan Cikawao')
+lengkong.kantorPaledang('kantor Kecamatan Paledang')
+lengkong.kantorTurangga('kantor Kecamatan Turangga')
+lengkong.kantorLingkarSelatan('kantor Kecamatan Lingkar Selatan')
+lengkong.kantorMalabar('kantor Kecamatan Malabar')
+lengkong.kantorKecamatanLengkong('kantor Kecamatan Lengkong')
+lengkong.jalanLengkong('jalan Lengkong')
+lengkong.close()
+####################################################
+#############          Selesai         #############
+####################################################
+
 #3B
 ####################################################
 #############   Faisal Najib Abdullah  #############

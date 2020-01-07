@@ -1356,6 +1356,36 @@ cilengkrang.close()
 
 ####################################################
 #############    Ainul Filiani    #############
+####################################################
+#############      Alvan Alvanzah      #############
+#############           Mulai          #############
+####################################################
+
+import dayeuhkolot
+dayeuhkolot = dayeuhkolot.Dayeuhkolot()
+# Kelurahan
+dayeuhkolot.kelurahanCangkuangWetan('Kelurahan Cangkuang Wetan')
+dayeuhkolot.kelurahanCangkuangKulon('Kelurahan Cangkuang Kulon')
+dayeuhkolot.kelurahanPasawahan('Kelurahan Pasawahan')
+dayeuhkolot.kelurahanCiteureup('Kelurahan Citeureup')
+dayeuhkolot.kelurahanSukapura('Kelurahan Sukapura')
+dayeuhkolot.kelurahanDayeuhkolot('Kelurahan Dayeuhkolot')
+# Kantor Kelurahan
+dayeuhkolot.kantorKelurahanCangkuangWetan('Kantor Kelurahan Cangkuang Wetan')
+dayeuhkolot.kantorKelurahanCangkuangKulon('Kantor Kelurahan Cangkuang Kulon')
+dayeuhkolot.kantorKelurahanPasawahan('Kantor Kelurahan Pasawahan')
+dayeuhkolot.kantorKelurahanCiteureup('Kantor Kelurahan Citeureup')
+dayeuhkolot.kantorKelurahanSukapura('Kantor Kelurahan Sukapura')
+dayeuhkolot.kantorKelurahanDayeuhkolot('Kantor Kelurahan Dayeuhkolot')
+# Jalan
+dayeuhkolot.jalanKelurahanCangkuangWetan('Jalan Kelurahan Cangkuang Wetan')
+dayeuhkolot.jalanKelurahanCangkuangKulon('Jalan Kelurahan Cangkuang Kulon')
+dayeuhkolot.jalanKelurahanPasawahan('Jalan Kelurahan Pasawahan')
+dayeuhkolot.jalanKelurahanSukapura('Jalan Kelurahan Sukapura')
+dayeuhkolot.jalanKelurahanCiteureup('Jalan Kelurahan Citeureup')
+dayeuhkolot.jalanKelurahanDayeuhkolot('Jalan Kelurahan Dayeuhkolot')
+dayeuhkolot.close()
+####################################################
 #############          Selesai         #############
 ####################################################
 #--------------------------    Batas    -------------------------#

@@ -1574,7 +1574,67 @@ sukasari.close()
 #############          Selesai         #############
 ####################################################
 
+####################################################
+##########    Kaka Kamaludin 1174067    ############
+##########            Mulai            #############
+####################################################
 
+import katapang
+
+katapang = katapang.katapang()
+
+# Desa
+katapang.banyusari('Desa Banyusari')
+katapang.cilampeni('Desa Cilampeni')
+katapang.gandasari('Desa Gandasari')
+katapang.pangauban('Desa Pangauban')
+katapang.sangkahurip('Desa Sangkahurip')
+katapang.sukamukti('Desa Sukamukti')
+
+# Kantor Desa
+katapang.kantorDesaBanyusari('Kantor Desa Banyusari')
+katapang.kantorDesaCilampeni('Kantor Desa Cilampeni')
+katapang.kantorDesaGandasari('Kantor Desa Gandasari')
+katapang.kantorDesaPangauban('Kantor Desa Pangauban')
+katapang.kantorDesaSangkahurip('Kantor Desa Sangkahurip')
+katapang.kantorDesaSukamukti('Kantor Desa BanyusariSukamukti')
+
+
+# Jalan
+katapang.jlJuntiGirang('Jl. Junti Girang')
+katapang.jlTerusanKopo('Jl. Terusan Kopo')
+katapang.jlInspeksiCitarum('Jl. Inspeksi Citarum')
+katapang.jlCilampeni('Jl. Cilampeni')
+katapang.jlCijagra('Jl. Cijagra')
+katapang.jlCilampeniNo15b('Jl. Cilampeni No.15b')
+katapang.jlBojongBuahRayaNo1('Jl. Bojong Buah Raya No.1')
+katapang.jlPasungKalerNo1('Jl. Pasung Kaler No.1')
+katapang.jlCipongporangNo150('Jl. Cipongporang No.150')
+katapang.jlGandasariNo2('Jl. Gandasari No.2')
+katapang.jlGandasariNo63('Jl. Gandasari No.63')
+katapang.jlMekarSari1('Jl. Mekar Sari 1(')
+katapang.jlSukaRamaiNo179('Jl. Suka Ramai No.179')
+katapang.jlSukarajin('Jl. Sukarajin')
+katapang.jlKatapangWetanNo16('Jl. Katapang Wetan No.16')
+katapang.jlInspeksiCitarumNo22('Jl. Inspeksi Citarum No.22')
+katapang.jlCikambuyHilirNo56('Jl. Cikambuy Hilir No.56')
+katapang.jlKatapangAndir('Jl. Katapang Andir')
+katapang.jlBojongTanjungNo33('Jl. Bojong Tanjung No.33')
+katapang.jlCikambuyHilirNo56('Jl. Cikambuy Hilir No.56')
+katapang.jlCikambuyHilirNo17('Jl. Cikambuy Hilir No.17')
+katapang.jlGandasoliCikambuyNo16('Jl. Gandasoli Cikambuy No.16')
+katapang.jlBojongKunciSukamuktiNo8('Jl. Bojong Kunci Sukamukti No.8')
+katapang.jlSukamanahCibogoNo1('Jl. Sukamanah Cibogo No.1')
+katapang.jlRancaKhasiatNo591('Jl. Ranca Khasiat No.591')
+katapang.jlKatapangAndirNo11('Jl. Katapan gAndir No.11')
+
+katapang.close()
+
+####################################################
+##########    Kaka Kamaludin 1174067    ############
+##########            Selesai            ###########
+####################################################
+#--------------------------    Batas    -------------------------#
 
 
 

@@ -540,6 +540,33 @@ wetan.close()
 #############          Selesai         #############
 ####################################################
 
+####################################################
+#############   Evietania Charis S     #############
+#############           Mulai          #############
+####################################################
+import Lengkong
+lengkong = Lengkong.Lengkong()
+lengkong.kelurahanBurangrang('Kelurahan Burangrang')
+lengkong.kelurahanCijagra('Kelurahan Cijagra')
+lengkong.kelurahanCikawao('kelurahan Cikawao')
+lengkong.kelurahanPaledang('kelurahan Paledang')
+lengkong.kelurahanTurangga('kelurahanTurangga')
+lengkong.kelurahanLingkarSelatan('kelurahanLingkarSelatan')
+lengkong.kelurahanMalabar('kelurahanMalabar')
+lengkong.kantorBurangrang('kantor Kecamatan Burangrang')
+lengkong.kantorCijagra('kantor Kecamatan Cijagra')
+lengkong.kantorCikawao('kantor Kecamatan Cikawao')
+lengkong.kantorPaledang('kantor Kecamatan Paledang')
+lengkong.kantorTurangga('kantor Kecamatan Turangga')
+lengkong.kantorLingkarSelatan('kantor Kecamatan Lingkar Selatan')
+lengkong.kantorMalabar('kantor Kecamatan Malabar')
+lengkong.kantorKecamatanLengkong('kantor Kecamatan Lengkong')
+lengkong.jalanLengkong('jalan Lengkong')
+lengkong.close()
+####################################################
+#############          Selesai         #############
+####################################################
+
 #3B
 ####################################################
 #############   Faisal Najib Abdullah  #############
@@ -1356,9 +1383,198 @@ cilengkrang.close()
 
 ####################################################
 #############    Ainul Filiani    #############
+####################################################
+#############      Alvan Alvanzah      #############
+#############           Mulai          #############
+####################################################
+
+import dayeuhkolot
+dayeuhkolot = dayeuhkolot.Dayeuhkolot()
+# Kelurahan
+dayeuhkolot.kelurahanCangkuangWetan('Kelurahan Cangkuang Wetan')
+dayeuhkolot.kelurahanCangkuangKulon('Kelurahan Cangkuang Kulon')
+dayeuhkolot.kelurahanPasawahan('Kelurahan Pasawahan')
+dayeuhkolot.kelurahanCiteureup('Kelurahan Citeureup')
+dayeuhkolot.kelurahanSukapura('Kelurahan Sukapura')
+dayeuhkolot.kelurahanDayeuhkolot('Kelurahan Dayeuhkolot')
+# Kantor Kelurahan
+dayeuhkolot.kantorKelurahanCangkuangWetan('Kantor Kelurahan Cangkuang Wetan')
+dayeuhkolot.kantorKelurahanCangkuangKulon('Kantor Kelurahan Cangkuang Kulon')
+dayeuhkolot.kantorKelurahanPasawahan('Kantor Kelurahan Pasawahan')
+dayeuhkolot.kantorKelurahanCiteureup('Kantor Kelurahan Citeureup')
+dayeuhkolot.kantorKelurahanSukapura('Kantor Kelurahan Sukapura')
+dayeuhkolot.kantorKelurahanDayeuhkolot('Kantor Kelurahan Dayeuhkolot')
+# Jalan
+dayeuhkolot.jalanKelurahanCangkuangWetan('Jalan Kelurahan Cangkuang Wetan')
+dayeuhkolot.jalanKelurahanCangkuangKulon('Jalan Kelurahan Cangkuang Kulon')
+dayeuhkolot.jalanKelurahanPasawahan('Jalan Kelurahan Pasawahan')
+dayeuhkolot.jalanKelurahanSukapura('Jalan Kelurahan Sukapura')
+dayeuhkolot.jalanKelurahanCiteureup('Jalan Kelurahan Citeureup')
+dayeuhkolot.jalanKelurahanDayeuhkolot('Jalan Kelurahan Dayeuhkolot')
+dayeuhkolot.close()
+####################################################
 #############          Selesai         #############
 ####################################################
+
+#---------------------   Mulai Quiz 3    ------------------------#
+#-------------------    Mochamad Arifqi Ramadhan     -------------------#
+import cileunyi
+cileunyi = cileunyi.Cileunyi()
+
+#Kelurahan
+cileunyi.desaCibiruHilir('kelurahan Cibiru Hilir')
+cileunyi.desaCileunyiWetan('kelurahan Cileunyi Wetan')
+cileunyi.desaCikemar('kelurahan Cikemar')
+cileunyi.desaCileunyi('kelurahan Cileunyi')
+cileunyi.desaCinunuk('kelurahan Cinunuk')
+
+#Kantor
+cileunyi.kantorDesaCikemar('Kantor Desa Cikemar')
+cileunyi.kantorDesaCileunyiKulon('Kantor Desa Cilunyi Kulon')
+cileunyi.kantorDesaCibiruWetan('Kantor Desa Ciiru Hilir')
+cileunyi.kantorDesaCinunuk('Kantor Desa Cinunuk')
+cileunyi.kantorKepalaDesaCileunyi('Kantor kepala Desa Cileunyi')
+       
+#Jalan
+cileunyi.RuteJalanSukarameRancaBangoNo75('jalan sukarame')
+cileunyi.RuteJalanCileunyi('jalan cileunyi')
+cileunyi.RuteJalanRayaCileunyiNo15('jalan raya cileunyi no.15')
+cileunyi.RuteJalanCikonengSatu('jalan cikoneng satu')
+cileunyi.RuteJalanCimincrang('jalan Cimincrang')
+cileunyi.RuteJalanRayaTagog('jalan raya tagog')
+cileunyi.RuteJalanSadangNo66Cinunuk('jalan Cinunuk')
+cileunyi.RuteJalanBayangkaraCibiruHilir('jalan Cibiru hilir')
+####################################################
+#############    Mochamad Arifqi Ramadhan    #############
+#############          Selesai         #############
+####################################################
+
+############################################################
+#############    Muhammad Abdul Gani Wijaya    #############
+#############               Mulai              #############
+############################################################
+import margaasih
+
+# Muhammad Abdul Gani Wijaya 1174071
+margaasih = margaasih.Margaasih()
+
+# Kelurahan di Kecamatan Margaasih
+margaasih.cigondewahHilir('Kelurahan Cigondewah Hilir')
+margaasih.lagadar('Kelurahan Lagadar')
+margaasih.margaasih('Kelurahan Margaasuh')
+margaasih.mekarRahayu('Kelurahan Mekar Rahayu')
+margaasih.nanjung('Kelurahan Nanjung')
+margaasih.rahayu('Kelurahan Rahayu')
+
+# Kantor Kelurahan di Kecamatan Margaasih
+margaasih.kantorKelurahanCigondewahHilir('Kantor Kelurahan Cigondewah Hilir')
+margaasih.kantorKelurahanLagadar('Kantor Kelurahan Lagadar')
+margaasih.kantorKelurahanMargaasih('Kantor Kelurahan Margaasih')
+margaasih.kantorKelurahanMekarRahayu('Kantor Kelurahan Mekar Rahayu')
+margaasih.kantorKelurahanNanjung('Kantor Kelurahan Nanjung')
+margaasih.kantorKelurahanRahayu('Kantor Kelurahan Rahayu')
+
+
+# Jalan Kelurahan di Kecamatan Margaasih
+margaasih.jlKelurahanCigondewahHilir('Jalan Di Kelurahan Cigondewah Hilir')
+margaasih.jlKelurahanLagadar('Jalan Di Kelurahan Lagadar')
+margaasih.jlKelurahanMargaasih('Jalan Di Kelurahan Margaasih')
+margaasih.jlKelurahanMekarRahayu('Jalan Di Kelurahan Mekar Rahayu')
+margaasih.jlKelurahanNanjung('Jalan Di Kelurahan Nanjung')
+margaasih.jlKelurahanRahayu('Jalan Di Kelurahan Rahayu')
+
+margaasih.close()
+
+###########################################################
+#############    Muhammad Abdul Gani Wijaya   #############
+#############             Selesai             #############
+###########################################################
+
+####################################################
+############# Nurul Izza Hamka 1174062   ###########
+#############           Mulai            ###########
+
+import soreang
+soreang = soreang.Soreang()
+# Kelurahan
+soreang.kelurahanPamekaran('Kelurahan Pamekaran')
+soreang.kelurahanCingcin('Kelurahan Cingcin')
+soreang.kelurahanKaramatmulya('Kelurahan Karamatmulya')
+soreang.kelurahanSoreang('Kelurahan Soreang')
+soreang.kelurahanSukajadi('Kelurahan Sukajadi')
+soreang.kelurahanSukanagara('Kelurahan sukanagara')
+soreang.kelurahanPanyirapan('Kelurahan panyirapan')
+soreang.kelurahanSekarwangi('Kelurahan Sekarwangi')
+soreang.kelurahanParungserap('Kelurahan Parungserap')
+soreang.kelurahanSadu('Kelurahan Sadu')
+# Kantor Kelurahan
+soreang.kantorKelurahanPamekaran('Kantor Kelurahan Pamekaran')
+soreang.kantorKelurahanCingcin('Kantor Kelurahan Cincing')
+soreang.kantorKelurahanKaramatmulya('Kantor Kelurahan Karamatmulya')
+soreang.kantorKelurahanSoreang('Kantor Kelurahan Soreang')
+soreang.kantorKelurahanSukajadi('Kantor Kelurahan Sukajadi')
+soreang.kantorKelurahanSukanagara('Kantor Kelurahan Sukanagara')
+soreang.kantorKelurahanPanyirapan('Kantor Kelurahan Panyirapan')
+soreang.kantorKelurahanSekarwangi('Kantor Kelurahan Sekarwangi')
+soreang.kantorKelurahanParungserap('Kantor Kelurahan Parungserap')
+soreang.kantorKelurahanSadu('Kantor Kelurahan Sadu')
+# Jalan
+soreang.jalanKelurahanPamekaran('Jl.Pamekaran')
+soreang.jalanKelurahanCingcin('Jl.Cingcin')
+soreang.jalanKelurahanKaramatmulya('Jl.Karamatmulya')
+soreang.jalanKelurahanSoreang('Jn.Soreang')
+soreang.jalanKelurahanSukajadi('Jl.Sukajadi')
+soreang.jalanKelurahanSukanagara('Jl.Sukanagara')
+soreang.jalanKelurahanPanyirapan('Jl.Panyirapan')
+soreang.jalanKelurahanSekarwangi('Jl.Sekarwangi')
+soreang.jalanKelurahanParungserap('Jl.Parungserap')
+soreang.jalanKelurahanSadu('Jl.Sadu')
+
+
+soreang.close()
+
+####################################################
+############# Nurul Izza Hamka 1174062   ###########
+#############           SELESAI          ###########
+
 #--------------------------    Batas    -------------------------#
+
+####################################################
+#############   Muhammad Fahmi    #############
+#############           Mulai          #############
+####################################################
+import sukasari
+sukasari = sukasari.Sukasari()
+
+#kelurahan di sukasari
+sukasari.kelsarijadi('Sarijadi')
+sukasari.kelgerlong('Gegerkalong')
+sukasari.kelisola('Isola')
+sukasari.kelsukarasa('Sukarasa')
+sukasari.kelsukarasa2('Sukarasa')
+
+#kantor di sukasari
+sukasari.kantorsarijadi('Kantor kelurahan Sarijadi')
+sukasari.kantorgerlong('Kantor kelurahan Gegerkalong')
+sukasari.kantorisola('Kantor Kelurahan Isola')
+sukasari.kantorsukarasa('Kantor Kelurahan Sukarasa')
+
+#jalan di sukasari
+sukasari.jalangerlonghilir('Jalan Gegerkalong Hilir')
+sukasari.jalansarirasa('Jalan Sarirasa')
+sukasari.jalansariasih('Jalan Sariasih')
+sukasari.jalansarijadiraya('Jalan Sarijadi Raya')
+sukasari.jalanprofsutami('Jalan Prof Dr.Sutami')
+sukasari.jalansukajadi('Jalan Sukajadi')
+sukasari.jalangerlonggirang('Jalan Gegerkalong Girang')
+sukasari.jalanpinusraya('Jalan Pinus Raya')
+
+sukasari.close()
+####################################################
+#############          Selesai         #############
+####################################################
+
+
 
 
 

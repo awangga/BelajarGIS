@@ -1388,6 +1388,40 @@ dayeuhkolot.close()
 ####################################################
 #############          Selesai         #############
 ####################################################
+
+#---------------------   Mulai Quiz 3    ------------------------#
+#-------------------    Mochamad Arifqi Ramadhan     -------------------#
+import cileunyi
+cileunyi = cileunyi.Cileunyi()
+
+#Kelurahan
+cileunyi.desaCibiruHilir('kelurahan Cibiru Hilir')
+cileunyi.desaCileunyiWetan('kelurahan Cileunyi Wetan')
+cileunyi.desaCikemar('kelurahan Cikemar')
+cileunyi.desaCileunyi('kelurahan Cileunyi')
+cileunyi.desaCinunuk('kelurahan Cinunuk')
+
+#Kantor
+cileunyi.kantorDesaCikemar('Kantor Desa Cikemar')
+cileunyi.kantorDesaCileunyiKulon('Kantor Desa Cilunyi Kulon')
+cileunyi.kantorDesaCibiruWetan('Kantor Desa Ciiru Hilir')
+cileunyi.kantorDesaCinunuk('Kantor Desa Cinunuk')
+cileunyi.kantorKepalaDesaCileunyi('Kantor kepala Desa Cileunyi')
+       
+#Jalan
+cileunyi.RuteJalanSukarameRancaBangoNo75('jalan sukarame')
+cileunyi.RuteJalanCileunyi('jalan cileunyi')
+cileunyi.RuteJalanRayaCileunyiNo15('jalan raya cileunyi no.15')
+cileunyi.RuteJalanCikonengSatu('jalan cikoneng satu')
+cileunyi.RuteJalanCimincrang('jalan Cimincrang')
+cileunyi.RuteJalanRayaTagog('jalan raya tagog')
+cileunyi.RuteJalanSadangNo66Cinunuk('jalan Cinunuk')
+cileunyi.RuteJalanBayangkaraCibiruHilir('jalan Cibiru hilir')
+####################################################
+#############    Mochamad Arifqi Ramadhan    #############
+#############          Selesai         #############
+####################################################
+
 #--------------------------    Batas    -------------------------#
 
 

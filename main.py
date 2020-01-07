@@ -1539,6 +1539,42 @@ soreang.close()
 
 #--------------------------    Batas    -------------------------#
 
+####################################################
+#############   Muhammad Fahmi    #############
+#############           Mulai          #############
+####################################################
+import sukasari
+sukasari = sukasari.Sukasari()
+
+#kelurahan di sukasari
+sukasari.kelsarijadi('Sarijadi')
+sukasari.kelgerlong('Gegerkalong')
+sukasari.kelisola('Isola')
+sukasari.kelsukarasa('Sukarasa')
+sukasari.kelsukarasa2('Sukarasa')
+
+#kantor di sukasari
+sukasari.kantorsarijadi('Kantor kelurahan Sarijadi')
+sukasari.kantorgerlong('Kantor kelurahan Gegerkalong')
+sukasari.kantorisola('Kantor Kelurahan Isola')
+sukasari.kantorsukarasa('Kantor Kelurahan Sukarasa')
+
+#jalan di sukasari
+sukasari.jalangerlonghilir('Jalan Gegerkalong Hilir')
+sukasari.jalansarirasa('Jalan Sarirasa')
+sukasari.jalansariasih('Jalan Sariasih')
+sukasari.jalansarijadiraya('Jalan Sarijadi Raya')
+sukasari.jalanprofsutami('Jalan Prof Dr.Sutami')
+sukasari.jalansukajadi('Jalan Sukajadi')
+sukasari.jalangerlonggirang('Jalan Gegerkalong Girang')
+sukasari.jalanpinusraya('Jalan Pinus Raya')
+
+sukasari.close()
+####################################################
+#############          Selesai         #############
+####################################################
+
+
 
 
 

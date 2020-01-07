@@ -673,6 +673,69 @@ Saguling.close()
 #############          Selesai         #############
 ####################################################
 
+####################################################
+######## Dika Sukma Pradana 1174050 ###########
+##########            Mulai            #############
+####################################################
+
+import Sindangkerta
+
+# Dika Sukma Pradana 1174050
+Sindangkerta = Sindangkerta.Sindangkerta()
+
+# Kelurahan
+Sindangkerta.Buninagara('Kantor Desa Buniagara')
+Sindangkerta.Cikadung('Kantor Desa Cikadung')
+Sindangkerta.Pasirpogor('Kantor Desa Pasirpogor')
+Sindangkerta.Cicangkang('Kantor Desa Cicangkanggirang')
+Sindangkerta.Puncaksari('Kantor Desa Puncaksari')
+Sindangkerta.Weninggalih('Kantor Desa Weninggalih')
+Sindangkerta.Weninggalih2('Kantor Desa Weninggalih2')
+Sindangkerta.RancaSenggang('Kantor Desa RancaSenggang')
+Sindangkerta.Wangunsari('Kantor Desa Wangunsari')
+Sindangkerta.Sindangkertaa('Kantor Desa Sindangkerta')
+Sindangkerta.Cintakarya('Kantor Desa Cintakarya')
+Sindangkerta.Mekarwangi('Kantor Desa Mekarwangi')
+
+# Kantor Kelurahan
+Sindangkerta.KantorKecSindangkerta
+Sindangkerta.KantorCikadu('Kantor Desa Cikadung')
+Sindangkerta.KantorCintakarya('Kantor Desa Cintakarya')
+Sindangkerta.KantorPuncaksari('Kantor Desa Puncaksari')
+Sindangkerta.KantorPasirpogor('Kantor Desa Pasirpogor')
+Sindangkerta.KantorWeninggali('Kantor Desa Weninggalih')
+Sindangkerta.KantorRancaSenggang('Kantor Desa RancaSenggang')
+Sindangkerta.KantorWangunsari('Kantor Desa Wangunsari')
+Sindangkerta.KantorBuninagara('Kantor Desa Buniagara')
+Sindangkerta.KantorMekarwangi('Kantor Desa Mekarwangi')
+Sindangkerta.KantorSindangkerta('Kantor Desa Sindangkerta')
+Sindangkerta.KantorCicangkanggirang('Kantor Desa Cicangkanggirang')
+
+# Jalan
+Sindangkerta.jalansukamanah('Jalan Sukmanah')
+Sindangkerta.jalancijenuk('Jalan Cijenuk')
+Sindangkerta.jalancililin('Jalan Cililin')
+Sindangkerta.jalancijambe('Jalan Cijambe')
+Sindangkerta.jalancimangtar('Jalan Cimangatar')
+Sindangkerta.jalansindangkertaraya('Jalan Sindang Kerta Raya')
+Sindangkerta.jalanbonceret('Jalan Bonceret')
+Sindangkerta.jalansindangkerta('Jalan Sindang Kerta')
+Sindangkerta.jalanciburuy('Jalan Ciburuy')
+Sindangkerta.jalanpasir('Jalan Pasir')
+Sindangkerta.jalanpasirjaya('Jalan Pasir Jaya')
+Sindangkerta.jalanlebakmuncang('Jalan Lebak Muncang')
+Sindangkerta.jalankatulampah('Jalan Katu Lampah')
+Sindangkerta.jalancalak('Jalan Calak')
+Sindangkerta.jalanrancasenggang('Jalan Ranca Senggang')
+
+Sindangkerta.close()
+
+####################################################
+######## Dika Sukma Pradana 1174050 ###########
+##########           Selesai           #############
+####################################################
+
+
 ##########################      KELAS C     #############################
 
 ####################################################

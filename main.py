@@ -1253,6 +1253,43 @@ cimenyan.close()
 ####################################################
 #############          Selesai         #############
 ####################################################
+####################################################
+############# Ainul Filiani 1174073 ###########
+#############           Mulai            ###########
+
+import cilengkrang
+
+cilengkrang = cilengkrang.Cilengkrang()
+
+#Kelurahan
+cilengkrang.girimekar('Kelurahan girimekar')
+cilengkrang.cilengkrang('Kelurahan Cilengkrang')
+cilengkrang.cipanjalu('Kelurahan cipanjalu')
+cilengkrang.jatiendah('Kelurahan jatiendah')
+cilengkrang.ciporeat('Kelurahan ciporeat')
+cilengkrang.melatiwangi('Kelurahan melatiwangi')
+
+#Kantor
+cilengkrang.kantorKelurahangirimekar('Kantor Kelurahan Girimekar')
+cilengkrang.kantorKelurahancilengkrang('Kantor Kelurahan Cilengkrang')
+cilengkrang.kantorKelurahancipanjalu('Kantor Kelurahan Cipanjalu')
+cilengkrang.kantorKelurahanjatiendah('Kantor Kelurahan Jatiendah')
+cilengkrang.kantorKelurahanciporeat('Kantor Kelurahan Ciporeat')
+cilengkrang.kantorKelurahanmelatiwangi('Kantor Kelurahan Melatiwangi')
+
+cilengkrang.JalanKelurahangirimekar('Jalan Kelurahan Girimekar')
+cilengkrang.JalanKelurahancilengkrang('Jalan Kelurahan Cilengkrang')
+cilengkrang.JalanKelurahancipanjalu('Jalan Kelurahan Cipanjalu')
+cilengkrang.JalanKelurahanjatiendah('Jalan Kelurahan Jatiendah')
+cilengkrang.JalanKelurahanciporeat('Jalan Kelurahan Ciporeat')
+cilengkrang.JalanKelurahanmelatiwangi('Jalan Kelurahan Melatiwangi')
+
+cilengkrang.close()
+
+####################################################
+#############    Ainul Filiani    #############
+#############          Selesai         #############
+####################################################
 #--------------------------    Batas    -------------------------#
 
 

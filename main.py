@@ -1422,6 +1422,46 @@ cileunyi.RuteJalanBayangkaraCibiruHilir('jalan Cibiru hilir')
 #############          Selesai         #############
 ####################################################
 
+############################################################
+#############    Muhammad Abdul Gani Wijaya    #############
+#############               Mulai              #############
+############################################################
+import margaasih
+
+# Muhammad Abdul Gani Wijaya 1174071
+margaasih = margaasih.Margaasih()
+
+# Kelurahan di Kecamatan Margaasih
+margaasih.cigondewahHilir('Kelurahan Cigondewah Hilir')
+margaasih.lagadar('Kelurahan Lagadar')
+margaasih.margaasih('Kelurahan Margaasuh')
+margaasih.mekarRahayu('Kelurahan Mekar Rahayu')
+margaasih.nanjung('Kelurahan Nanjung')
+margaasih.rahayu('Kelurahan Rahayu')
+
+# Kantor Kelurahan di Kecamatan Margaasih
+margaasih.kantorKelurahanCigondewahHilir('Kantor Kelurahan Cigondewah Hilir')
+margaasih.kantorKelurahanLagadar('Kantor Kelurahan Lagadar')
+margaasih.kantorKelurahanMargaasih('Kantor Kelurahan Margaasih')
+margaasih.kantorKelurahanMekarRahayu('Kantor Kelurahan Mekar Rahayu')
+margaasih.kantorKelurahanNanjung('Kantor Kelurahan Nanjung')
+margaasih.kantorKelurahanRahayu('Kantor Kelurahan Rahayu')
+
+
+# Jalan Kelurahan di Kecamatan Margaasih
+margaasih.jlKelurahanCigondewahHilir('Jalan Di Kelurahan Cigondewah Hilir')
+margaasih.jlKelurahanLagadar('Jalan Di Kelurahan Lagadar')
+margaasih.jlKelurahanMargaasih('Jalan Di Kelurahan Margaasih')
+margaasih.jlKelurahanMekarRahayu('Jalan Di Kelurahan Mekar Rahayu')
+margaasih.jlKelurahanNanjung('Jalan Di Kelurahan Nanjung')
+margaasih.jlKelurahanRahayu('Jalan Di Kelurahan Rahayu')
+
+margaasih.close()
+
+###########################################################
+#############    Muhammad Abdul Gani Wijaya   #############
+#############             Selesai             #############
+###########################################################
 #--------------------------    Batas    -------------------------#
 
 

@@ -42,6 +42,106 @@ andir.close()
 ####################################################
 
 ####################################################
+############# Dwi Septiani Tsaniyah    #############
+#############           Mulai          #############
+####################################################
+import sys
+sys.path.insert(0, 'pertama')
+import regolbandung
+regolbandung = regolbandung.Regol()
+# Batas Kelurahan
+regolbandung.kelurahanCiateul('Kelurahan Ciateul')
+regolbandung.kelurahanAncol('Kelurahan Ancol')
+regolbandung.kelurahanBalonggede('Kelurahan Balonggede')
+regolbandung.kelurahanCigelereng('Kelurahan Cigelereng')
+regolbandung.kelurahanCisereuh('Kelurahan Cisereuh')
+regolbandung.kelurahanPungkur('Kelurahan Pungkur')
+regolbandung.kelurahanPasirluyu('Kelurahan Pasirluyu')
+
+# Kantor Pemerintahan
+regolbandung.KantorKelurahanCiateul('Kantor Kelurahan Ciateul')
+regolbandung.KantorKelurahanAncol('Kantor Kelurahan Ancol')
+regolbandung.KantorKelurahanBalonggede('Kantor Kelurahan Balonggede')
+regolbandung.KantorKelurahanCigelereng('Kantor Kelurahan Cigelereng')
+regolbandung.KantorKelurahanCisereuh('Kantor Kelurahan Cisereuh')
+regolbandung.KantorKelurahanPungkur('Kantor Kelurahan Pungkur')
+regolbandung.KantorKelurahanPasirluyu('Kantor Kelurahan Pasirluyu')
+
+# Jalan
+regolbandung.jalanAsiaAfrika('Jalan Asia Afrika')
+regolbandung.jalanSukarta('Jalan Sukarta')
+regolbandung.jalanLengensari('Jalan Lengensari')
+regolbandung.jalanPLN('Jalan PLN')
+regolbandung.jalanKaumDalem('Jalan Kaum Dalem')
+regolbandung.jalanSasakGantung('Jalan Sasak Gantung')
+regolbandung.jalanPartadisastra('Jalan Partadisastra')
+regolbandung.jalanKembarMas4('Jalan Kembar 4')
+regolbandung.jalanMohHatta('Jalan Moh.Hatta')
+regolbandung.jalanYuda('Jalan Yuda')
+regolbandung.jalanAncol('Jalan Ancol')
+regolbandung.jalanAncolTengah('Jalan Ancol Tengah')
+regolbandung.jalanBKR('Jalan BKR')
+regolbandung.jalanPasirluyuBarat('Jalan Pasirluyu Barat')
+regolbandung.jalanKembarMasSelatan('Jalan Mas Selatan')
+regolbandung.jalanKembarMas1('Jalan Kembar Mas 1')
+regolbandung.jalanKembarMas2('Jalan Kembar Mas 2')
+regolbandung.jalanKembarMas3('Jalan Kembar Mas3')
+regolbandung.jalanKembarMas4('Jalan Kembar Mas 4')
+regolbandung.jalanKembarMasUtara('Jalan Kembar Mas Utara')
+regolbandung.jalanPasirluyuSelatan('Jalan Pasirluyu Selatan')
+regolbandung.jalanSukaati5('Jalan Sukaati 5')
+regolbandung.jalanSukaati('Jalan Sukaati')
+regolbandung.jalanKembar2('Jalan Kembar 2')
+regolbandung.jalanKembarIndah('Jalan Kembar Indah')
+regolbandung.jalanKembar1('Jalan Kembar 1')
+regolbandung.jalanKembar5('Jalan Kembar 5')
+regolbandung.jalanKembarBaratBaru('Jalan Kembar Barat Baru')
+regolbandung.jalanKembarBarat('Jalan Kembar Barat')
+regolbandung.jalanKembarTengah4('Jalan Kembar Tengah 4')
+regolbandung.jalanKembar7('Jalan Kembar 7')
+regolbandung.jalanSriwijaya('Jalan Sriwijaya')
+regolbandung.jalanSrimahiBaru('Jalan Srimahi Baru')
+regolbandung.jalanSriwulan('Jalan Sriwulan')
+regolbandung.jalanSriayu('Jalan Sriayu')
+regolbandung.jalanKembarBaruUtara3('Jalan Kembar Baru Utara 3')
+regolbandung.jalanPasirlayu5('Jalan Pasirluyu 5')
+regolbandung.jalanPasirSubur('Jalan Pasir Subur')
+regolbandung.jalanPasirSalam('Jalan Pasir Salam')
+regolbandung.jalanKembarTIM7('Jalan Kembar TIM 7')
+regolbandung.jalanKembarTimur('Jalan Kembar Timur')
+regolbandung.jalanPasirhuniRaya('Jalan Pasirhuni Raya')
+regolbandung.jalanAkiel('Jalan Akiel')
+regolbandung.jalanKotaBaru('Jalan Kota Baru')
+regolbandung.jalanJunardi('Jalan Junardi')
+regolbandung.jalanSukarsah('Jalan Sukarsah')
+regolbandung.jalanKotaBaruVII('Jalan Kota Baru VII')
+regolbandung.jalanKembarTengah('Jalan Kembar Tengah')
+regolbandung.jalanKembarUtara('Jalan Kembar Utara VI')
+regolbandung.jalanHAJI('Jalan HAJI')
+regolbandung.jalanKembar('Jalan Kembar')
+regolbandung.jalanAlunAlunTimur('Jalan Alun-ALun Timur')
+regolbandung.jalanSimpang('Jalan Simpang')
+regolbandung.jalanCiguriang('Jalan Cigurian')
+regolbandung.jalanPungkur('Jalan Pungkur')
+regolbandung.jalanAsmi('Jalan Asmi')
+regolbandung.jalanPasundan('Jalan Pasundan')
+regolbandung.jalanCiateulTengah('Jalan Ciateul Tengah')
+regolbandung.jalanAcehBarat('Jalan Aceh Barat')
+regolbandung.jalanMohamadHattaDalam('Jalan Mohamad Toha Dalam')
+regolbandung.jalanMohHatta('jalan moh hatta')
+regolbandung.jalanSekarKagugat('Jalan Sekar Gugat')
+regolbandung.jalanSamsudin('Jalan Samsudin')
+regolbandung.jalanKotaBaruIII('Jalan Kota Baru III')
+regolbandung.jalanSindangPalay('Jalan Sindang Palay')
+regolbandung.jalanMurni('Jalan Murni')
+regolbandung.jalanMurniIII('Jalan Murni III')
+
+regolbandung.close()
+####################################################
+#############          Selesai         #############
+####################################################
+
+####################################################
 #############   Harun Ar - Rasyid      #############
 #############           Mulai          #############
 ####################################################
@@ -272,6 +372,8 @@ kiaracondong.jalanHantapRaya('Jalan Hantap Raya')
 ####################################################
 #############          Selesai         #############
 ####################################################
+
+
 
 ####################################################
 ############# Muhammad Tomy Nur Maulidy ############

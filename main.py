@@ -1737,6 +1737,65 @@ soreang.close()
 ############# Nurul Izza Hamka 1174062   ###########
 #############           SELESAI          ###########
 
+#------------------------    Quiz 3    --------------------------#
+#-------------------    Alfadian Owen     -----------------------#
+import bojongsoang
+
+bojongsoang = bojongsoang.Bojongsoang()
+
+# Desa/Kelurahan di Kecamatan Bojongsoang
+bojongsoang.desaBojongsari('Desa Bojongsari')
+bojongsoang.desaBojongsoang('Desa Bojongsoang')
+bojongsoang.desaBuahbatu('Desa Buahbatu')
+bojongsoang.desaCipagalo('Desa Cipagalo')
+bojongsoang.desaLengkong('Desa Lengkong')
+bojongsoang.desaTegalluar('Desa Tegal luar')
+
+
+# Kantor Desa / Kelurahan di Kecamatan Bojongsoang
+bojongsoang.kantorDesaBojongsari('Kantor Desa Bojongsari')
+bojongsoang.kantorDesaBojongsoang('Kantor Desa Bojongsoang')
+bojongsoang.kantorDesaBuahbatu('Kantor Desa Buahbatu')
+bojongsoang.kantorDesaCipagalo('Kantor Desa Cipagalo')
+bojongsoang.kantorDesaLengkong('Kantor Desa Lengkong')
+bojongsoang.kantorDesaTegalluar('Kantor Desa Tegal luar')
+
+
+# Jalan di Kecamatan Cimaung
+bojongsoang.jalanDesaTegalluar1('Jalan Desa Tegal luar')
+bojongsoang.jalanDesaTegalluar2('Jalan Desa Tegal luar')
+bojongsoang.jalanDesaTegalluar3('Jalan Desa Tegal luar')
+bojongsoang.jalanDesaBuahbatu1('jalan desa buah batu')
+bojongsoang.jalanDesaBuahbatu5('jalan desa buah batu')
+bojongsoang.jalanDesaBuahbatu4('jalan desa buah batu')
+bojongsoang.jalanDesaBuahbatu3('jalan desa buah batu')
+bojongsoang.jalanDesaBuahbatu2('jalan desa buah batu')
+bojongsoang.jalanDesaBuahbatu6('jalan desa buah batu')
+bojongsoang.jalanDesaBojongsari1('jalan desa Bojongsari')
+bojongsoang.jalanDesaBojongsari2('jalan desa Bojongsari')
+bojongsoang.jalanDesaBojongsari3('jalan desa Bojongsari')
+bojongsoang.jalanDesaBojongsoang1('jalan desa Bojongsoang')
+bojongsoang.jalanDesaBojongsoang1('jalan desa Bojongsoang')
+bojongsoang.jalanDesaBojongsoang1('jalan desa Bojongsoang')
+bojongsoang.jalanDesaBojongsoang1('jalan desa Bojongsoang')
+bojongsoang.jalanDesaLengkong1('jalan desa Lengkong')
+bojongsoang.jalanDesaLengkong2('jalan desa Lengkong')
+bojongsoang.jalanDesaCipagalo1('jalan desa Cipagalo')
+bojongsoang.jalanDesaCipagalo2('jalan desa Cipagalo')
+bojongsoang.jalanDesaCipagalo3('jalan desa Cipagalo')
+bojongsoang.jalanDesaCipagalo4('jalan desa Cipagalo')
+bojongsoang.jalanDesaCipagalo5('jalan desa Cipagalo')
+bojongsoang.jalanDesaCipagalo6('jalan desa Cipagalo')
+bojongsoang.jalanDesaCipagalo7('jalan desa Cipagalo')
+bojongsoang.jalanDesaCipagalo8('jalan desa Cipagalo')
+bojongsoang.jalanDesaCipagalo9('jalan desa Cipagalo')
+bojongsoang.jalanDesaCipagalo10('jalan desa Cipagalo')
+bojongsoang.jalanDesaCipagalo11('jalan desa Cipagalo')
+
+bojongsoang.close()
+#--------------------------    Alfadian Owen    -------------------------#
+#-----------------------------    Selesai    ----------------------------#
+
 #--------------------------    Batas    -------------------------#
 
 

@@ -12,7 +12,7 @@ services:
     md:
       title: Ilham Muhammad Ariq GeoMap
       abstract: This is the Ilham Muhammad Ariq GeoMap.
-      online_resource: https://www.none.co.id/
+      online_resource: https://www.ilhammariq.co.id/
       contact:
         person: Ilham Muhammad Ariq
         position: Software Engineer
@@ -40,7 +40,7 @@ layers:
 
 caches:
   agm_cache:
-    grids: [petacimaung]
+    grids: [petaibun]
     sources: [agm_source]
     
 sources:

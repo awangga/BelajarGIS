@@ -1,0 +1,474 @@
+map
+  size 640 480
+  EXTENT 107.6143778 -6.8995271 107.7194345 -6.8257303
+  UNITS DD
+  imagetype png8
+  imagecolor 225 225 225
+  shapepath "../shp"
+  FONTSET "../etc/fonts.txt"
+  projection
+    "init=epsg:4326"
+  end
+  debug on
+  web
+    imagepath "/var/www/html/tmp/"
+    imageurl "/tmp/"
+    metadata
+      wms_title "Peta Kecamatan Cimenyan"
+      wms_srs "EPSG:4326"
+      wms_enable_request "*"
+    end
+  end
+  outputformat
+    name "png256"
+    driver "AGG/PNG"
+    imagemode "pc256"
+    extension "png"
+  end
+  outputformat
+    name "png"
+    driver "AGG/PNG"
+    imagemode "rgba"
+    extension "png"
+    mimetype "image/png"
+    imagemode RGBA
+  end
+  outputformat
+    name "png8"
+    driver "AGG/PNG"
+    imagemode "rgba"
+    extension "png"
+    mimetype "image/png"
+    imagemode RGBA
+    transparent ON
+    formatoption "QUANTIZE_FORCE=ON"
+    formatoption "QUANTIZE_DITHER=ON"
+    formatoption "QUANTIZE_COLORS=250"
+  end
+  outputformat
+    name "jpg"
+    driver "AGG/JPEG"
+    extension "jpg"
+    formatoption "QUALITY=85"
+  end
+
+  layer #desa layer
+    name cimaung
+    group roads
+    type POLYGON
+    dump true 
+    projection
+      "init=epsg:4326"
+    end
+    #transparency alpha
+    status on
+    data "kelurahan_Cimenyan"
+    labelitem "kelurahan_d"
+    classitem "kelurahan_d"
+    class 
+      expression "Padasuka"
+      style
+        color 76 153 0
+      end
+      label
+        color  0 0 0
+        outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Mekarsaluyu"
+      style
+        color 255 255 0
+      end
+      label
+        color  0 0 0
+        outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Mandalamekar"
+      style
+        color 255 0 0
+      end
+      label
+        color  0 0 0
+        outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Sindanglaya"
+      style
+        color 50 0 255
+      end
+      label
+        color  0 0 0
+        outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Mekarmanik"
+      style
+        color 255 153 153
+      end
+      label
+        color  0 0 0
+        outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Cimenyan"
+      style
+        color 0 204 204
+      end
+      label
+        color  0 0 0
+        outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Mekarsari"
+      style
+        color 255 0 255
+      end
+      label
+        color  0 0 0
+        outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Ciburial"
+      style
+        color 204 204 0
+      end
+      label
+        color  0 0 0
+        outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Cibenying"
+      style
+        color 255 100 0
+      end
+      label
+        color  0 0 0
+        outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Cikadut"
+      style
+        color 0 255 0
+      end
+      label
+        color  0 0 0
+        outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+  end #layer desa
+
+  layer #kantor layer
+    name cimenyan
+    group roads
+    type POINT
+    dump true 
+    projection
+      "init=epsg:4326"
+    end
+    #transparency alpha
+    status on
+    data "kantor_kelurahan_cimenyan"
+    labelitem "kantor_kelu"
+    classitem "kantor_kelu"
+    class 
+      expression "kantor Kelurahan Padasuka"
+      style
+        color 0 0 0
+        size 10
+        symbol "circle"
+      end
+      label
+        color 0 0 0
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "kantor Kelurahan Mekarmanik"
+      style
+        color 255 255 255
+        size 10
+        symbol "circle"
+      end
+      label
+        color 0 0 0
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "kantor Kelurahan cimenyan"
+      style
+        color 0 0 0
+        size 10
+        symbol "circle"
+      end
+      label
+        color 0 0 0
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "kantor Kelurahan Ciburial"
+      style
+        color 0 0 0
+        size 10
+        symbol "circle"
+      end
+      label
+        color 0 0 0
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "kantor Kelurahan Mekarsaluyu"
+      style
+        color 0 0 0
+        size 10
+        symbol "circle"
+      end
+      label
+        color 0 0 0
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "kantor Kelurahan Cibenying"
+      style
+        color 0 0 0
+        size 10
+        symbol "circle"
+      end
+      label
+        color 0 0 0
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "kantor Kelurahan Cikadut"
+      style
+        color 0 0 0
+        size 10
+        symbol "circle"
+      end
+      label
+        color 0 0 0
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "kantor Kelurahan Mandalamekar"
+      style
+        color 0 0 0
+        size 10
+        symbol "circle"
+      end
+      label
+        color 0 0 0
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "kantor Kelurahan Sindanglaya"
+      style
+        color 0 0 0
+        size 10
+        symbol "circle"
+      end
+      label
+        color 0 0 0
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+  end #layer kantor
+
+  layer #jalan layer
+    name cimaung
+    group roads
+    type LINE
+    dump true 
+    projection
+      "init=epsg:4326"
+    end
+    #transparency alpha
+    status on
+    data "jalan_cimenyan"
+    labelitem "jalan_di_ci"
+    classitem "jalan_di_ci"
+    class 
+      expression "Jl. Mandalamekar - Cikadut"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+    class 
+      expression "Jl. Mekarmanik - Sindanglaya"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+    class 
+      expression "Jl. Ciburial - Mekarsaluyu"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+    class 
+      expression "Jl. Mekarsaluyu - Cibenying"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+    class 
+      expression "Jl. Cibenying - cimenyan"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+    class 
+      expression "Jl. cimenyan - Mandalamekar"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+  end #layer jalan
+
+  symbol
+    name "circle"
+    type ellipse
+    filled true
+    points
+      1 1
+    end # POINTS
+  end # SYMBOL
+
+
+end #map

@@ -59,7 +59,7 @@ sources:
     supported_srs: ['EPSG:4326']
 
 grids:
-    petacimaung:
+    petaibun:
         base: GLOBAL_WEBMERCATOR
 
 globals:

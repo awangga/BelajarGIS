@@ -1,0 +1,70 @@
+services:
+  demo:
+  tms:
+    use_grid_names: true
+    origin: 'nw'
+  kml:
+      use_grid_names: true
+  wmts:
+    restful: true
+    restful_template: '/{Layer}/{TileMatrixSet}/{TileMatrix}/{TileCol}/{TileRow}.{Format}'
+    kvp: true
+    md:
+      title: Ainul GeoMap
+      abstract: This is the Ainul GeoMap.
+      online_resource: https://ainulfiliani.com
+      contact:
+        person: Ainul
+        position: Software Engineer
+        organization: Politeknik Pos Indonesia
+        address: Jl. Sarijadi No. 54
+        city: Bandung
+        postcode: 40191
+        country: Indonesia
+        phone: +62(0)8322-2802-1941
+        fax: +62(0)8322-2802-1941
+        email: ainulfiliani2@gmail.com
+      access_constraints:
+        This service is intended for Sekretariat Negara Only.
+        The data is under development on Sekretarian Negara Republik Indonesia.
+        (http://setneg.go.id/)
+      fees: 'None'
+  wms:
+    md:
+      title: MapProxy WMS Proxy
+      abstract: This is a minimal MapProxy example.
+
+layers:
+  - name: dgm
+    title: Ainul Geo Map - ainulfiliani.com
+    sources: [agm_cache]
+
+caches:
+  agm_cache:
+    grids: [petaindo]
+    sources: [agm_source]
+    
+sources:
+  agm_source:
+    type: mapserver
+    req:
+      layers: roads
+      map: D:\quiz4\mapfile\cilengkrang.map
+      transparent: true
+    coverage:
+      bbox: [107.6723, -6.90835, 107.77616, -6.80234] 
+      srs: 'EPSG:4326'
+    mapserver:
+      binary: C:\ms4w\Apache\cgi-bin\mapserv.exe
+      working_dir: D:\quiz4\tmp
+    supported_srs: ['EPSG:4326']
+
+grids:
+    petaindo:
+        base: GLOBAL_WEBMERCATOR
+
+globals:
+
+
+
+

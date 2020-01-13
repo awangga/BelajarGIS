@@ -1,0 +1,67 @@
+services:
+  demo:
+  tms:
+    use_grid_names: true
+    origin: 'nw'
+  kml:
+      use_grid_names: true
+  wmts:
+    restful: true
+    restful_template: '/{Layer}/{TileMatrixSet}/{TileMatrix}/{TileCol}/{TileRow}.{Format}'
+    kvp: true
+    md:
+      title: Tia GeoMap
+      abstract: This is the Tia GeoMap.
+      online_resource: https://www.tianurcandida.co.id/
+      contact:
+        person: Tia Nur Candida
+        position: Software Engineer
+        organization: Politeknik Pos Indonesia
+        address: Jl. Sarijadi No. 54
+        city: Bandung
+        postcode: 40191
+        country: Indonesia
+        phone: +62(0)82-217280-346
+        fax: +62(0)82-217280-346
+        email: tncandida@gmail.com
+      access_constraints:
+        This service is intended for Sekretariat Negara Only.
+        The data is under development on Sekretarian Negara Republik Indonesia.
+        (http://setneg.go.id/)
+      fees: 'None'
+  wms:
+    md:
+      title: MapProxy WMS Proxy
+      abstract: This is a minimal MapProxy example.
+
+layers:
+  - name: dgm
+    title: Tia Geo Map - www.tianurcandida.co.id
+    sources: [agm_cache]
+
+caches:
+  agm_cache:
+    grids: [petapameungpeuk]
+    sources: [agm_source]
+    
+sources:
+  agm_source:
+    type: mapserver
+    req:
+      layers: roads
+      map: D:\GIT\pameungpeuk\mapfile\pameungpeuk.map
+      transparent: true
+    coverage:
+      bbox: [107.552118, -7.034278, 107.620696, -6.997221]
+      srs: 'EPSG:4326'
+    mapserver:
+      binary: D:\ms4w\Apache\cgi-bin\mapserv.exe
+      working_dir: D:\GIT\pameungpeuk\tmp
+    supported_srs: ['EPSG:4326']
+
+grids:
+    petapameungpeuk:
+        base: GLOBAL_WEBMERCATOR
+
+globals:
+

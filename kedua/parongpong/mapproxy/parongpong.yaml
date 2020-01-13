@@ -52,7 +52,7 @@ sources:
       map: D:\NAJIB\SEMESTER_5_NAJIB\GIS\Kuizz\kedua\parongpong\mapfile\parongpong.map
       transparent: true
     coverage:
-      bbox: [107.532105, -6.891044, 107.641968, -6.722297]
+      bbox: [107.532105, -6.891044, 107.641968, -6.722297 ]
       srs: 'EPSG:4326'
     mapserver:
       binary: C:\ms4w\Apache\cgi-bin\mapserv.exe

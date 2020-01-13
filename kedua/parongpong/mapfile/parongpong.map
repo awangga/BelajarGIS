@@ -6,6 +6,7 @@ map
   imagecolor 225 225 225
   shapepath "../shp"
   fontset "../etc/fonts.txt"
+  CONFIG "PROJ_LIB" "C:\ms4w\proj\nad"
   projection
     "init=epsg:4326"
   end
@@ -66,7 +67,7 @@ map
     labelitem "kelurahan_d"
     classitem "kelurahan_d"
     class 
-      expression "Kelurahan karyawangi"
+      expression "karyawangi"
       style
         color 103 146 103
       end
@@ -82,7 +83,7 @@ map
       end
     end
     class 
-      expression "Kelurahan Cihideung"
+      expression "Cihideung"
       style
         color 164 222 2
       end
@@ -98,7 +99,7 @@ map
       end
     end
     class 
-      expression "Kelurahan Sariwangi"
+      expression "Sariwangi"
       style
         color 118 186 27
       end
@@ -114,7 +115,7 @@ map
       end
     end
     class 
-      expression "Kelurahan Cihanjuangrahayu"
+      expression "Cihanjuangrahayu"
       style
         color 172 223 135
       end
@@ -130,7 +131,7 @@ map
       end
     end
     class 
-      expression "Kelurahan Cihanjuang"
+      expression "Cihanjuang"
       style
         color 76 154 42
       end
@@ -146,7 +147,7 @@ map
       end
     end
     class 
-      expression "Kelurahan Cigugurgirang"
+      expression "Cigugurgirang"
       style
         color 104 187 89
       end
@@ -162,7 +163,7 @@ map
       end
     end
     class 
-      expression "Kelurahan Ciwaruga"
+      expression "Ciwaruga"
       style
         color 76 154 42
       end
@@ -193,7 +194,7 @@ map
     labelitem "kantor_kelu"
     classitem "kantor_kelu"
     class 
-      expression "Kantor Kelurahan karyawangi"
+      expression "karyawangi"
       style
         color 255 255 255
         size 10
@@ -211,7 +212,7 @@ map
       end
     end
     class 
-      expression "Kantor Kelurahan Cihideung"
+      expression "Cihideung"
       style
         color 255 255 255
         size 10
@@ -229,7 +230,7 @@ map
       end
     end
     class 
-      expression "Kantor Kelurahan Sariwangi"
+      expression "Sariwangi"
       style
         color 255 255 255
         size 10
@@ -247,7 +248,7 @@ map
       end
     end
     class 
-      expression "Kantor Kelurahan Cihanjuangrahayu"
+      expression "Cihanjuangrahayu"
       style
         color 255 255 255
         size 10
@@ -265,7 +266,7 @@ map
       end
     end
     class 
-      expression "Kantor Kelurahan Cihanjuang"
+      expression "Cihanjuang"
       style
         color 255 255 255
         size 10
@@ -283,7 +284,7 @@ map
       end
     end
     class 
-      expression "Kantor Kelurahan Cigugurgirang"
+      expression "Cigugurgirang"
       style
         color 255 255 255
         size 10
@@ -301,7 +302,7 @@ map
       end
     end
     class 
-      expression "Kantor Kelurahan Ciwaruga"
+      expression "Ciwaruga"
       style
         color 255 255 255
         size 10
@@ -334,42 +335,42 @@ map
     labelitem "jalan_di_pa"
     classitem "jalan_di_pa"
     class 
-      expression "Jalan Parongpong"
+      expression "jalanParongpong"
       style
         color 255 255 255
         size 1
       end
     end
     class 
-      expression "Jalan Parongpong"
+      expression "jalanParongpong"
       style
         color 255 255 255
         size 1
       end
     end
     class 
-      expression "Jalan Parongpong"
+      expression "jalanParongpong"
       style
         color 255 255 255
         size 1
       end
     end
     class 
-      expression "Jalan Parongpong"
+      expression "jalanParongpong"
       style
         color 255 255 255
         size 1
       end
     end
     class 
-      expression "Jalan Parongpong"
+      expression "jalanParongpong"
       style
         color 255 255 255
         size 1
       end
     end
     class 
-      expression "Jalan Parongpong"
+      expression "jalanParongpong"
       style
         color 255 255 255
         size 1

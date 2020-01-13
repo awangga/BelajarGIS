@@ -1,0 +1,437 @@
+map
+  size 640 480
+  EXTENT -6.876602 107.470861 -6.789336 107.553946
+  UNITS DD
+  imagetype png8
+  imagecolor 225 225 225
+  shapepath "../shp"
+  #fontset "../common/fonts/msfontset.txt"
+  FONTSET "../etc/fonts.txt"
+  CONFIG "PROJ_LIB" "D:\ms4w\proj\nad"
+  projection
+    "init=epsg:4326"
+  end
+  debug on
+  web
+    imagepath "/var/www/html/tmp/"
+    imageurl "/tmp/"
+    metadata
+      wms_title "Peta Kecamatan Ngamprah"
+      wms_srs "EPSG:4326"
+      wms_enable_request "*"
+    end
+  end
+  outputformat
+    name "png256"
+    driver "AGG/PNG"
+    imagemode "pc256"
+    extension "png"
+  end
+  outputformat
+    name "png"
+    driver "AGG/PNG"
+    imagemode "rgba"
+    extension "png"
+    mimetype "image/png"
+    imagemode RGBA
+  end
+  outputformat
+    name "png8"
+    driver "AGG/PNG"
+    imagemode "rgba"
+    extension "png"
+    mimetype "image/png"
+    imagemode RGBA
+    transparent ON
+    formatoption "QUANTIZE_FORCE=ON"
+    formatoption "QUANTIZE_DITHER=ON"
+    formatoption "QUANTIZE_COLORS=250"
+  end
+  outputformat
+    name "jpg"
+    driver "AGG/JPEG"
+    extension "jpg"
+    formatoption "QUALITY=85"
+  end
+
+ layer #kelurahan layer
+    name ngamprah_wilayah
+    group roads
+    type POLYGON
+    dump true 
+    projection
+      "init=epsg:4326"
+    end
+    #transparency alpha
+    status on
+    data "ngamprah_wilayahdesa"
+    labelitem "nama_wilayah"
+    classitem "nama_wilayah"
+    class 
+      expression "Kecamatan Ngamprah"
+      style
+        color 103 146 103
+      end
+      label
+        color 153 83 102 
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Desa Ngamprah"
+      style
+        color 103 146 103
+      end
+      label
+        color 153 51 102 
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Desa Bojong Koneng"
+      style
+        color 103 22 103
+      end
+      label
+        color 153 51 102 
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Desa Cilame"
+      style
+        color 103 201 103
+      end
+      label
+        color 153 51 102 
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Desa Cimanggu"
+      style
+        color 103 100 103
+      end
+      label
+        color 153 120 102 
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Desa Pakuhaji"
+      style
+        color 103 130 103
+      end
+      label
+        color 100 51 102 
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Desa Tanimulya"
+      style
+        color 103 161 103
+      end
+      label
+        color 153 51 102 
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+  end #layer kelurahan
+  layer #kantor layer
+    name ngamprah_kantor
+    group roads
+    type POINT
+    dump true 
+    projection
+      "init=epsg:4326"
+    end
+    #transparency alpha
+    status on
+    data "ngamprah_kantordesa"
+    labelitem "nama_kantor"
+    classitem "nama_kantor"
+    class 
+      expression "Kantor Desa Ngamprah"
+      style
+        color 11 146 103
+      end
+      label
+        color 153 51 102 
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kantor Desa Bojong Koneng"
+      style
+        color 22 22 103
+      end
+      label
+        color 153 51 102 
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kantor Desa Cilame"
+      style
+        color 33 201 103
+      end
+      label
+        color 153 51 102 
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kantor Desa Cimanggu"
+      style
+        color 44 100 103
+      end
+      label
+        color 153 120 102 
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kantor Desa Pakuhaji"
+      style
+        color 55 130 103
+      end
+      label
+        color 100 51 102 
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kantor Desa Tanimulya"
+      style
+        color 166 161 103
+      end
+      label
+        color 153 51 102 
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+  end #layer kantor
+layer #kantor layer
+    name ngamprah_jalan
+    group roads
+    type POLYLINE
+    dump true 
+    projection
+      "init=epsg:4326"
+    end
+    #transparency alpha
+    status on
+    data "ngamprah_jalanan"
+    labelitem "nama_jalanan"
+    classitem "nama_jalanan"
+    class 
+      expression "Jalan 1"
+      style
+        color 5 5 5
+      end
+      label
+        color 153 51 102 
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Jalan 2"
+      style
+        color 5 5 5
+      end
+      label
+        color 153 51 102 
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Jalan 3"
+      style
+        color 5 5 5
+      end
+      label
+        color 153 51 102 
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Jalan 4"
+      style
+        color 5 5 5
+      end
+      label
+        color 153 120 102 
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Jalan 5"
+      style
+        color 5 5 5
+      end
+      label
+        color 100 51 102 
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Jalan 6"
+      style
+        color 5 5 5
+      end
+      label
+        color 153 51 102 
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Jalan 7"
+      style
+        color 5 5 5
+      end
+      label
+        color 153 51 102 
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Jalan 8"
+      style
+        color 5 5 5
+      end
+      label
+        color 153 51 102 
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+  end #layer jalan
+
+
+end #map

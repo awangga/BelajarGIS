@@ -1,0 +1,67 @@
+services:
+  demo:
+  tms:
+    use_grid_names: true
+    origin: 'nw'
+  kml:
+      use_grid_names: true
+  wmts:
+    restful: true
+    restful_template: '/{Layer}/{TileMatrixSet}/{TileMatrix}/{TileCol}/{TileRow}.{Format}'
+    kvp: true
+    md:
+      title: Diva GeoMap
+      abstract: This is the Diva GeoMap.
+      online_resource: https://www.alvanzah.co.id/
+      contact:
+        person: Alvan Alvanzah
+        position: Software Engineer
+        organization: Politeknik Pos Indonesia
+        address: Jl. Sarijadi No. 54
+        city: Bandung
+        postcode: 40151
+        country: Indonesia
+        phone: +62(0)821-99195-465
+        fax: +62(0)821-99195-465
+        email: alvanzah99@gmail.com
+      access_constraints:
+        This service is intended for Sekretariat Negara Only.
+        The data is under development on Sekretarian Negara Republik Indonesia.
+        (http://setneg.go.id/)
+      fees: 'None'
+  wms:
+    md:
+      title: MapProxy WMS Proxy
+      abstract: This is a minimal MapProxy example.
+
+layers:
+  - name: dgm
+    title: Alvan Geo Map - www.alvanzah.co.id
+    sources: [agm_cache]
+
+caches:
+  agm_cache:
+    grids: [petadayeuhkolot]
+    sources: [agm_source]
+    
+sources:
+  agm_source:
+    type: mapserver
+    req:
+      layers: roads
+      map: D:\gittt\ketiga\dayeuhkolot\mapfile\dayeuhkolot.map
+      transparent: true
+    coverage:
+      bbox: [107.587203, -6.990782, 107.636899, -6.956874]
+      srs: 'EPSG:4326'
+    mapserver:
+      binary: C:\ms4w\Apache\cgi-bin\mapserv.exe
+      working_dir: D:\gittt\ketiga\dayeuhkolot\tmp
+    supported_srs: ['EPSG:4326']
+
+grids:
+    petadayeuhkolot:
+        base: GLOBAL_WEBMERCATOR
+
+globals:
+

@@ -48,14 +48,14 @@ sources:
     type: mapserver
     req:
       layers: roads
-      map: E:\GIS\QUIS_4\BelajarGIS-master\pertama\cimaung\mapfile\cimaung.map    
+      map: E:\BelajarGIS\ketiga\cimaung\mapfile\cimaung.map    
       transparent: true
     coverage:
       bbox: [107.511070, -7.144701 ,107.646510, -7.064640]
       srs: 'EPSG:4326'
     mapserver:
       binary: C:\ms4w\Apache\cgi-bin\mapserv.exe
-      working_dir: E:\GIS\QUIS_4\BelajarGIS-master\pertama\cimaung\tmp
+      working_dir: E:\BelajarGIS\ketiga\cimaung\tmp
     supported_srs: ['EPSG:4326']
 
 grids:

@@ -1,0 +1,66 @@
+services:
+  demo:
+  tms:
+    use_grid_names: true
+    origin: 'nw'
+  kml:
+      use_grid_names: true
+  wmts:
+    restful: true
+    restful_template: '/{Layer}/{TileMatrixSet}/{TileMatrix}/{TileCol}/{TileRow}.{Format}'
+    kvp: true
+    md:
+      title: Bakti Qilan GeoMap
+      abstract: This is the Bakti Qilan GeoMap.
+      online_resource: https://www.none.co.id/
+      contact:
+        person: Bakti Qilan Mufid
+        position: Software Engineer
+        organization: Politeknik Pos Indonesia
+        address: Jl. Sarijadi No. 54
+        city: Bandung
+        postcode: 40191
+        country: Indonesia
+        phone: +62812-8185-7773
+        email: bakti.qilan17@gmail.com
+      access_constraints:
+        This service is intended for Sekretariat Negara Only.
+        The data is under development on Sekretarian Negara Republik Indonesia.
+        (http://setneg.go.id/)
+      fees: 'None'
+  wms:
+    md:
+      title: MapProxy WMS Proxy
+      abstract: This is a minimal MapProxy example.
+
+layers:
+  - name: dgm
+    title: Bakti Qilan Geo Map - www.none.co.id
+    sources: [agm_cache]
+
+caches:
+  agm_cache:
+    grids: [petacimaung]
+    sources: [agm_source]
+    
+sources:
+  agm_source:
+    type: mapserver
+    req:
+      layers: roads
+      map: E:\BelajarGIS\ketiga\cimaung\mapfile\cimaung.map    
+      transparent: true
+    coverage:
+      bbox: [107.511070, -7.144701 ,107.646510, -7.064640]
+      srs: 'EPSG:4326'
+    mapserver:
+      binary: C:\ms4w\Apache\cgi-bin\mapserv.exe
+      working_dir: E:\BelajarGIS\ketiga\cimaung\tmp
+    supported_srs: ['EPSG:4326']
+
+grids:
+    petacimaung:
+        base: GLOBAL_WEBMERCATOR
+
+globals:
+

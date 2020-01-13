@@ -1,0 +1,329 @@
+map
+  size 640 480
+  EXTENT  107.69744 -6.97846 107.77331 -6.86974
+  UNITS DD
+  imagetype png8
+  imagecolor 225 225 225
+  shapepath "../shp"
+  FONTSET "../etc/fonts.txt"
+  projection
+    "init=epsg:4326"
+  end
+  debug on
+  web
+    imagepath "/var/www/html/tmp/"
+    imageurl "/tmp/"
+    metadata
+      wms_title "Peta Kecamatan Cileunyi"
+      wms_srs "EPSG:4326"
+      wms_enable_request "*"
+    end
+  end
+  outputformat
+    name "png256"
+    driver "AGG/PNG"
+    imagemode "pc256"
+    extension "png"
+  end
+  outputformat
+    name "png"
+    driver "AGG/PNG"
+    imagemode "rgba"
+    extension "png"
+    mimetype "image/png"
+    imagemode RGBA
+  end
+  outputformat
+    name "png8"
+    driver "AGG/PNG"
+    imagemode "rgba"
+    extension "png"
+    mimetype "image/png"
+    imagemode RGBA
+    transparent ON
+    formatoption "QUANTIZE_FORCE=ON"
+    formatoption "QUANTIZE_DITHER=ON"
+    formatoption "QUANTIZE_COLORS=250"
+  end
+  outputformat
+    name "jpg"
+    driver "AGG/JPEG"
+    extension "jpg"
+    formatoption "QUALITY=85"
+  end
+
+  layer #desa layer
+    name cileunyi
+    group roads
+    type POLYGON
+    dump true 
+    projection
+      "init=epsg:4326"
+    end
+    #transparency alpha
+    status on
+    data "kecamatan_cileunyi"
+    labelitem "desa_di_cil"
+    classitem "desa_di_cil"
+    class 
+      expression "Desa Cinunuk"
+      style
+        color 76 153 0
+      end
+      label
+        color  0 0 0
+        outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Desa Cileunyi Wetan"
+      style
+        color 255 255 0
+      end
+      label
+        color  0 0 0
+        outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Desa Cikemar"
+      style
+        color 255 0 0
+      end
+      label
+        color  0 0 0
+        outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Desa Cibiru Hilir"
+      style
+        color 50 0 255
+      end
+      label
+        color  0 0 0
+        outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Desa Cileunyi"
+      style
+        color 255 153 153
+      end
+      label
+        color  0 0 0
+        outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+  end #layer desa
+
+  layer #kantor layer
+    name cileunyi
+    group roads
+    type POINT
+    dump true 
+    projection
+      "init=epsg:4326"
+    end
+    #transparency alpha
+    status on
+    data "kantor_desa"
+    labelitem "kantor_desa"
+    classitem "kantor_desa"
+    class 
+      expression "Kantor kepala Desa Cileunyi"
+      style
+        color 0 0 0
+        size 10
+        symbol "circle"
+      end
+      label
+        color 0 0 0
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kantor Desa Cinunuk"
+      style
+        color 255 255 255
+        size 10
+        symbol "circle"
+      end
+      label
+        color 0 0 0
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kantor Desa Cileunyi"
+      style
+        color 0 0 0
+        size 10
+        symbol "circle"
+      end
+      label
+        color 0 0 0
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kantor Desa Cikemar"
+      style
+        color 0 0 0
+        size 10
+        symbol "circle"
+      end
+      label
+        color 0 0 0
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kantor Desa Cibiru Wetan"
+      style
+        color 0 0 0
+        size 10
+        symbol "circle"
+      end
+      label
+        color 0 0 0
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+  end #layer kantor
+
+  layer #jalan layer
+    name cileunyi
+    group roads
+    type LINE
+    dump true 
+    projection
+      "init=epsg:4326"
+    end
+    #transparency alpha
+    status on
+    data "jalan_raya"
+    labelitem "jalan_raya_"
+    classitem "jalan_raya_"
+    class 
+      expression "Rute Jalan Raya Tagog"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+    class 
+      expression "Rute jalan Cinunuk"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+    class 
+      expression "Rute Jalan Cikoneng"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+    class 
+      expression "Rute Jalan Cimincrang"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+    class 
+      expression "Jalan Cileunyi"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+    class 
+      expression "Rute Jalan Sukarame"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+    class 
+      expression "Rute Jalan cibiru Hilir"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+  end #layer jalan
+
+  symbol
+    name "circle"
+    type ellipse
+    filled true
+    points
+      1 1
+    end # POINTS
+  end # SYMBOL
+
+
+end #map

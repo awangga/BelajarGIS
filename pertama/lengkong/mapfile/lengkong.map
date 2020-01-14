@@ -1,0 +1,371 @@
+map
+  size 640 480
+  extent 107.609294 -6.948056 107.640348 -6.920028
+  units DD
+  imagetype png8
+  imagecolor 225 225 225
+  shapepath "../shp"
+  fontset "../etc/fonts.txt"
+  projection
+    "init=epsg:4326"
+  end
+  debug on
+  web
+    imagepath "/var/www/html/tmp/"
+    imageurl "/tmp/"
+    metadata
+      wms_title "Peta Kelurahan Lengkong"
+      wms_srs "EPSG:4326"
+      wms_enable_request "*"
+    end
+  end
+  outputformat
+    name "png256"
+    driver "AGG/PNG"
+    imagemode "pc256"
+    extension "png"
+  end
+  outputformat
+    name "png"
+    driver "AGG/PNG"
+    imagemode "rgba"
+    extension "png"
+    mimetype "image/png"
+    imagemode RGBA
+  end
+  outputformat
+    name "png8"
+    driver "AGG/PNG"
+    imagemode "rgba"
+    extension "png"
+    mimetype "image/png"
+    imagemode RGBA
+    transparent ON
+    formatoption "QUANTIZE_FORCE=ON"
+    formatoption "QUANTIZE_DITHER=ON"
+    formatoption "QUANTIZE_COLORS=250"
+  end
+  outputformat
+    name "jpg"
+    driver "AGG/JPEG"
+    extension "jpg"
+    formatoption "QUALITY=85"
+  end
+
+  layer #kecamatan layer
+    name lengkong
+    group roads
+    type POLYGON
+    dump true 
+    projection
+      "init=epsg:4326"
+    end
+    #transparency alpha
+    status on
+    data "kecamatan_lengkong"
+    labelitem "nama_kelura"
+    classitem "nama_kelura"
+    class 
+      expression "kelurahanTurangga"
+      style
+        color 103 146 103
+      end
+      label
+        color 153 51 102 
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "kelurahanMalabar"
+      style
+        color 164 222 2
+      end
+      label
+        color 153 51 102 
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "kelurahanLingkarSelatan"
+      style
+        color 118 186 27
+      end
+      label
+        color 153 51 102 
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "kelurahan Paledang"
+      style
+        color 172 223 135
+      end
+      label
+        color 153 51 102 
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "kelurahan Cikawao"
+      style
+        color 76 154 42
+      end
+      label
+        color 153 51 102 
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kelurahan Cijagra"
+      style
+        color 104 187 89
+      end
+      label
+        color 153 51 102 
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+     class 
+      expression "Kelurahan Burangrang"
+      style
+        color 76 154 42
+      end
+      label
+        color 153 51 102 
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+  end #layer kelurahan
+
+  layer #kantor layer
+    name andir
+    group roads
+    type POINT
+    dump true 
+    projection
+      "init=epsg:4326"
+    end
+    #transparency alpha
+    status on
+    data "kantor_lengkong"
+    labelitem "nama_kantor"
+    classitem "nama_kantor"
+    class 
+      expression "kantor Kecamatan Cikawao"
+      style
+        color 255 255 255
+        size 10
+        symbol "circle"
+      end
+      label
+        color 255 0 0
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "kantor Kecamatan Paledang"
+      style
+        color 255 255 255
+        size 10
+        symbol "circle"
+      end
+      label
+        color 255 0 0
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "kantor Kecamatan Turangga"
+      style
+        color 255 255 255
+        size 10
+        symbol "circle"
+      end
+      label
+        color 255 0 0
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "kantor Kecamatan Lingkar Selatan"
+      style
+        color 255 255 255
+        size 10
+        symbol "circle"
+      end
+      label
+        color 255 0 0
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "kantor Kecamatan Malabar"
+      style
+        color 255 255 255
+        size 10
+        symbol "circle"
+      end
+      label
+        color 255 0 0
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "kantor Kecamatan Lengkong"
+      style
+        color 255 255 255
+        size 10
+        symbol "circle"
+      end
+      label
+        color 255 0 0
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end    class 
+      expression "kantor Kecamatan Burangrang"
+      style
+        color 255 255 255
+        size 10
+        symbol "circle"
+      end
+      label
+        color 255 0 0
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+        class 
+      expression "kantor Kecamatan Cijagra"
+      style
+        color 255 255 255
+        size 10
+        symbol "circle"
+      end
+      label
+        color 255 0 0
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+  end #layer kantor
+
+  layer #jalan layer
+    name andir
+    group roads
+    type LINE
+    dump true 
+    projection
+      "init=epsg:4326"
+    end
+    #transparency alpha
+    status on
+    data "jalan_lengkong"
+    labelitem "nama_jalan"
+    classitem "nama_jalan"
+    class 
+      expression "jalan Lengkong"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+  end #layer jalan
+
+  symbol
+    name "circle"
+    type ellipse
+    filled true
+    points
+      1 1
+    end # POINTS
+  end # SYMBOL
+
+end #map

@@ -1,0 +1,371 @@
+map
+  size 640 480
+  EXTENT 107.5094696 -6.985782  107.5772757 -6.9077385
+  UNITS DD
+  imagetype png8
+  imagecolor 225 225 225
+  shapepath "../shp"
+  #fontset "../common/fonts/msfontset.txt"
+  FONTSET "../etc/fonts.txt"
+  projection
+    "init=epsg:4326"
+  end
+  debug on
+  web
+    imagepath "/var/www/html/tmp/"
+    imageurl "/tmp/"
+    metadata
+      wms_title "Peta Indonesia"
+      wms_srs "EPSG:4326"
+      wms_enable_request "*"
+    end
+  end
+  outputformat
+    name "png256"
+    driver "AGG/PNG"
+    imagemode "pc256"
+    extension "png"
+  end
+  outputformat
+    name "png"
+    driver "AGG/PNG"
+    imagemode "rgba"
+    extension "png"
+    mimetype "image/png"
+    imagemode RGBA
+  end
+  outputformat
+    name "png8"
+    driver "AGG/PNG"
+    imagemode "rgba"
+    extension "png"
+    mimetype "image/png"
+    imagemode RGBA
+    transparent ON
+    formatoption "QUANTIZE_FORCE=ON"
+    formatoption "QUANTIZE_DITHER=ON"
+    formatoption "QUANTIZE_COLORS=250"
+  end
+  outputformat
+    name "jpg"
+    driver "AGG/JPEG"
+    extension "jpg"
+    formatoption "QUALITY=85"
+  end
+
+  layer #desa layer
+    name margaasih
+    group roads
+    type POLYGON
+    dump true 
+    projection
+      "init=epsg:4326"
+    end
+    #transparency alpha
+    status on
+    data "kelurahan_margaasih"
+    labelitem "kelurahan_m"
+    classitem "kelurahan_m"
+    class 
+      expression "Kelurahan Cigondewah Hilir"
+      style
+        color 153 255 153
+      end
+      label
+        color  0 0 0
+        outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kelurahan Lagadar"
+      style
+        color 204 255 204
+      end
+      label
+        color  0 0 0
+        outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kelurahan Drawati"
+      style
+        color 229 255 204
+      end
+      label
+        color  0 0 0
+        outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kelurahan Margaasih"
+      style
+        color 204 255 229
+      end
+      label
+        color  0 0 0
+        outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kelurahan Mekar Rahayu"
+      style
+        color 153 255 204
+      end
+      label
+        color  0 0 0
+        outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kelurahan Nanjung"
+      style
+        color 153 255 153
+      end
+      label
+        color  0 0 0
+        outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kelurahan Rahayu"
+      style
+        color 204 255 204
+      end
+      label
+        color  0 0 0
+        outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+  end #layer desa
+
+  layer #kantor layer
+    name paseh
+    group roads
+    type POINT
+    dump true 
+    projection
+      "init=epsg:4326"
+    end
+    #transparency alpha
+    status on
+    data "kantor_kelurahan_margaasih"
+    labelitem "kantor_kelu"
+    classitem "kantor_kelu"
+    class 
+      expression "Kantor Kelurahan Cigondewah Hilir"
+      style
+        color 255 255 255
+        size 10
+        symbol "circle"
+      end
+      label
+        color 255 0 0
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kantor Kelurahan Lagadar"
+      style
+        color 255 255 255
+        size 10
+        symbol "circle"
+      end
+      label
+        color 255 0 0
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kantor Kelurahan Margaasih"
+      style
+        color 255 255 255
+        size 10
+        symbol "circle"
+      end
+      label
+        color 255 0 0
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kantor Kelurahan Mekar Rahayu"
+      style
+        color 255 255 255
+        size 10
+        symbol "circle"
+      end
+      label
+        color 255 0 0
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kantor Kelurahan Nanjung"
+      style
+        color 255 255 255
+        size 10
+        symbol "circle"
+      end
+      label
+        color 255 0 0
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kantor Kelurahan Rahayu"
+      style
+        color 255 255 255
+        size 10
+        symbol "circle"
+      end
+      label
+        color 255 0 0
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+  end #layer kantor
+
+  layer #jalan layer
+    name paseh
+    group roads
+    type LINE
+    dump true 
+    projection
+      "init=epsg:4326"
+    end
+    #transparency alpha
+    status on
+    data "jalan_margaasih"
+    labelitem "jalan_marga"
+    classitem "jalan_marga"
+    class 
+      expression "Jalan Di Kelurahan Cigondewah Hilir"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+    class 
+      expression "Jalan Di Kelurahan Lagadar"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+    class 
+      expression "Jalan Di Kelurahan Margaasih"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+    class 
+      expression "JlJalan Di Kelurahan Mekar Rahayu"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+    class 
+      expression "Jalan Di Kelurahan Nanjung"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+    class 
+      expression "Jalan Di Kelurahan Rahayu"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+  end #layer jalan
+
+  symbol
+    name "circle"
+    type ellipse
+    filled true
+    points
+      1 1
+    end # POINTS
+  end # SYMBOL
+end #map

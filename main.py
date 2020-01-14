@@ -1652,7 +1652,7 @@ katapang.kantorDesaCilampeni('Kantor Desa Cilampeni')
 katapang.kantorDesaGandasari('Kantor Desa Gandasari')
 katapang.kantorDesaPangauban('Kantor Desa Pangauban')
 katapang.kantorDesaSangkahurip('Kantor Desa Sangkahurip')
-katapang.kantorDesaSukamukti('Kantor Desa BanyusariSukamukti')
+katapang.kantorDesaSukamukti('Kantor Desa Sukamukti')
 
 
 # Jalan
@@ -1667,7 +1667,7 @@ katapang.jlPasungKalerNo1('Jl. Pasung Kaler No.1')
 katapang.jlCipongporangNo150('Jl. Cipongporang No.150')
 katapang.jlGandasariNo2('Jl. Gandasari No.2')
 katapang.jlGandasariNo63('Jl. Gandasari No.63')
-katapang.jlMekarSari1('Jl. Mekar Sari 1(')
+katapang.jlMekarSari1('Jl. Mekar Sari 1')
 katapang.jlSukaRamaiNo179('Jl. Suka Ramai No.179')
 katapang.jlSukarajin('Jl. Sukarajin')
 katapang.jlKatapangWetanNo16('Jl. Katapang Wetan No.16')

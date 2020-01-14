@@ -1,0 +1,610 @@
+map
+  size 640 480
+  EXTENT 107.4827583 -7.0854769 107.5630958 -6.9924562
+  UNITS DD
+  imagetype png8
+  imagecolor 225 225 225
+  shapepath "../shp"
+  FONTSET "../etc/fonts.txt"
+  projection
+    "init=epsg:4326"
+  end
+  debug on
+  web
+    imagepath "/var/www/html/tmp/"
+    imageurl "/tmp/"
+    metadata
+      wms_title "Peta Kecamatan Soreang"
+      wms_srs "EPSG:4326"
+      wms_enable_request "*"
+    end
+  end
+  outputformat
+    name "png256"
+    driver "AGG/PNG"
+    imagemode "pc256"
+    extension "png"
+  end
+  outputformat
+    name "png"
+    driver "AGG/PNG"
+    imagemode "rgba"
+    extension "png"
+    mimetype "image/png"
+    imagemode RGBA
+  end
+  outputformat
+    name "png8"
+    driver "AGG/PNG"
+    imagemode "rgba"
+    extension "png"
+    mimetype "image/png"
+    imagemode RGBA
+    transparent ON
+    formatoption "QUANTIZE_FORCE=ON"
+    formatoption "QUANTIZE_DITHER=ON"
+    formatoption "QUANTIZE_COLORS=250"
+  end
+  outputformat
+    name "jpg"
+    driver "AGG/JPEG"
+    extension "jpg"
+    formatoption "QUALITY=85"
+  end
+
+  layer #desa layer
+    name soreang
+    group roads
+    type POLYGON
+    dump true 
+    projection
+      "init=epsg:4326"
+    end
+    #transparency alpha
+    status on
+    data "kelurahan_soreang"
+    labelitem "kelurahan_d"
+    classitem "kelurahan_d"
+    class 
+      expression "Kelurahan Pamekaran"
+      style
+        color 76 153 0
+      end
+      label
+        color  0 0 0
+        outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kelurahan Sekarwangi"
+      style
+        color 255 255 0
+      end
+      label
+        color  0 0 0
+        outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kelurahan panyirapan"
+      style
+        color 255 0 0
+      end
+      label
+        color  0 0 0
+        outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kelurahan sukanagara"
+      style
+        color 50 0 255
+      end
+      label
+        color  0 0 0
+        outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kelurahan Sukajadi"
+      style
+        color 255 153 153
+      end
+      label
+        color  0 0 0
+        outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kelurahan Sadu"
+      style
+        color 0 204 204
+      end
+      label
+        color  0 0 0
+        outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kelurahan Parungserap"
+      style
+        color 255 0 255
+      end
+      label
+        color  0 0 0
+        outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kelurahan Soreang"
+      style
+        color 204 204 0
+      end
+      label
+        color  0 0 0
+        outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kelurahan Karamatmulya"
+      style
+        color 255 100 0
+      end
+      label
+        color  0 0 0
+        outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kelurahan Cingcin"
+      style
+        color 0 255 0
+      end
+      label
+        color  0 0 0
+        outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+  end #layer desa
+
+  layer #kantor layer
+    name soreang
+    group roads
+    type POINT
+    dump true 
+    projection
+      "init=epsg:4326"
+    end
+    #transparency alpha
+    status on
+    data "kantor_kelurahan_soreang"
+    labelitem "kantor_kelu"
+    classitem "kantor_kelu"
+    class 
+      expression "Kantor Kelurahan Pamekaran"
+      style
+        color 0 0 0
+        size 10
+        symbol "circle"
+      end
+      label
+        color 0 0 0
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kantor Kelurahan Sekarwangi"
+      style
+        color 255 255 255
+        size 10
+        symbol "circle"
+      end
+      label
+        color 0 0 0
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kantor Kelurahan Panyirapan"
+      style
+        color 0 0 0
+        size 10
+        symbol "circle"
+      end
+      label
+        color 0 0 0
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kantor Kelurahan Sukanagara"
+      style
+        color 0 0 0
+        size 10
+        symbol "circle"
+      end
+      label
+        color 0 0 0
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kantor Kelurahan Sukajadi"
+      style
+        color 0 0 0
+        size 10
+        symbol "circle"
+      end
+      label
+        color 0 0 0
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kantor Kelurahan Sadu"
+      style
+        color 0 0 0
+        size 10
+        symbol "circle"
+      end
+      label
+        color 0 0 0
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kantor Kelurahan Parungserap"
+      style
+        color 0 0 0
+        size 10
+        symbol "circle"
+      end
+      label
+        color 0 0 0
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kantor Kelurahan Soreang"
+      style
+        color 0 0 0
+        size 10
+        symbol "circle"
+      end
+      label
+        color 0 0 0
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kantor Kelurahan Karamatmulya"
+      style
+        color 0 0 0
+        size 10
+        symbol "circle"
+      end
+      label
+        color 0 0 0
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+      class 
+      expression "Kantor Kelurahan Cingcin"
+      style
+        color 0 0 0
+        size 10
+        symbol "circle"
+      end
+      label
+        color 0 0 0
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+  end #layer kantor
+
+  layer #jalan layer
+    name soreang
+    group roads
+    type LINE
+    dump true 
+    projection
+      "init=epsg:4326"
+    end
+    #transparency alpha
+    status on
+    data "jalan_soreang"
+    labelitem "jalan_di_so"
+    classitem "jalan_di_so"
+    class 
+      expression "Jl.Cingcin"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+    class 
+      expression "Jl.Sukajadi"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+    class 
+      expression "Jl.Sukajadi"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+    class 
+      expression "Jl.Sukajadi"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+    class 
+      expression "Jl.Soreang"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+    class 
+      expression "Jl.Panyirapan"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+    class 
+      expression "Jl.Panyirapan"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+    class 
+      expression "Jl.Sukanagara"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+    class 
+      expression "Jl.Sukanagara"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+    class 
+      expression "Jl.Parungserap"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+    class 
+      expression "Jl.Sekarwangi"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+    class 
+      expression "Jl.Sekarwangi"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+    class 
+      expression "Jl.Panyirapan"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+    class 
+      expression "Jl.Sadu"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+    class 
+      expression "Jl.Sadu"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+    class 
+      expression "Jl.Parungserap"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+    class 
+      expression "Jl.Cingcin"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+    class 
+      expression "Jl.Pamekaran"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+    class 
+      expression "Jl.Pamekaran"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+    class 
+      expression "Jl.Pamekaran"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+    class 
+      expression "Jn.Soreang"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+    class 
+      expression "Jl.Karamatmulya"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+    class 
+      expression "Jl.Karamatmulya"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+  end #layer jalan
+
+  symbol
+    name "circle"
+    type ellipse
+    filled true
+    points
+      1 1
+    end # POINTS
+  end # SYMBOL
+
+
+end #map

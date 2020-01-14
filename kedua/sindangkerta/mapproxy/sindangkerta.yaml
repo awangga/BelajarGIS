@@ -49,7 +49,7 @@ sources:
     type: mapserver
     req:
       layers: roads
-      map: D:\SEMESTER 5\QUIZ4GIS\kedua\sindangkerta\mapfile\sindangkerta.map
+      map: D:\SEMESTER 5\QUIZ4GISFIX\kedua\sindangkerta\mapfile\sindangkerta.map
       transparent: true
     coverage:
       bbox: [107.264655, -7.154613, 107.563003, -6.929389]

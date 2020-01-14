@@ -1,0 +1,376 @@
+map
+  size 640 480
+  EXTENT 107.70406 -7.04943 107.78749 -6.97446
+  UNITS DD
+  imagetype png8
+  imagecolor 225 225 225
+  shapepath "../shp"
+  FONTSET "../etc/fonts.txt"
+  projection
+    "init=epsg:4326"
+  end
+  debug on
+  web
+    imagepath "/var/www/html/tmp/"
+    imageurl "/tmp/"
+    metadata
+      wms_title "Peta Kecamatan SolokanJeruk"
+      wms_srs "EPSG:4326"
+      wms_enable_request "*"
+    end
+  end
+  outputformat
+    name "png256"
+    driver "AGG/PNG"
+    imagemode "pc256"
+    extension "png"
+  end
+  outputformat
+    name "png"
+    driver "AGG/PNG"
+    imagemode "rgba"
+    extension "png"
+    mimetype "image/png"
+    imagemode RGBA
+  end
+  outputformat
+    name "png8"
+    driver "AGG/PNG"
+    imagemode "rgba"
+    extension "png"
+    mimetype "image/png"
+    imagemode RGBA
+    transparent ON
+    formatoption "QUANTIZE_FORCE=ON"
+    formatoption "QUANTIZE_DITHER=ON"
+    formatoption "QUANTIZE_COLORS=250"
+  end
+  outputformat
+    name "jpg"
+    driver "AGG/JPEG"
+    extension "jpg"
+    formatoption "QUALITY=85"
+  end
+
+  layer #desa layer
+    name SolokanJeruk
+    group roads
+    type POLYGON
+    dump true 
+    projection
+      "init=epsg:4326"
+    end
+    #transparency alpha
+    status on
+    data "kecamatan_solokanjeruk"
+    labelitem "desa_di_sol"
+    classitem "desa_di_sol"
+    class 
+      expression "Desa Bojongemas"
+      style
+        color 76 153 0
+      end
+      label
+        color  0 0 0
+        outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Desa Rancakasumba"
+      style
+        color 255 255 0
+      end
+      label
+        color  0 0 0
+        outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Desa Solokan Jeruk"
+      style
+        color 255 0 0
+      end
+      label
+        color  0 0 0
+        outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Desa Langensari"
+      style
+        color 50 0 255
+      end
+      label
+        color  0 0 0
+        outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Desa Cibodas"
+      style
+        color 255 153 153
+      end
+      label
+        color  0 0 0
+        outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Desa Padamukti"
+      style
+        color 0 204 204
+      end
+      label
+        color  0 0 0
+        outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Desa Panyadap"
+      style
+        color 255 0 255
+      end
+      label
+        color  0 0 0
+        outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+  end #layer desa
+
+  layer #kantor layer
+    name SolokanJeruk
+    group roads
+    type POINT
+    dump true 
+    projection
+      "init=epsg:4326"
+    end
+    #transparency alpha
+    status on
+    data "kantor_desa"
+    labelitem "kantor_desa"
+    classitem "kantor_desa"
+    class 
+      expression "kantor Desa Bojongemas"
+      style
+        color 0 0 0
+        size 10
+        symbol "circle"
+      end
+      label
+        color 0 0 0
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "kantor Kecamatan Rancakasumba"
+      style
+        color 255 255 255
+        size 10
+        symbol "circle"
+      end
+      label
+        color 0 0 0
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "kantor Desa Solokan Jeruk"
+      style
+        color 0 0 0
+        size 10
+        symbol "circle"
+      end
+      label
+        color 0 0 0
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "kantor Desa Langensari"
+      style
+        color 0 0 0
+        size 10
+        symbol "circle"
+      end
+      label
+        color 0 0 0
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "kantor Desa Cibodas"
+      style
+        color 0 0 0
+        size 10
+        symbol "circle"
+      end
+      label
+        color 0 0 0
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "kantor Desa Padamukti"
+      style
+        color 0 0 0
+        size 10
+        symbol "circle"
+      end
+      label
+        color 0 0 0
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "kantor Desa Panyadap"
+      style
+        color 0 0 0
+        size 10
+        symbol "circle"
+      end
+      label
+        color 0 0 0
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+  end #layer kantor
+
+  layer #jalan layer
+    name SolokanJeruk
+    group roads
+    type LINE
+    dump true 
+    projection
+      "init=epsg:4326"
+    end
+    #transparency alpha
+    status on
+    data "jalan_raya_solokanjeruk"
+    labelitem "jalan_raya_"
+    classitem "jalan_raya_"
+    class 
+      expression "Jl.Sastra Solokan Jeruk"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+    class 
+      expression "Jl.Raya Sapan"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+    class 
+      expression "Jl.Anyar"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+    class 
+      expression "Jl.Citarik Baru"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+  end #layer jalan
+
+  symbol
+    name "circle"
+    type ellipse
+    filled true
+    points
+      1 1
+    end # POINTS
+  end # SYMBOL
+
+
+end #map

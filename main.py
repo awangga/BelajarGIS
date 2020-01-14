@@ -42,6 +42,106 @@ andir.close()
 ####################################################
 
 ####################################################
+############# Dwi Septiani Tsaniyah    #############
+#############           Mulai          #############
+####################################################
+import sys
+sys.path.insert(0, 'pertama')
+import regolbandung
+regolbandung = regolbandung.Regol()
+# Batas Kelurahan
+regolbandung.kelurahanCiateul('Kelurahan Ciateul')
+regolbandung.kelurahanAncol('Kelurahan Ancol')
+regolbandung.kelurahanBalonggede('Kelurahan Balonggede')
+regolbandung.kelurahanCigelereng('Kelurahan Cigelereng')
+regolbandung.kelurahanCisereuh('Kelurahan Cisereuh')
+regolbandung.kelurahanPungkur('Kelurahan Pungkur')
+regolbandung.kelurahanPasirluyu('Kelurahan Pasirluyu')
+
+# Kantor Pemerintahan
+regolbandung.KantorKelurahanCiateul('Kantor Kelurahan Ciateul')
+regolbandung.KantorKelurahanAncol('Kantor Kelurahan Ancol')
+regolbandung.KantorKelurahanBalonggede('Kantor Kelurahan Balonggede')
+regolbandung.KantorKelurahanCigelereng('Kantor Kelurahan Cigelereng')
+regolbandung.KantorKelurahanCisereuh('Kantor Kelurahan Cisereuh')
+regolbandung.KantorKelurahanPungkur('Kantor Kelurahan Pungkur')
+regolbandung.KantorKelurahanPasirluyu('Kantor Kelurahan Pasirluyu')
+
+# Jalan
+regolbandung.jalanAsiaAfrika('Jalan Asia Afrika')
+regolbandung.jalanSukarta('Jalan Sukarta')
+regolbandung.jalanLengensari('Jalan Lengensari')
+regolbandung.jalanPLN('Jalan PLN')
+regolbandung.jalanKaumDalem('Jalan Kaum Dalem')
+regolbandung.jalanSasakGantung('Jalan Sasak Gantung')
+regolbandung.jalanPartadisastra('Jalan Partadisastra')
+regolbandung.jalanKembarMas4('Jalan Kembar 4')
+regolbandung.jalanMohHatta('Jalan Moh.Hatta')
+regolbandung.jalanYuda('Jalan Yuda')
+regolbandung.jalanAncol('Jalan Ancol')
+regolbandung.jalanAncolTengah('Jalan Ancol Tengah')
+regolbandung.jalanBKR('Jalan BKR')
+regolbandung.jalanPasirluyuBarat('Jalan Pasirluyu Barat')
+regolbandung.jalanKembarMasSelatan('Jalan Mas Selatan')
+regolbandung.jalanKembarMas1('Jalan Kembar Mas 1')
+regolbandung.jalanKembarMas2('Jalan Kembar Mas 2')
+regolbandung.jalanKembarMas3('Jalan Kembar Mas3')
+regolbandung.jalanKembarMas4('Jalan Kembar Mas 4')
+regolbandung.jalanKembarMasUtara('Jalan Kembar Mas Utara')
+regolbandung.jalanPasirluyuSelatan('Jalan Pasirluyu Selatan')
+regolbandung.jalanSukaati5('Jalan Sukaati 5')
+regolbandung.jalanSukaati('Jalan Sukaati')
+regolbandung.jalanKembar2('Jalan Kembar 2')
+regolbandung.jalanKembarIndah('Jalan Kembar Indah')
+regolbandung.jalanKembar1('Jalan Kembar 1')
+regolbandung.jalanKembar5('Jalan Kembar 5')
+regolbandung.jalanKembarBaratBaru('Jalan Kembar Barat Baru')
+regolbandung.jalanKembarBarat('Jalan Kembar Barat')
+regolbandung.jalanKembarTengah4('Jalan Kembar Tengah 4')
+regolbandung.jalanKembar7('Jalan Kembar 7')
+regolbandung.jalanSriwijaya('Jalan Sriwijaya')
+regolbandung.jalanSrimahiBaru('Jalan Srimahi Baru')
+regolbandung.jalanSriwulan('Jalan Sriwulan')
+regolbandung.jalanSriayu('Jalan Sriayu')
+regolbandung.jalanKembarBaruUtara3('Jalan Kembar Baru Utara 3')
+regolbandung.jalanPasirlayu5('Jalan Pasirluyu 5')
+regolbandung.jalanPasirSubur('Jalan Pasir Subur')
+regolbandung.jalanPasirSalam('Jalan Pasir Salam')
+regolbandung.jalanKembarTIM7('Jalan Kembar TIM 7')
+regolbandung.jalanKembarTimur('Jalan Kembar Timur')
+regolbandung.jalanPasirhuniRaya('Jalan Pasirhuni Raya')
+regolbandung.jalanAkiel('Jalan Akiel')
+regolbandung.jalanKotaBaru('Jalan Kota Baru')
+regolbandung.jalanJunardi('Jalan Junardi')
+regolbandung.jalanSukarsah('Jalan Sukarsah')
+regolbandung.jalanKotaBaruVII('Jalan Kota Baru VII')
+regolbandung.jalanKembarTengah('Jalan Kembar Tengah')
+regolbandung.jalanKembarUtara('Jalan Kembar Utara VI')
+regolbandung.jalanHAJI('Jalan HAJI')
+regolbandung.jalanKembar('Jalan Kembar')
+regolbandung.jalanAlunAlunTimur('Jalan Alun-ALun Timur')
+regolbandung.jalanSimpang('Jalan Simpang')
+regolbandung.jalanCiguriang('Jalan Cigurian')
+regolbandung.jalanPungkur('Jalan Pungkur')
+regolbandung.jalanAsmi('Jalan Asmi')
+regolbandung.jalanPasundan('Jalan Pasundan')
+regolbandung.jalanCiateulTengah('Jalan Ciateul Tengah')
+regolbandung.jalanAcehBarat('Jalan Aceh Barat')
+regolbandung.jalanMohamadHattaDalam('Jalan Mohamad Toha Dalam')
+regolbandung.jalanMohHatta('jalan moh hatta')
+regolbandung.jalanSekarKagugat('Jalan Sekar Gugat')
+regolbandung.jalanSamsudin('Jalan Samsudin')
+regolbandung.jalanKotaBaruIII('Jalan Kota Baru III')
+regolbandung.jalanSindangPalay('Jalan Sindang Palay')
+regolbandung.jalanMurni('Jalan Murni')
+regolbandung.jalanMurniIII('Jalan Murni III')
+
+regolbandung.close()
+####################################################
+#############          Selesai         #############
+####################################################
+
+####################################################
 #############   Harun Ar - Rasyid      #############
 #############           Mulai          #############
 ####################################################
@@ -272,6 +372,8 @@ kiaracondong.jalanHantapRaya('Jalan Hantap Raya')
 ####################################################
 #############          Selesai         #############
 ####################################################
+
+
 
 ####################################################
 ############# Muhammad Tomy Nur Maulidy ############
@@ -664,7 +766,7 @@ luthfi.KantorDesaPakuhaji('Kantor Desa Pakuhaji')
 luthfi.JalananRaya()
 luthfi.close()
 ####################################################
-#############          Selesai         #############
+#############          Selesai         ############
 ####################################################
 
 ####################################################
@@ -1490,53 +1592,6 @@ margaasih.close()
 #############             Selesai             #############
 ###########################################################
 
-####################################################
-############# Nurul Izza Hamka 1174062   ###########
-#############           Mulai            ###########
-
-import soreang
-soreang = soreang.Soreang()
-# Kelurahan
-soreang.kelurahanPamekaran('Kelurahan Pamekaran')
-soreang.kelurahanCingcin('Kelurahan Cingcin')
-soreang.kelurahanKaramatmulya('Kelurahan Karamatmulya')
-soreang.kelurahanSoreang('Kelurahan Soreang')
-soreang.kelurahanSukajadi('Kelurahan Sukajadi')
-soreang.kelurahanSukanagara('Kelurahan sukanagara')
-soreang.kelurahanPanyirapan('Kelurahan panyirapan')
-soreang.kelurahanSekarwangi('Kelurahan Sekarwangi')
-soreang.kelurahanParungserap('Kelurahan Parungserap')
-soreang.kelurahanSadu('Kelurahan Sadu')
-# Kantor Kelurahan
-soreang.kantorKelurahanPamekaran('Kantor Kelurahan Pamekaran')
-soreang.kantorKelurahanCingcin('Kantor Kelurahan Cincing')
-soreang.kantorKelurahanKaramatmulya('Kantor Kelurahan Karamatmulya')
-soreang.kantorKelurahanSoreang('Kantor Kelurahan Soreang')
-soreang.kantorKelurahanSukajadi('Kantor Kelurahan Sukajadi')
-soreang.kantorKelurahanSukanagara('Kantor Kelurahan Sukanagara')
-soreang.kantorKelurahanPanyirapan('Kantor Kelurahan Panyirapan')
-soreang.kantorKelurahanSekarwangi('Kantor Kelurahan Sekarwangi')
-soreang.kantorKelurahanParungserap('Kantor Kelurahan Parungserap')
-soreang.kantorKelurahanSadu('Kantor Kelurahan Sadu')
-# Jalan
-soreang.jalanKelurahanPamekaran('Jl.Pamekaran')
-soreang.jalanKelurahanCingcin('Jl.Cingcin')
-soreang.jalanKelurahanKaramatmulya('Jl.Karamatmulya')
-soreang.jalanKelurahanSoreang('Jn.Soreang')
-soreang.jalanKelurahanSukajadi('Jl.Sukajadi')
-soreang.jalanKelurahanSukanagara('Jl.Sukanagara')
-soreang.jalanKelurahanPanyirapan('Jl.Panyirapan')
-soreang.jalanKelurahanSekarwangi('Jl.Sekarwangi')
-soreang.jalanKelurahanParungserap('Jl.Parungserap')
-soreang.jalanKelurahanSadu('Jl.Sadu')
-
-
-soreang.close()
-
-####################################################
-############# Nurul Izza Hamka 1174062   ###########
-#############           SELESAI          ###########
-
 #--------------------------    Batas    -------------------------#
 
 ####################################################
@@ -1634,6 +1689,113 @@ katapang.close()
 ##########    Kaka Kamaludin 1174067    ############
 ##########            Selesai            ###########
 ####################################################
+
+####################################################
+############# Nurul Izza Hamka 1174062   ###########
+#############           Mulai            ###########
+
+import soreang
+soreang = soreang.Soreang()
+# Kelurahan
+soreang.kelurahanPamekaran('Kelurahan Pamekaran')
+soreang.kelurahanCingcin('Kelurahan Cingcin')
+soreang.kelurahanKaramatmulya('Kelurahan Karamatmulya')
+soreang.kelurahanSoreang('Kelurahan Soreang')
+soreang.kelurahanSukajadi('Kelurahan Sukajadi')
+soreang.kelurahanSukanagara('Kelurahan sukanagara')
+soreang.kelurahanPanyirapan('Kelurahan panyirapan')
+soreang.kelurahanSekarwangi('Kelurahan Sekarwangi')
+soreang.kelurahanParungserap('Kelurahan Parungserap')
+soreang.kelurahanSadu('Kelurahan Sadu')
+# Kantor Kelurahan
+soreang.kantorKelurahanPamekaran('Kantor Kelurahan Pamekaran')
+soreang.kantorKelurahanCingcin('Kantor Kelurahan Cincing')
+soreang.kantorKelurahanKaramatmulya('Kantor Kelurahan Karamatmulya')
+soreang.kantorKelurahanSoreang('Kantor Kelurahan Soreang')
+soreang.kantorKelurahanSukajadi('Kantor Kelurahan Sukajadi')
+soreang.kantorKelurahanSukanagara('Kantor Kelurahan Sukanagara')
+soreang.kantorKelurahanPanyirapan('Kantor Kelurahan Panyirapan')
+soreang.kantorKelurahanSekarwangi('Kantor Kelurahan Sekarwangi')
+soreang.kantorKelurahanParungserap('Kantor Kelurahan Parungserap')
+soreang.kantorKelurahanSadu('Kantor Kelurahan Sadu')
+# Jalan
+soreang.jalanKelurahanPamekaran('Jl.Pamekaran')
+soreang.jalanKelurahanCingcin('Jl.Cingcin')
+soreang.jalanKelurahanKaramatmulya('Jl.Karamatmulya')
+soreang.jalanKelurahanSoreang('Jn.Soreang')
+soreang.jalanKelurahanSukajadi('Jl.Sukajadi')
+soreang.jalanKelurahanSukanagara('Jl.Sukanagara')
+soreang.jalanKelurahanPanyirapan('Jl.Panyirapan')
+soreang.jalanKelurahanSekarwangi('Jl.Sekarwangi')
+soreang.jalanKelurahanParungserap('Jl.Parungserap')
+soreang.jalanKelurahanSadu('Jl.Sadu')
+
+
+soreang.close()
+
+####################################################
+############# Nurul Izza Hamka 1174062   ###########
+#############           SELESAI          ###########
+
+#------------------------    Quiz 3    --------------------------#
+#-------------------    Alfadian Owen     -----------------------#
+import bojongsoang
+
+bojongsoang = bojongsoang.Bojongsoang()
+
+# Desa/Kelurahan di Kecamatan Bojongsoang
+bojongsoang.desaBojongsari('Desa Bojongsari')
+bojongsoang.desaBojongsoang('Desa Bojongsoang')
+bojongsoang.desaBuahbatu('Desa Buahbatu')
+bojongsoang.desaCipagalo('Desa Cipagalo')
+bojongsoang.desaLengkong('Desa Lengkong')
+bojongsoang.desaTegalluar('Desa Tegal luar')
+
+
+# Kantor Desa / Kelurahan di Kecamatan Bojongsoang
+bojongsoang.kantorDesaBojongsari('Kantor Desa Bojongsari')
+bojongsoang.kantorDesaBojongsoang('Kantor Desa Bojongsoang')
+bojongsoang.kantorDesaBuahbatu('Kantor Desa Buahbatu')
+bojongsoang.kantorDesaCipagalo('Kantor Desa Cipagalo')
+bojongsoang.kantorDesaLengkong('Kantor Desa Lengkong')
+bojongsoang.kantorDesaTegalluar('Kantor Desa Tegal luar')
+
+
+# Jalan di Kecamatan Cimaung
+bojongsoang.jalanDesaTegalluar1('Jalan Desa Tegal luar')
+bojongsoang.jalanDesaTegalluar2('Jalan Desa Tegal luar')
+bojongsoang.jalanDesaTegalluar3('Jalan Desa Tegal luar')
+bojongsoang.jalanDesaBuahbatu1('jalan desa buah batu')
+bojongsoang.jalanDesaBuahbatu5('jalan desa buah batu')
+bojongsoang.jalanDesaBuahbatu4('jalan desa buah batu')
+bojongsoang.jalanDesaBuahbatu3('jalan desa buah batu')
+bojongsoang.jalanDesaBuahbatu2('jalan desa buah batu')
+bojongsoang.jalanDesaBuahbatu6('jalan desa buah batu')
+bojongsoang.jalanDesaBojongsari1('jalan desa Bojongsari')
+bojongsoang.jalanDesaBojongsari2('jalan desa Bojongsari')
+bojongsoang.jalanDesaBojongsari3('jalan desa Bojongsari')
+bojongsoang.jalanDesaBojongsoang1('jalan desa Bojongsoang')
+bojongsoang.jalanDesaBojongsoang1('jalan desa Bojongsoang')
+bojongsoang.jalanDesaBojongsoang1('jalan desa Bojongsoang')
+bojongsoang.jalanDesaBojongsoang1('jalan desa Bojongsoang')
+bojongsoang.jalanDesaLengkong1('jalan desa Lengkong')
+bojongsoang.jalanDesaLengkong2('jalan desa Lengkong')
+bojongsoang.jalanDesaCipagalo1('jalan desa Cipagalo')
+bojongsoang.jalanDesaCipagalo2('jalan desa Cipagalo')
+bojongsoang.jalanDesaCipagalo3('jalan desa Cipagalo')
+bojongsoang.jalanDesaCipagalo4('jalan desa Cipagalo')
+bojongsoang.jalanDesaCipagalo5('jalan desa Cipagalo')
+bojongsoang.jalanDesaCipagalo6('jalan desa Cipagalo')
+bojongsoang.jalanDesaCipagalo7('jalan desa Cipagalo')
+bojongsoang.jalanDesaCipagalo8('jalan desa Cipagalo')
+bojongsoang.jalanDesaCipagalo9('jalan desa Cipagalo')
+bojongsoang.jalanDesaCipagalo10('jalan desa Cipagalo')
+bojongsoang.jalanDesaCipagalo11('jalan desa Cipagalo')
+
+bojongsoang.close()
+#--------------------------    Alfadian Owen    -------------------------#
+#-----------------------------    Selesai    ----------------------------#
+
 #--------------------------    Batas    -------------------------#
 
 

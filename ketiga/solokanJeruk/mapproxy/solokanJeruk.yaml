@@ -1,0 +1,66 @@
+services:
+  demo:
+  tms:
+    use_grid_names: true
+    origin: 'nw'
+  kml:
+      use_grid_names: true
+  wmts:
+    restful: true
+    restful_template: '/{Layer}/{TileMatrixSet}/{TileMatrix}/{TileCol}/{TileRow}.{Format}'
+    kvp: true
+    md:
+      title: Handi Hermawan GeoMap
+      abstract: This is the Handi Hermawan GeoMap.
+      online_resource: https://www.none.co.id/
+      contact:
+        person: Handi Hermawan
+        position: Software Engineer
+        organization: Politeknik Pos Indonesia
+        address: Jl. Sarijadi No. 54
+        city: Bandung
+        postcode: 40191
+        country: Indonesia
+        phone: +62878-2178-5213
+        email: handyhermawan2@gmail.com
+      access_constraints:
+        This service is intended for Sekretariat Negara Only.
+        The data is under development on Sekretarian Negara Republik Indonesia.
+        (http://setneg.go.id/)
+      fees: 'None'
+  wms:
+    md:
+      title: MapProxy WMS Proxy
+      abstract: This is a minimal MapProxy example.
+
+layers:
+  - name: dgm
+    title: Handi Hermawan Geo Map - www.none.co.id
+    sources: [agm_cache]
+
+caches:
+  agm_cache:
+    grids: [petasolokanjeruk]
+    sources: [agm_source]
+    
+sources:
+  agm_source:
+    type: mapserver
+    req:
+      layers: roads
+      map: D:\solokanjeruk\mapfile\solokanjeruk.map    
+      transparent: true
+    coverage:
+      bbox: [107.70406, -7.04943, 107.78749, -6.97446]
+      srs: 'EPSG:4326'
+    mapserver:
+      binary: C:\ms4w\Apache\cgi-bin\mapserv.exe
+      working_dir: D:\solokanJeruk\tmp
+    supported_srs: ['EPSG:4326']
+
+grids:
+    petasolokanjeruk:
+        base: GLOBAL_WEBMERCATOR
+
+globals:
+

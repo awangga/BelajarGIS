@@ -1,0 +1,67 @@
+services:
+  demo:
+  tms:
+    use_grid_names: true
+    origin: 'nw'
+  kml:
+      use_grid_names: true
+  wmts:
+    restful: true
+    restful_template: '/{Layer}/{TileMatrixSet}/{TileMatrix}/{TileCol}/{TileRow}.{Format}'
+    kvp: true
+    md:
+      title: D.Irga GeoMap
+      abstract: This is the Dirga GeoMap.
+      online_resource: https://dirgabrajamusti.xyz/
+      contact:
+        person: D.Irga B. Naufal Fakhri
+        position: Software Engineer
+        organization: Politeknik Pos Indonesia
+        address: Jl. Sarijadi No. 54
+        city: Bandung
+        postcode: 40191
+        country: Indonesia
+        phone: +62(0)812-4166-8963
+        fax: +62(0)812-4166-8963
+        email: myself@dirgabrajamusti.xyz
+      access_constraints:
+        This service is intended for Sekretariat Negara Only.
+        The data is under development on Sekretarian Negara Republik Indonesia.
+        (http://setneg.go.id/)
+      fees: 'None'
+  wms:
+    md:
+      title: MapProxy WMS Proxy
+      abstract: This is a minimal MapProxy example.
+
+layers:
+  - name: dgm
+    title: D.Irga Geo Map - dirgabrajamusti.xyz
+    sources: [agm_cache]
+
+caches:
+  agm_cache:
+    grids: [petapaseh]
+    sources: [agm_source]
+    
+sources:
+  agm_source:
+    type: mapserver
+    req:
+      layers: roads
+      map: N:\Tugas\Kuliah\Semester 5\Sistem Geografis\Quiz 4\BelajarGIS\ketiga\Paseh\mapfile\paseh.map
+      transparent: true
+    coverage:
+      bbox: [107.761908,-7.1419607, 107.8367524,-7.0002247]
+      srs: 'EPSG:4326'
+    mapserver:
+      binary: C:\ms4w\Apache\cgi-bin\mapserv.exe
+      working_dir: N:\Tugas\Kuliah\Semester 5\Sistem Geografis\Quiz 4\BelajarGIS\ketiga\Paseh\tmp
+    supported_srs: ['EPSG:4326']
+
+grids:
+    petapaseh:
+        base: GLOBAL_WEBMERCATOR
+
+globals:
+

@@ -1,0 +1,74 @@
+services:
+  demo:
+  tms:
+    use_grid_names: true
+    # origin for /tiles service
+    origin: 'nw'
+  kml:
+      use_grid_names: true
+  wmts:
+    # use restful access to WMTS
+    restful: true
+    # this is the default template for MapProxy
+    restful_template: '/{Layer}/{TileMatrixSet}/{TileMatrix}/{TileCol}/{TileRow}.{Format}'
+    # and also allow KVP requests
+    kvp: true
+    md:
+      # metadata used in capabilities documents for WMTS
+      # if the md option is not set, the metadata of the WMS will be used
+      title: Alit GeoMap
+      abstract: This is the Alit GeoMap.
+      online_resource: http://www.alitkurniawan.com/
+      contact:
+        person: Alit Fajar Kurniawan
+        position: Software Engineer
+        organization: Politeknik Pos Indonesia
+        address: Jl. Sari Asih No. 54
+        city: Bandung
+        postcode: 40151
+        country: Indonesia
+        phone: +62(0)821-3967-1518
+        fax: +62(0)813-12000-300
+        email: alitfajark@gmail.com
+      # multiline strings are possible with the right indention
+      access_constraints:
+        This service is intended for Sekretariat Negara Only.
+        The data is under development on Sekretarian Negara Republik Indonesia.
+        (http://setneg.go.id/)
+      fees: 'None'
+  wms:
+    md:
+      title: MapProxy WMS Proxy
+      abstract: This is a minimal MapProxy example.
+
+layers:
+  - name: agm
+    title: Alit Geo Map - www.alitkurniawan.com
+    sources: [agm_cache]
+
+caches:
+  agm_cache:
+    grids: [petasaguling]
+    sources: [agm_source]
+    
+sources:
+  agm_source:
+    type: mapserver
+    req:
+      layers: roads
+      map: D:\Data Alit\Kuliah\SEMESTER V\Sistem Informasi Geografi\Quiz GIS\kedua\Saguling\mapfile\saguling.map
+      transparent: true
+    coverage:
+      bbox: [107.289477, -6.955937, 107.476405, -6.848920]
+      srs: 'EPSG:4326'
+    mapserver:
+      binary: C:\ms4w\Apache\cgi-bin\mapserv.exe
+      working_dir: D:\Data Alit\Kuliah\SEMESTER V\Sistem Informasi Geografi\Quiz GIS\kedua\Saguling\tmp
+    supported_srs: ['EPSG:4326']
+
+grids:
+    petasaguling:
+        base: GLOBAL_WEBMERCATOR
+
+globals:
+

@@ -1797,6 +1797,33 @@ bojongsoang.close()
 #-----------------------------    Selesai    ----------------------------#
 
 #--------------------------    Batas    -------------------------#
+#-------------------   ADVENT NOPELE OLANSI SIHITE     -------------------#
+import margahayu
+
+margahayu = margahayu.Margahayu()
+
+# Desa/Kelurahan di Kecamatan margahayu
+margahayu.desaMargahayuSelatan('desaMargahayuSelatan')
+margahayu.desaMargahayuTengah('desaMargahayuTengah')
+margahayu.desaSayati('desaSayati')
+margahayu.desaSukamenak('desaSukamenak')
+margahayu.desaSulaeman('desaSulaeman')
+
+
+# Kantor Desa / Kelurahan di Kecamatan margahayu
+margahayu.kantorDesaMargahayuSelatan('kantorDesaMargahayuSelatan')
+margahayu.kantorDesaMargahayuTengah('kantorDesaMargahayuTengah')
+margahayu.kantorDesaSayati('kantorDesaSayati')
+margahayu.kantorDesaSukamenak('kantorDesaSukamenak')
+margahayu.kantorKelurahanSulaiman('kantorKelurahanSulaiman')
+
+# Jalan di Kecamatan margahayu
+margahayu.jalanDesaMargahayuSelatan('kantorDesaMargahayuSelatan')
+margahayu.jalanDesaMargahayuTengah('kantorDesaMargahayuTengah')
+margahayu.close()
+
+#--------------------------    Batas    -------------------------#
+
 
 
 

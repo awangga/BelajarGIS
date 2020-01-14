@@ -1563,7 +1563,7 @@ margaasih = margaasih.Margaasih()
 # Kelurahan di Kecamatan Margaasih
 margaasih.cigondewahHilir('Kelurahan Cigondewah Hilir')
 margaasih.lagadar('Kelurahan Lagadar')
-margaasih.margaasih('Kelurahan Margaasuh')
+margaasih.margaasih('Kelurahan Margaasih')
 margaasih.mekarRahayu('Kelurahan Mekar Rahayu')
 margaasih.nanjung('Kelurahan Nanjung')
 margaasih.rahayu('Kelurahan Rahayu')

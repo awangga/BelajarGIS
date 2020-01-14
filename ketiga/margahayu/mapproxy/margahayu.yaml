@@ -1,0 +1,65 @@
+services:
+  demo:
+  tms:
+    use_grid_names: true
+    origin: 'nw'
+  kml:
+      use_grid_names: true
+  wmts:
+    restful: true
+    restful_template: '/{Layer}/{TileMatrixSet}/{TileMatrix}/{TileCol}/{TileRow}.{Format}'
+    kvp: true
+    md:
+      abstract: This is the Advent Nopele Olansi Sihite GeoMap.
+      online_resource: https://www.adventsihite.co.id/
+      contact:
+        person: Advent Nopele Sihite
+        position: Software Engineer
+        organization: Politeknik Pos Indonesia
+        address: Jl. Sarijadi No. 54
+        city: Bandung
+        postcode: 40191
+        country: Indonesia
+        phone: +62821-6733-2412
+        email: adventnopelesihite@gmail.com
+      access_constraints:
+        This service is intended for Sekretariat Negara Only.
+        The data is under development on Sekretarian Negara Republik Indonesia.
+        (http://setneg.go.id/)
+      fees: 'None'
+  wms:
+    md:
+      title: MapProxy WMS Proxy
+      abstract: This is a minimal MapProxy example.
+
+layers:
+  - name: dgm
+    title: Advent Nopele Olansi Sihite Geo Map - www.none.co.id
+    sources: [agm_cache]
+
+caches:
+  agm_cache:
+    grids: [petamargahayu]
+    sources: [agm_source]
+    
+sources:
+  agm_source:
+    type: mapserver
+    req:
+      layers: roads
+      map: E:\margahayu\mapfile\margahayu.map
+      transparent: true
+    coverage:
+      bbox: [107.603730, -7.317758  ,107.745522, -7.142693 ]
+      srs: 'EPSG:4326'
+    mapserver:
+      binary: C:\ms4w\Apache\cgi-bin\mapserv.exe
+      working_dir: E:\margahayu\tmp
+    supported_srs: ['EPSG:4326']
+
+grids:
+    petamargahayu:
+        base: GLOBAL_WEBMERCATOR
+
+globals:
+

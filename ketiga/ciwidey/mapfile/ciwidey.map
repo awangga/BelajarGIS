@@ -1,12 +1,11 @@
 map
   size 640 480
-  EXTENT 107.6723 -6.90835 107.77616 -6.80234
-  UNITS DD
+  extent 107.50538 -7.02399 107.34745 -7.14971
+  units DD
   imagetype png8
   imagecolor 225 225 225
   shapepath "../shp"
-  #fontset "../common/fonts/msfontset.txt"
-  FONTSET "../etc/fonts.txt"
+  fontset "../etc/fonts.txt"
   projection
     "init=epsg:4326"
   end
@@ -15,7 +14,7 @@ map
     imagepath "/var/www/html/tmp/"
     imageurl "/tmp/"
     metadata
-      wms_title "Peta Kecamatan Cilengkrang"
+      wms_title "Peta Kecamatan Ciwidey"
       wms_srs "EPSG:4326"
       wms_enable_request "*"
     end
@@ -53,8 +52,8 @@ map
     formatoption "QUALITY=85"
   end
 
-  layer #desa layer
-    name cilengkrang
+  layer #kelurahan layer
+    name ciwidey
     group roads
     type POLYGON
     dump true 
@@ -63,17 +62,17 @@ map
     end
     #transparency alpha
     status on
-    data "kelurahan_ cilengkrang"
+    data "kelurahan_ciwidey"
     labelitem "kelurahan_d"
     classitem "kelurahan_d"
     class 
-      expression "Kelurahan melatiwangi"
+      expression "Kelurahan Lebakmuncang"
       style
-        color 153 255 153
+        color 103 146 103
       end
       label
-        color  0 0 0
-        outlinecolor 255 255 255
+        color 153 51 102 
+        #outlinecolor 255 255 255
         font "sans"
         type truetype
         size 6
@@ -83,13 +82,13 @@ map
       end
     end
     class 
-    expression "Kelurahan ciporeat"
+      expression "Kelurahan Panundaan"
       style
-        color 204 255 204
+        color 164 222 2
       end
       label
-        color  0 0 0
-        outlinecolor 255 255 255
+        color 153 51 102 
+        #outlinecolor 255 255 255
         font "sans"
         type truetype
         size 6
@@ -99,13 +98,13 @@ map
       end
     end
     class 
-      expression "Kelurahan jatiendah"
+      expression "Kelurahan Nengkelan"
       style
-        color 229 255 204
+        color 118 186 27
       end
       label
-        color  0 0 0
-        outlinecolor 255 255 255
+        color 153 51 102 
+        #outlinecolor 255 255 255
         font "sans"
         type truetype
         size 6
@@ -115,13 +114,13 @@ map
       end
     end
     class 
-      expression "Kelurahan cipanjalu"
+      expression "Kelurahan Panyocokan"
       style
-        color 204 255 229
+        color 172 223 135
       end
       label
-        color  0 0 0
-        outlinecolor 255 255 255
+        color 153 51 102 
+        #outlinecolor 255 255 255
         font "sans"
         type truetype
         size 6
@@ -131,13 +130,13 @@ map
       end
     end
     class 
-      expression "Kelurahan Cilengkrang"
+      expression "Kelurahan Rawabogo"
       style
-        color 153 255 204
+        color 76 154 42
       end
       label
-        color  0 0 0
-        outlinecolor 255 255 255
+        color 153 51 102 
+        #outlinecolor 255 255 255
         font "sans"
         type truetype
         size 6
@@ -147,13 +146,29 @@ map
       end
     end
     class 
-      expression "Kelurahan girimekar"
+      expression "Kelurahan Sukawening"
       style
-        color 153 255 153
+        color 76 154 42
       end
       label
-        color  0 0 0
-        outlinecolor 255 255 255
+        color 153 51 102 
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kelurahan Ciwidey"
+      style
+        color 104 187 89
+      end
+      label
+        color 153 51 102 
+        #outlinecolor 255 255 255
         font "sans"
         type truetype
         size 6
@@ -165,7 +180,7 @@ map
   end #layer kelurahan
 
   layer #kantor layer
-    name cilengkrang
+    name ciwidey
     group roads
     type POINT
     dump true 
@@ -174,11 +189,11 @@ map
     end
     #transparency alpha
     status on
-    data "kantor_kelurahan_cilengkrang"
+    data "kantor_kelurahan_ciwidey"
     labelitem "kantor_kelu"
-    classitem "Kantor_kelu"
+    classitem "kantor_kelu"
     class 
-      expression "Kantor Kelurahan Melatiwangi"
+      expression "Kantor Kecamatan Ciwidey"
       style
         color 255 255 255
         size 10
@@ -196,7 +211,7 @@ map
       end
     end
     class 
-      expression "Kantor Kelurahan Ciporeat"
+      expression "Kantor Kelurahan Ciwidey"
       style
         color 255 255 255
         size 10
@@ -214,7 +229,7 @@ map
       end
     end
     class 
-      expression "Kantor Kelurahan Jatiendah"
+      expression "Kantor Kelurahan Lebakmuncang"
       style
         color 255 255 255
         size 10
@@ -232,7 +247,7 @@ map
       end
     end
     class 
-      expression "Kantor Kelurahan Cipanjalu"
+      expression "Kantor Kelurahan Panundaan"
       style
         color 255 255 255
         size 10
@@ -250,7 +265,7 @@ map
       end
     end
     class 
-      expression "Kantor Kelurahan Cilengkrang"
+      expression "Kantor Kelurahan Nengkelan"
       style
         color 255 255 255
         size 10
@@ -268,7 +283,43 @@ map
       end
     end
     class 
-      expression "Kantor Kelurahan Girimekar"
+      expression "Kantor Kelurahan Panyocokan"
+      style
+        color 255 255 255
+        size 10
+        symbol "circle"
+      end
+      label
+        color 255 0 0
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kantor Kelurahan Rawabogo"
+      style
+        color 255 255 255
+        size 10
+        symbol "circle"
+      end
+      label
+        color 255 0 0
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kantor Kelurahan Sukawening"
       style
         color 255 255 255
         size 10
@@ -288,7 +339,7 @@ map
   end #layer kantor
 
   layer #jalan layer
-    name cilengkrang
+    name ciwidey
     group roads
     type LINE
     dump true 
@@ -297,46 +348,60 @@ map
     end
     #transparency alpha
     status on
-    data "jalan_cilengkrang"
-    labelitem "jalan_di_ci"
-    classitem "jalan_di_ci"
+    data "jalan_ciwidey"
+    labelitem "jalan_di_ca"
+    classitem "jalan_di_ca"
     class 
-      expression "Jalan Kelurahan Melatiwangi"
+      expression "Jalan Kelurahan Lebakmuncang"
       style
         color 255 255 255
         size 1
       end
     end
     class 
-      expression "Jalan Kelurahan Ciporeat"
+      expression "Jalan Kelurahan Panundaan"
       style
         color 255 255 255
         size 1
       end
     end
     class 
-      expression "Jalan Kelurahan Jatiendah"
+      expression "Jalan Kelurahan Nengkelan"
       style
         color 255 255 255
         size 1
       end
     end
     class 
-      expression "Jalan Kelurahan Cipanjalu"
+      expression "Jalan Kelurahan Panyocokan"
       style
         color 255 255 255
         size 1
       end
     end
     class 
-      expression "Jalan Kelurahan Cilengkrang"
+      expression "Jalan Kelurahan Rawabogo"
       style
         color 255 255 255
         size 1
       end
     end
     class 
-      expression "Jalan Kelurahan Girimekar"
+      expression "Jalan Kelurahan Rawabogo2"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+    class 
+      expression "Jalan Kelurahan Sukawening"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+    class 
+      expression "Jalan Kelurahan Ciwidey"
       style
         color 255 255 255
         size 1

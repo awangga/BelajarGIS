@@ -1,0 +1,67 @@
+services:
+  demo:
+  tms:
+    use_grid_names: true
+    origin: 'nw'
+  kml:
+      use_grid_names: true
+  wmts:
+    restful: true
+    restful_template: '/{Layer}/{TileMatrixSet}/{TileMatrix}/{TileCol}/{TileRow}.{Format}'
+    kvp: true
+    md:
+      title: Epi GeoMap
+      abstract: This is the Epi GeoMap.
+      online_resource: https://www.epi.co.id/
+      contact:
+        person: Evietania Charis Sujadi
+        position: Software Engineer
+        organization: Politeknik Pos Indonesia
+        address: Jl. Sarijadi No. 54
+        city: Bandung
+        postcode: 40191
+        country: Indonesia
+        phone: +62(0)852-3034-2844
+        fax: +62(0)852-3034-2844
+        email: eviesujadi16@gmail.com
+      access_constraints:
+        This service is intended for Sekretariat Negara Only.
+        The data is under development on Sekretarian Negara Republik Indonesia.
+        (http://setneg.go.id/)
+      fees: 'None'
+  wms:
+    md:
+      title: MapProxy WMS Proxy
+      abstract: This is a minimal MapProxy example.
+
+layers:
+  - name: dgm
+    title: Epi Geo Map - www.epi.co.id
+    sources: [agm_cache]
+
+caches:
+  agm_cache:
+    grids: [petalengkong]
+    sources: [agm_source]
+    
+sources:
+  agm_source:
+    type: mapserver
+    req:
+      layers: roads
+      map: D:\kuliah\smt 5\gis\Quiz 4\lengkong\mapfile\lengkong.map
+      transparent: true
+    coverage:
+      bbox: [107.609294, -6.948056, 107.640348, -6.920028]
+      srs: 'EPSG:4326'
+    mapserver:
+      binary: C:\ms4w\Apache\cgi-bin\mapserv.exe
+      working_dir: D:\kuliah\smt 5\gis\Quiz 4\lengkong\tmp
+    supported_srs: ['EPSG:4326']
+
+grids:
+    petalengkong:
+        base: GLOBAL_WEBMERCATOR
+
+globals:
+

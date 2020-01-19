@@ -1,0 +1,308 @@
+map
+  size 640 480
+  extent  107.693261, -6.947974 107.721928, -6.916705
+  units DD
+  imagetype png8
+  imagecolor 225 225 225
+  shapepath "../shp"
+  fontset "../etc/fonts.txt"
+  projection
+    "init=epsg:4326"
+  end
+  debug on
+  web
+    imagepath "/var/www/html/tmp/"
+    imageurl "/tmp/"
+    metadata
+      wms_title "Peta Kelurahan panyileukan"
+      wms_srs "EPSG:4326"
+      wms_enable_request "*"
+    end
+  end
+  outputformat
+    name "png256"
+    driver "AGG/PNG"
+    imagemode "pc256"
+    extension "png"
+  end
+  outputformat
+    name "png"
+    driver "AGG/PNG"
+    imagemode "rgba"
+    extension "png"
+    mimetype "image/png"
+    imagemode RGBA
+  end
+  outputformat
+    name "png8"
+    driver "AGG/PNG"
+    imagemode "rgba"
+    extension "png"
+    mimetype "image/png"
+    imagemode RGBA
+    transparent ON
+    formatoption "QUANTIZE_FORCE=ON"
+    formatoption "QUANTIZE_DITHER=ON"
+    formatoption "QUANTIZE_COLORS=250"
+  end
+  outputformat
+    name "jpg"
+    driver "AGG/JPEG"
+    extension "jpg"
+    formatoption "QUALITY=85"
+  end
+
+  layer #kelurahan layer
+    name panyileukan
+    group roads
+    type POLYGON
+    dump true 
+    projection
+      "init=epsg:4326"
+    end
+    #transparency alpha
+    status on
+    data "kelurahan_d"
+    labelitem "kelurahan_d"
+    classitem "kelurahan_d"
+    class 
+      expression "Kelurahan Cipadung Kidul"
+      style
+        color 103 146 103
+      end
+      label
+        color 153 51 102 
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kelurahan Cipadung Kolon"
+      style
+        color 164 222 2
+      end
+      label
+        color 153 51 102 
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kelurahan Cipadung Wetan"
+      style
+        color 118 186 27
+      end
+      label
+        color 153 51 102 
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kelurahan Mekar Mulya"
+      style
+        color 172 223 135
+      end
+      label
+        color 153 51 102 
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+  end #layer kelurahan
+
+  layer #kantor layer
+    name panyileukan
+    group roads
+    type POINT
+    dump true 
+    projection
+      "init=epsg:4326"
+    end
+    #transparency alpha
+    status on
+    data "kantor_kelu"
+    labelitem "kantor_kelu"
+    classitem "kantor_kelu"
+    class 
+      expression "Kantor Kelurahan Cipadung Kidul"
+      style
+        color 255 255 255
+        size 10
+        symbol "circle"
+      end
+      label
+        color 255 0 0
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kantor Kelurahan Cipadung Kulon"
+      style
+        color 255 255 255
+        size 10
+        symbol "circle"
+      end
+      label
+        color 255 0 0
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kantor Kelurahan Cipadung Wetan"
+      style
+        color 255 255 255
+        size 10
+        symbol "circle"
+      end
+      label
+        color 255 0 0
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kantor Kelurahan Mekar Mulya"
+      style
+        color 255 255 255
+        size 10
+        symbol "circle"
+      end
+      label
+        color 255 0 0
+        #outlinecolor 255 255 255
+        font "sans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+  end #layer kantor
+
+  layer #jalan layer
+    name panyileukan
+    group roads
+    type LINE
+    dump true 
+    projection
+      "init=epsg:4326"
+    end
+    #transparency alpha
+    status on
+    data "jalan_di_pa"
+    labelitem "jalan_di_pa"
+    classitem "jalan_di_pa"
+    class 
+      expression "Jalan sukamaju"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+    class 
+      expression "Jalan sindang sari"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+    class 
+      expression "Jalan Mekar Mulya"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+    class 
+      expression "Jalan AH Nasution"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+    class 
+      expression "Jalan gempol"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+    class 
+      expression "Jalan panghegar"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+    class 
+      expression "Jalan nasional tiga"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+    class 
+      expression "Jalan soekarno hatta"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+    class 
+      expression "Jalan cimincrang"
+      style
+        color 255 255 255
+        size 1
+      end
+    end
+  end #layer jalan
+
+  symbol
+    name "circle"
+    type ellipse
+    filled true
+    points
+      1 1
+    end # POINTS
+  end # SYMBOL
+
+end #map

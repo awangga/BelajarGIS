@@ -1,0 +1,67 @@
+services:
+  demo:
+  tms:
+    use_grid_names: true
+    origin: 'nw'
+  kml:
+      use_grid_names: true
+  wmts:
+    restful: true
+    restful_template: '/{Layer}/{TileMatrixSet}/{TileMatrix}/{TileCol}/{TileRow}.{Format}'
+    kvp: true
+    md:
+      title: Felix GeoMap
+      abstract: This is the Felix GeoMap.
+      online_resource: https://www.felixlase.co.id/
+      contact:
+        person: Felix Setiawan Lase
+        position: Software Engineer
+        organization: Politeknik Pos Indonesia
+        address: Jl. Sarijadi No. 54
+        city: Bandung
+        postcode: 40191
+        country: Indonesia
+        phone: +62(0)896-77709-045
+        fax: +62(0)896-77709-045
+        email: felixlase14@yahoo.com
+      access_constraints:
+        This service is intended for Sekretariat Negara Only.
+        The data is under development on Sekretarian Negara Republik Indonesia.
+        (http://setneg.go.id/)
+      fees: 'None'
+  wms:
+    md:
+      title: MapProxy WMS Proxy
+      abstract: This is a minimal MapProxy example.
+
+layers:
+  - name: fx
+    title: Felix Geo Map - www.felixlase.co.id
+    sources: [agm_cache]
+
+caches:
+  agm_cache:
+    grids: [petaandir]
+    sources: [agm_source]
+    
+sources:
+  agm_source:
+    type: mapserver
+    req:
+      layers: roads
+      map: D:\git\quis 4\sumurbandung\mapfile\sumurbandung.map
+      transparent: true
+    coverage:
+      bbox: [107.603228, -6.920671, 107.631965, -6.905646]
+      srs: 'EPSG:4326'
+    mapserver:
+      binary: C:\ms4w\Apache\cgi-bin\mapserv.exe
+      working_dir: D:\git\quis 4\sumurbandung\tmp
+    supported_srs: ['EPSG:4326']
+
+grids:
+    petaandir:
+        base: GLOBAL_WEBMERCATOR
+
+globals:
+

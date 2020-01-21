@@ -1,0 +1,67 @@
+services:
+  demo:
+  tms:
+    use_grid_names: true
+    origin: 'nw'
+  kml:
+      use_grid_names: true
+  wmts:
+    restful: true
+    restful_template: '/{Layer}/{TileMatrixSet}/{TileMatrix}/{TileCol}/{TileRow}.{Format}'
+    kvp: true
+    md:
+      title: Fahmifc123
+      abstract: This is the Fahmifc123.
+      online_resource: https://www.fahmifc123.co.id/
+      contact:
+        person: Muhammad Fahmi 
+        position: Mahasiswa Biasa
+        organization: Politeknik Pos Indonesia
+        address: Jl. Sarijadi No. 54
+        city: Bandung
+        postcode: 40151
+        country: Indonesia
+        phone: +62(0)812-6329-9950
+        fax: +62(0)812-6329-9950
+        email: mfahmipamungkas123@gmail.com
+      access_constraints:
+        This service is intended for Sekretariat Negara Only.
+        The data is under development on Sekretarian Negara Republik Indonesia.
+        (http://setneg.go.id/)
+      fees: 'None'
+  wms:
+    md:
+      title: MapProxy WMS Proxy
+      abstract: This is a minimal MapProxy example.
+
+layers:
+  - name: mii
+    title: Fahmifc123 - www.fahmifc123.co.id
+    sources: [agm_cache]
+
+caches:
+  agm_cache:
+    grids: [petasukasari]
+    sources: [agm_source]
+    
+sources:
+  agm_source:
+    type: mapserver
+    req:
+      layers: roads
+      map: D:\FOLDER KHUSUS KAMPUS\GIS\mapproxy\pertama\sukasari\mapfile\sukasari.map
+      transparent: true
+    coverage:
+      bbox: [107.571793, -6.883721, 107.599727,-6.834655]
+      srs: 'EPSG:4326'
+    mapserver:
+      binary: C:\ms4w\Apache\cgi-bin\mapserv.exe
+      working_dir: D:\FOLDER KHUSUS KAMPUS\GIS\mapproxy\pertama\sukasari\tmp
+    supported_srs: ['EPSG:4326']
+
+grids:
+    petaandir:
+        base: GLOBAL_WEBMERCATOR
+
+globals:
+

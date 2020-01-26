@@ -10,11 +10,11 @@ services:
     restful_template: '/{Layer}/{TileMatrixSet}/{TileMatrix}/{TileCol}/{TileRow}.{Format}'
     kvp: true
     md:
-      title: Felix GeoMap
-      abstract: This is the Felix GeoMap.
-      online_resource: https://www.felixlase.co.id/
+      title: Rifky GeoMap
+      abstract: This is the Rifky GeoMap.
+      online_resource: https://www.rifky.co.id/
       contact:
-        person: Felix Setiawan Lase
+        person: Muh. Rifky Prananda
         position: Software Engineer
         organization: Politeknik Pos Indonesia
         address: Jl. Sarijadi No. 54
@@ -23,7 +23,7 @@ services:
         country: Indonesia
         phone: +62(0)896-77709-045
         fax: +62(0)896-77709-045
-        email: felixlase14@yahoo.com
+        email: ikkyrifky08@gmail.com
       access_constraints:
         This service is intended for Sekretariat Negara Only.
         The data is under development on Sekretarian Negara Republik Indonesia.
@@ -35,8 +35,8 @@ services:
       abstract: This is a minimal MapProxy example.
 
 layers:
-  - name: fx
-    title: Felix Geo Map - www.felixlase.co.id
+  - name: dgm
+    title: Rifky Geo Map - www.divakrishnam.co.id
     sources: [agm_cache]
 
 caches:
@@ -49,14 +49,14 @@ sources:
     type: mapserver
     req:
       layers: roads
-      map: D:\git\quis 4\andir\mapfile\batununggal.map
+      map: E:\Kuliah\Semester 5\Sistem Informasi Geografis\andir\mapfile\andir.map
       transparent: true
     coverage:
       bbox: [107.580936, -6.946401, 107.601278, -6.919195]
       srs: 'EPSG:4326'
     mapserver:
       binary: C:\ms4w\Apache\cgi-bin\mapserv.exe
-      working_dir: D:\git\quis 4\andir\tmp
+      working_dir: E:\Kuliah\Semester 5\Sistem Informasi Geografis\andir\tmp
     supported_srs: ['EPSG:4326']
 
 grids:

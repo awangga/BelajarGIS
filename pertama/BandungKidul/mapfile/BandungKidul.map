@@ -1,0 +1,284 @@
+map
+  size 640 480
+  extent 107.605549 -6.964792 107.651940 -6.944600
+  units DD
+  imagetype png8
+  imagecolor 225 225 225
+  shapepath "../shp"
+  fontset "../common/fonts/fonts.txt"
+  projection
+    "init=epsg:4326"
+  end
+  debug on
+  web
+    imagepath "/var/www/html/tmp/"
+    imageurl "/tmp/"
+    metadata
+      wms_title "Peta Kecamatan Bandung Kidul"
+      wms_srs "EPSG:4326"
+      wms_enable_request "*"
+    end
+  end
+  outputformat
+    name "png256"
+    driver "AGG/PNG"
+    imagemode "pc256"
+    extension "png"
+  end
+  outputformat
+    name "png"
+    driver "AGG/PNG"
+    imagemode "rgba"
+    extension "png"
+    mimetype "image/png"
+    imagemode RGBA
+  end
+  outputformat
+    name "png8"
+    driver "AGG/PNG"
+    imagemode "rgba"
+    extension "png"
+    mimetype "image/png"
+    imagemode RGBA
+    transparent ON
+    formatoption "QUANTIZE_FORCE=ON"
+    formatoption "QUANTIZE_DITHER=ON"
+    formatoption "QUANTIZE_COLORS=250"
+  end
+  outputformat
+    name "jpg"
+    driver "AGG/JPEG"
+    extension "jpg"
+    formatoption "QUALITY=85"
+  end
+
+  layer #Kelurahan layer
+    name BandungKidul
+    group roads
+    type POLYGON
+    dump true 
+    projection
+      "init=epsg:4326"
+    end
+    #transparency alpha
+    status on
+    data "00"
+    labelitem "kelurahan_k"
+    classitem "kelurahan_k"
+    class 
+      expression "Kelurahan Batununggal"
+      style
+        color 153 255 153
+      end
+      label
+        color  0 0 0
+        outlinecolor 255 255 255
+        font "FreeSans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kelurahan Kujangsari"
+      style
+        color 204 255 204
+      end
+      label
+        color  0 0 0
+        outlinecolor 255 255 255
+        font "FreeSans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kelurahan Mengger"
+      style
+        color 229 255 204
+      end
+      label
+        color  0 0 0
+        outlinecolor 255 255 255
+        font "FreeSans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kelurahan Wates"
+      style
+        color 204 255 229
+      end
+      label
+        color  0 0 0
+        outlinecolor 255 255 255
+        font "FreeSans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+
+layer #Kantor Kelurahan
+    name BandungKidul
+    group roads
+    type POINT
+    dump true 
+    projection
+      "init=epsg:4326"
+    end
+    #transparency alpha
+    status on
+    data "00"
+    labelitem "kantor_k"
+    classitem "kantor_k"
+    class 
+      expression "Kantor Kecamatan Bandung Kidul"
+      style
+        color 153 255 153
+        size 10
+        symbol "circle"
+      end
+      label
+        color  0 0 0
+        outlinecolor 255 255 255
+        font "FreeSans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kantor Kelurahan Kujangsari"
+      style
+        color 153 255 153
+        size 10
+        symbol "circle"
+      end
+      label
+        color  0 0 0
+        outlinecolor 255 255 255
+        font "FreeSans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kantor Kelurahan Batununggal"
+      style
+        color 153 255 153
+        size 10
+        symbol "circle"
+      end
+      label
+        color  0 0 0
+        outlinecolor 255 255 255
+        font "FreeSans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kantor Kelurahan Mengger"
+      style
+        color 153 255 153
+        size 10
+        symbol "circle"
+      end
+      label
+        color  0 0 0
+        outlinecolor 255 255 255
+        font "FreeSans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Kantor Kelurahan Wates"
+      style
+        color 153 255 153
+        size 10
+        symbol "circle"
+      end
+      label
+        color  0 0 0
+        outlinecolor 255 255 255
+        font "FreeSans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    layer #Jalan bandung kidul
+    name BandungKidul
+    group roads
+    type LINE
+    dump true 
+    projection
+      "init=epsg:4326"
+    end
+    #transparency alpha
+    status on
+    data "jalan_bdgKidul"
+    labelitem "jalan_bdgKi"
+    classitem "jalan_bdgKi"
+    class 
+      expression "Jalan Kelurahan Wates"
+      style
+        color 153 255 153
+        size 1
+      end
+      label
+        color  0 0 0
+        outlinecolor 255 255 255
+        font "FreeSans"
+        type truetype
+        size 6
+        position lc
+        partials true
+        mindistance 200
+      end
+    end
+    class 
+      expression "Jalan Kelurahan Wates"
+      style
+        color 153 255 153
+        size 1
+      end
+    end
+
+    symbol
+      name "cirle"
+      type ellipse
+      filled true
+      points
+        1 1
+      end
+    end 
+
+
+end #map

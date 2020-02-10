@@ -892,6 +892,49 @@ Sindangkerta.close()
 ##########           Selesai           #############
 ####################################################
 
+####################################################
+##########   Irvan Rizkiansyah - 1174043  ##########
+#############           Mulai          #############
+####################################################
+import rongga
+ronggaa = rongga.Rongga()
+
+#Kelurahan
+ronggaa.Bojongsalam('Bojongsalam')
+ronggaa.Bojong('Bojong')
+ronggaa.Cibedug('Cibedug')
+ronggaa.Sukamanah('Sukamanah')
+ronggaa.Cinengah('Cinengah')
+ronggaa.Cicadas('Cicadas')
+ronggaa.Sukaresmi('Sukaresmi')
+ronggaa.Cibitung('Cibitung')
+
+#Kantor
+ronggaa.KantorBojongSalam('KantorBojongSalam')
+ronggaa.KantorBojong('KantorBojong')
+ronggaa.KantorCibedug('KantorCibedug')
+ronggaa.KantorSukamanah('KantorSukamanah')
+ronggaa.KantorCinengah('KantorCinengah')
+ronggaa.KantorCicadas('KantorCicadas')
+ronggaa.KantorSukaresmi('KantorSukaresmi')
+ronggaa.KantorCibitung('KantorCibitung')
+ronggaa.KantorKecRongga('KantorKecRongga')
+
+#jalan
+ronggaa.jalanBojong("jalanBojong")
+ronggaa.jalanCijalengka("jalanCijalengka")
+ronggaa.jalanSituGede("jalanSituGede")
+ronggaa.jalanSukamanah("jalanSukamanah")
+ronggaa.jalanBojongsalam("jalanBojongsalam")
+ronggaa.jalanBatuTaraje("jalanBatuTaraje")
+ronggaa.jalanRayaCinengah("jalanRayaCinengah")
+ronggaa.jalanSimpangGunungHalu("jalanSimpangGunungHalu")
+
+ronggaa.close()
+####################################################
+#############          Selesai         #############
+####################################################
+
 
 
 

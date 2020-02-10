@@ -1,0 +1,74 @@
+services:
+  demo:
+  tms:
+    use_grid_names: true
+    # origin for /tiles service
+    origin: 'nw'
+  kml:
+      use_grid_names: true
+  wmts:
+    # use restful access to WMTS
+    restful: true
+    # this is the default template for MapProxy
+    restful_template: '/{Layer}/{TileMatrixSet}/{TileMatrix}/{TileCol}/{TileRow}.{Format}'
+    # and also allow KVP requests
+    kvp: true
+    md:
+      # metadata used in capabilities documents for WMTS
+      # if the md option is not set, the metadata of the WMS will be used
+      title: anonmanis's Map
+      abstract: Map Kecamatan Rongga
+      online_resource: http://www.anonmanis.com
+      contact:
+        person: Irvan Rizkinsyah
+        position: Software Engineer
+        organization: Politeknik Pos Indo
+        address: PCI 2
+        city: Cimahi
+        postcode: 40523
+        country: Indonesia
+        phone: +62(0)821-1223-4245
+        fax: +62(0)821-1223-4245
+        email: rizkiansyah.irvan@gmail.com
+      # multiline strings are possible with the right indention
+      access_constraints:
+        This service is intended for Sekretariat Negara Only.
+        The data is under development on Sekretarian Negara Republik Indonesia.
+        (http://setneg.go.id/)
+      fees: 'None'
+  wms:
+    md:
+      title: MapProxy WMS Proxy
+      abstract: This is a minimal MapProxy example.
+
+layers:
+  - name: rongga
+    title: Peta Irvan
+    sources: [rongga_cache]
+
+caches:
+  rongga_cache:
+    grids: [petaindo]
+    sources: [rongga_source]
+    
+sources:
+  rongga_source:
+    type: mapserver
+    req:
+      layers: roads
+      map: D:\ms4w\apps\gede-master\mapfile\rongga.map
+      transparent: true
+    coverage:
+      bbox: [-7.015580, 107.159794, -6.907623, 107.334343]
+      srs: 'EPSG:4326'
+    mapserver:
+      binary: D:\ms4w\Apache\cgi-bin\mapserv.exe
+      working_dir: /ms4w/tmp
+    supported_srs: ['EPSG:4326']
+
+grids:
+    petaindo:
+        base: GLOBAL_WEBMERCATOR
+
+globals:
+
